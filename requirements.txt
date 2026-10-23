@@ -1,0 +1,15 @@
+# Analysis and verification (CPU):
+numpy
+scipy
+scikit-learn
+matplotlib
+Pillow
+
+# Only for make_report.py, which writes a .docx summary:
+python-docx
+
+# Only for re-running fine-tuning or embedding extraction (GPU):
+torch
+transformers
+peft
+qwen-vl-utils

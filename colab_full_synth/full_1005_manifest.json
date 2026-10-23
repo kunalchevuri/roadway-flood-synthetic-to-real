@@ -1,0 +1,6032 @@
+[
+  {
+    "filename": "001l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/001l.png",
+    "ground_truth": "big flood",
+    "scene": "001"
+  },
+  {
+    "filename": "001s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/001s.png",
+    "ground_truth": "small flood",
+    "scene": "001"
+  },
+  {
+    "filename": "001w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/001w.png",
+    "ground_truth": "no flood",
+    "scene": "001"
+  },
+  {
+    "filename": "002l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/002l.png",
+    "ground_truth": "big flood",
+    "scene": "002"
+  },
+  {
+    "filename": "002s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/002s.png",
+    "ground_truth": "small flood",
+    "scene": "002"
+  },
+  {
+    "filename": "002w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/002w.png",
+    "ground_truth": "no flood",
+    "scene": "002"
+  },
+  {
+    "filename": "003l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/003l.png",
+    "ground_truth": "big flood",
+    "scene": "003"
+  },
+  {
+    "filename": "003s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/003s.png",
+    "ground_truth": "small flood",
+    "scene": "003"
+  },
+  {
+    "filename": "003w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/003w.png",
+    "ground_truth": "no flood",
+    "scene": "003"
+  },
+  {
+    "filename": "004l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/004l.png",
+    "ground_truth": "big flood",
+    "scene": "004"
+  },
+  {
+    "filename": "004s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/004s.png",
+    "ground_truth": "small flood",
+    "scene": "004"
+  },
+  {
+    "filename": "004w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/004w.png",
+    "ground_truth": "no flood",
+    "scene": "004"
+  },
+  {
+    "filename": "005l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/005l.png",
+    "ground_truth": "big flood",
+    "scene": "005"
+  },
+  {
+    "filename": "005s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/005s.png",
+    "ground_truth": "small flood",
+    "scene": "005"
+  },
+  {
+    "filename": "005w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/005w.png",
+    "ground_truth": "no flood",
+    "scene": "005"
+  },
+  {
+    "filename": "006l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/006l.png",
+    "ground_truth": "big flood",
+    "scene": "006"
+  },
+  {
+    "filename": "006s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/006s.png",
+    "ground_truth": "small flood",
+    "scene": "006"
+  },
+  {
+    "filename": "006w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/006w.png",
+    "ground_truth": "no flood",
+    "scene": "006"
+  },
+  {
+    "filename": "007l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/007l.png",
+    "ground_truth": "big flood",
+    "scene": "007"
+  },
+  {
+    "filename": "007s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/007s.png",
+    "ground_truth": "small flood",
+    "scene": "007"
+  },
+  {
+    "filename": "007w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/007w.png",
+    "ground_truth": "no flood",
+    "scene": "007"
+  },
+  {
+    "filename": "008l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/008l.png",
+    "ground_truth": "big flood",
+    "scene": "008"
+  },
+  {
+    "filename": "008s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/008s.png",
+    "ground_truth": "small flood",
+    "scene": "008"
+  },
+  {
+    "filename": "008w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/008w.png",
+    "ground_truth": "no flood",
+    "scene": "008"
+  },
+  {
+    "filename": "009l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/009l.png",
+    "ground_truth": "big flood",
+    "scene": "009"
+  },
+  {
+    "filename": "009s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/009s.png",
+    "ground_truth": "small flood",
+    "scene": "009"
+  },
+  {
+    "filename": "009w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/009w.png",
+    "ground_truth": "no flood",
+    "scene": "009"
+  },
+  {
+    "filename": "010l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/010l.png",
+    "ground_truth": "big flood",
+    "scene": "010"
+  },
+  {
+    "filename": "010s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/010s.png",
+    "ground_truth": "small flood",
+    "scene": "010"
+  },
+  {
+    "filename": "010w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/010w.png",
+    "ground_truth": "no flood",
+    "scene": "010"
+  },
+  {
+    "filename": "011l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/011l.png",
+    "ground_truth": "big flood",
+    "scene": "011"
+  },
+  {
+    "filename": "011s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/011s.png",
+    "ground_truth": "small flood",
+    "scene": "011"
+  },
+  {
+    "filename": "011w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/011w.png",
+    "ground_truth": "no flood",
+    "scene": "011"
+  },
+  {
+    "filename": "012l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/012l.png",
+    "ground_truth": "big flood",
+    "scene": "012"
+  },
+  {
+    "filename": "012s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/012s.png",
+    "ground_truth": "small flood",
+    "scene": "012"
+  },
+  {
+    "filename": "012w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/012w.png",
+    "ground_truth": "no flood",
+    "scene": "012"
+  },
+  {
+    "filename": "013l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/013l.png",
+    "ground_truth": "big flood",
+    "scene": "013"
+  },
+  {
+    "filename": "013s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/013s.png",
+    "ground_truth": "small flood",
+    "scene": "013"
+  },
+  {
+    "filename": "013w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/013w.png",
+    "ground_truth": "no flood",
+    "scene": "013"
+  },
+  {
+    "filename": "014l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/014l.png",
+    "ground_truth": "big flood",
+    "scene": "014"
+  },
+  {
+    "filename": "014s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/014s.png",
+    "ground_truth": "small flood",
+    "scene": "014"
+  },
+  {
+    "filename": "014w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/014w.png",
+    "ground_truth": "no flood",
+    "scene": "014"
+  },
+  {
+    "filename": "015l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/015l.png",
+    "ground_truth": "big flood",
+    "scene": "015"
+  },
+  {
+    "filename": "015s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/015s.png",
+    "ground_truth": "small flood",
+    "scene": "015"
+  },
+  {
+    "filename": "015w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/015w.png",
+    "ground_truth": "no flood",
+    "scene": "015"
+  },
+  {
+    "filename": "016l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/016l.png",
+    "ground_truth": "big flood",
+    "scene": "016"
+  },
+  {
+    "filename": "016s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/016s.png",
+    "ground_truth": "small flood",
+    "scene": "016"
+  },
+  {
+    "filename": "016w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/016w.png",
+    "ground_truth": "no flood",
+    "scene": "016"
+  },
+  {
+    "filename": "017l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/017l.png",
+    "ground_truth": "big flood",
+    "scene": "017"
+  },
+  {
+    "filename": "017s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/017s.png",
+    "ground_truth": "small flood",
+    "scene": "017"
+  },
+  {
+    "filename": "017w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/017w.png",
+    "ground_truth": "no flood",
+    "scene": "017"
+  },
+  {
+    "filename": "018l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/018l.png",
+    "ground_truth": "big flood",
+    "scene": "018"
+  },
+  {
+    "filename": "018s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/018s.png",
+    "ground_truth": "small flood",
+    "scene": "018"
+  },
+  {
+    "filename": "018w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/018w.png",
+    "ground_truth": "no flood",
+    "scene": "018"
+  },
+  {
+    "filename": "019l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/019l.png",
+    "ground_truth": "big flood",
+    "scene": "019"
+  },
+  {
+    "filename": "019s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/019s.png",
+    "ground_truth": "small flood",
+    "scene": "019"
+  },
+  {
+    "filename": "019w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/019w.png",
+    "ground_truth": "no flood",
+    "scene": "019"
+  },
+  {
+    "filename": "020l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/020l.png",
+    "ground_truth": "big flood",
+    "scene": "020"
+  },
+  {
+    "filename": "020s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/020s.png",
+    "ground_truth": "small flood",
+    "scene": "020"
+  },
+  {
+    "filename": "020w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/020w.png",
+    "ground_truth": "no flood",
+    "scene": "020"
+  },
+  {
+    "filename": "021l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/021l.png",
+    "ground_truth": "big flood",
+    "scene": "021"
+  },
+  {
+    "filename": "021s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/021s.png",
+    "ground_truth": "small flood",
+    "scene": "021"
+  },
+  {
+    "filename": "021w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/021w.png",
+    "ground_truth": "no flood",
+    "scene": "021"
+  },
+  {
+    "filename": "022l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/022l.png",
+    "ground_truth": "big flood",
+    "scene": "022"
+  },
+  {
+    "filename": "022s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/022s.png",
+    "ground_truth": "small flood",
+    "scene": "022"
+  },
+  {
+    "filename": "022w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/022w.png",
+    "ground_truth": "no flood",
+    "scene": "022"
+  },
+  {
+    "filename": "023l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/023l.png",
+    "ground_truth": "big flood",
+    "scene": "023"
+  },
+  {
+    "filename": "023s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/023s.png",
+    "ground_truth": "small flood",
+    "scene": "023"
+  },
+  {
+    "filename": "023w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/023w.png",
+    "ground_truth": "no flood",
+    "scene": "023"
+  },
+  {
+    "filename": "024l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/024l.png",
+    "ground_truth": "big flood",
+    "scene": "024"
+  },
+  {
+    "filename": "024s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/024s.png",
+    "ground_truth": "small flood",
+    "scene": "024"
+  },
+  {
+    "filename": "024w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/024w.png",
+    "ground_truth": "no flood",
+    "scene": "024"
+  },
+  {
+    "filename": "025l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/025l.png",
+    "ground_truth": "big flood",
+    "scene": "025"
+  },
+  {
+    "filename": "025s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/025s.png",
+    "ground_truth": "small flood",
+    "scene": "025"
+  },
+  {
+    "filename": "025w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/025w.png",
+    "ground_truth": "no flood",
+    "scene": "025"
+  },
+  {
+    "filename": "026l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/026l.png",
+    "ground_truth": "big flood",
+    "scene": "026"
+  },
+  {
+    "filename": "026s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/026s.png",
+    "ground_truth": "small flood",
+    "scene": "026"
+  },
+  {
+    "filename": "026w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/026w.png",
+    "ground_truth": "no flood",
+    "scene": "026"
+  },
+  {
+    "filename": "027l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/027l.png",
+    "ground_truth": "big flood",
+    "scene": "027"
+  },
+  {
+    "filename": "027s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/027s.png",
+    "ground_truth": "small flood",
+    "scene": "027"
+  },
+  {
+    "filename": "027w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/027w.png",
+    "ground_truth": "no flood",
+    "scene": "027"
+  },
+  {
+    "filename": "028l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/028l.png",
+    "ground_truth": "big flood",
+    "scene": "028"
+  },
+  {
+    "filename": "028s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/028s.png",
+    "ground_truth": "small flood",
+    "scene": "028"
+  },
+  {
+    "filename": "028w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/028w.png",
+    "ground_truth": "no flood",
+    "scene": "028"
+  },
+  {
+    "filename": "029l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/029l.png",
+    "ground_truth": "big flood",
+    "scene": "029"
+  },
+  {
+    "filename": "029s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/029s.png",
+    "ground_truth": "small flood",
+    "scene": "029"
+  },
+  {
+    "filename": "029w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/029w.png",
+    "ground_truth": "no flood",
+    "scene": "029"
+  },
+  {
+    "filename": "030l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/030l.png",
+    "ground_truth": "big flood",
+    "scene": "030"
+  },
+  {
+    "filename": "030s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/030s.png",
+    "ground_truth": "small flood",
+    "scene": "030"
+  },
+  {
+    "filename": "030w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/030w.png",
+    "ground_truth": "no flood",
+    "scene": "030"
+  },
+  {
+    "filename": "031l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/031l.png",
+    "ground_truth": "big flood",
+    "scene": "031"
+  },
+  {
+    "filename": "031s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/031s.png",
+    "ground_truth": "small flood",
+    "scene": "031"
+  },
+  {
+    "filename": "031w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/031w.png",
+    "ground_truth": "no flood",
+    "scene": "031"
+  },
+  {
+    "filename": "032l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/032l.png",
+    "ground_truth": "big flood",
+    "scene": "032"
+  },
+  {
+    "filename": "032s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/032s.png",
+    "ground_truth": "small flood",
+    "scene": "032"
+  },
+  {
+    "filename": "032w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/032w.png",
+    "ground_truth": "no flood",
+    "scene": "032"
+  },
+  {
+    "filename": "033l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/033l.png",
+    "ground_truth": "big flood",
+    "scene": "033"
+  },
+  {
+    "filename": "033s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/033s.png",
+    "ground_truth": "small flood",
+    "scene": "033"
+  },
+  {
+    "filename": "033w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/033w.png",
+    "ground_truth": "no flood",
+    "scene": "033"
+  },
+  {
+    "filename": "034l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/034l.png",
+    "ground_truth": "big flood",
+    "scene": "034"
+  },
+  {
+    "filename": "034s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/034s.png",
+    "ground_truth": "small flood",
+    "scene": "034"
+  },
+  {
+    "filename": "034w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/034w.png",
+    "ground_truth": "no flood",
+    "scene": "034"
+  },
+  {
+    "filename": "035l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/035l.png",
+    "ground_truth": "big flood",
+    "scene": "035"
+  },
+  {
+    "filename": "035s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/035s.png",
+    "ground_truth": "small flood",
+    "scene": "035"
+  },
+  {
+    "filename": "035w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/035w.png",
+    "ground_truth": "no flood",
+    "scene": "035"
+  },
+  {
+    "filename": "036l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/036l.png",
+    "ground_truth": "big flood",
+    "scene": "036"
+  },
+  {
+    "filename": "036s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/036s.png",
+    "ground_truth": "small flood",
+    "scene": "036"
+  },
+  {
+    "filename": "036w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/036w.png",
+    "ground_truth": "no flood",
+    "scene": "036"
+  },
+  {
+    "filename": "037l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/037l.png",
+    "ground_truth": "big flood",
+    "scene": "037"
+  },
+  {
+    "filename": "037s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/037s.png",
+    "ground_truth": "small flood",
+    "scene": "037"
+  },
+  {
+    "filename": "037w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/037w.png",
+    "ground_truth": "no flood",
+    "scene": "037"
+  },
+  {
+    "filename": "038l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/038l.png",
+    "ground_truth": "big flood",
+    "scene": "038"
+  },
+  {
+    "filename": "038s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/038s.png",
+    "ground_truth": "small flood",
+    "scene": "038"
+  },
+  {
+    "filename": "038w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/038w.png",
+    "ground_truth": "no flood",
+    "scene": "038"
+  },
+  {
+    "filename": "039l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/039l.png",
+    "ground_truth": "big flood",
+    "scene": "039"
+  },
+  {
+    "filename": "039s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/039s.png",
+    "ground_truth": "small flood",
+    "scene": "039"
+  },
+  {
+    "filename": "039w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/039w.png",
+    "ground_truth": "no flood",
+    "scene": "039"
+  },
+  {
+    "filename": "040l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/040l.png",
+    "ground_truth": "big flood",
+    "scene": "040"
+  },
+  {
+    "filename": "040s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/040s.png",
+    "ground_truth": "small flood",
+    "scene": "040"
+  },
+  {
+    "filename": "040w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/040w.png",
+    "ground_truth": "no flood",
+    "scene": "040"
+  },
+  {
+    "filename": "041l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/041l.png",
+    "ground_truth": "big flood",
+    "scene": "041"
+  },
+  {
+    "filename": "041s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/041s.png",
+    "ground_truth": "small flood",
+    "scene": "041"
+  },
+  {
+    "filename": "041w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/041w.png",
+    "ground_truth": "no flood",
+    "scene": "041"
+  },
+  {
+    "filename": "042l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/042l.png",
+    "ground_truth": "big flood",
+    "scene": "042"
+  },
+  {
+    "filename": "042s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/042s.png",
+    "ground_truth": "small flood",
+    "scene": "042"
+  },
+  {
+    "filename": "042w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/042w.png",
+    "ground_truth": "no flood",
+    "scene": "042"
+  },
+  {
+    "filename": "043l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/043l.png",
+    "ground_truth": "big flood",
+    "scene": "043"
+  },
+  {
+    "filename": "043s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/043s.png",
+    "ground_truth": "small flood",
+    "scene": "043"
+  },
+  {
+    "filename": "043w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/043w.png",
+    "ground_truth": "no flood",
+    "scene": "043"
+  },
+  {
+    "filename": "044l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/044l.png",
+    "ground_truth": "big flood",
+    "scene": "044"
+  },
+  {
+    "filename": "044s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/044s.png",
+    "ground_truth": "small flood",
+    "scene": "044"
+  },
+  {
+    "filename": "044w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/044w.png",
+    "ground_truth": "no flood",
+    "scene": "044"
+  },
+  {
+    "filename": "045l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/045l.png",
+    "ground_truth": "big flood",
+    "scene": "045"
+  },
+  {
+    "filename": "045s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/045s.png",
+    "ground_truth": "small flood",
+    "scene": "045"
+  },
+  {
+    "filename": "045w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/045w.png",
+    "ground_truth": "no flood",
+    "scene": "045"
+  },
+  {
+    "filename": "046l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/046l.png",
+    "ground_truth": "big flood",
+    "scene": "046"
+  },
+  {
+    "filename": "046s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/046s.png",
+    "ground_truth": "small flood",
+    "scene": "046"
+  },
+  {
+    "filename": "046w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/046w.png",
+    "ground_truth": "no flood",
+    "scene": "046"
+  },
+  {
+    "filename": "047l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/047l.png",
+    "ground_truth": "big flood",
+    "scene": "047"
+  },
+  {
+    "filename": "047s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/047s.png",
+    "ground_truth": "small flood",
+    "scene": "047"
+  },
+  {
+    "filename": "047w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/047w.png",
+    "ground_truth": "no flood",
+    "scene": "047"
+  },
+  {
+    "filename": "048l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/048l.png",
+    "ground_truth": "big flood",
+    "scene": "048"
+  },
+  {
+    "filename": "048s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/048s.png",
+    "ground_truth": "small flood",
+    "scene": "048"
+  },
+  {
+    "filename": "048w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/048w.png",
+    "ground_truth": "no flood",
+    "scene": "048"
+  },
+  {
+    "filename": "049l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/049l.png",
+    "ground_truth": "big flood",
+    "scene": "049"
+  },
+  {
+    "filename": "049s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/049s.png",
+    "ground_truth": "small flood",
+    "scene": "049"
+  },
+  {
+    "filename": "049w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/049w.png",
+    "ground_truth": "no flood",
+    "scene": "049"
+  },
+  {
+    "filename": "050l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/050l.png",
+    "ground_truth": "big flood",
+    "scene": "050"
+  },
+  {
+    "filename": "050s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/050s.png",
+    "ground_truth": "small flood",
+    "scene": "050"
+  },
+  {
+    "filename": "050w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/050w.png",
+    "ground_truth": "no flood",
+    "scene": "050"
+  },
+  {
+    "filename": "051l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/051l.png",
+    "ground_truth": "big flood",
+    "scene": "051"
+  },
+  {
+    "filename": "051s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/051s.png",
+    "ground_truth": "small flood",
+    "scene": "051"
+  },
+  {
+    "filename": "051w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/051w.png",
+    "ground_truth": "no flood",
+    "scene": "051"
+  },
+  {
+    "filename": "052l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/052l.png",
+    "ground_truth": "big flood",
+    "scene": "052"
+  },
+  {
+    "filename": "052s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/052s.png",
+    "ground_truth": "small flood",
+    "scene": "052"
+  },
+  {
+    "filename": "052w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/052w.png",
+    "ground_truth": "no flood",
+    "scene": "052"
+  },
+  {
+    "filename": "053l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/053l.png",
+    "ground_truth": "big flood",
+    "scene": "053"
+  },
+  {
+    "filename": "053s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/053s.png",
+    "ground_truth": "small flood",
+    "scene": "053"
+  },
+  {
+    "filename": "053w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/053w.png",
+    "ground_truth": "no flood",
+    "scene": "053"
+  },
+  {
+    "filename": "054l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/054l.png",
+    "ground_truth": "big flood",
+    "scene": "054"
+  },
+  {
+    "filename": "054s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/054s.png",
+    "ground_truth": "small flood",
+    "scene": "054"
+  },
+  {
+    "filename": "054w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/054w.png",
+    "ground_truth": "no flood",
+    "scene": "054"
+  },
+  {
+    "filename": "055l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/055l.png",
+    "ground_truth": "big flood",
+    "scene": "055"
+  },
+  {
+    "filename": "055s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/055s.png",
+    "ground_truth": "small flood",
+    "scene": "055"
+  },
+  {
+    "filename": "055w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/055w.png",
+    "ground_truth": "no flood",
+    "scene": "055"
+  },
+  {
+    "filename": "056l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/056l.png",
+    "ground_truth": "big flood",
+    "scene": "056"
+  },
+  {
+    "filename": "056s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/056s.png",
+    "ground_truth": "small flood",
+    "scene": "056"
+  },
+  {
+    "filename": "056w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/056w.png",
+    "ground_truth": "no flood",
+    "scene": "056"
+  },
+  {
+    "filename": "057l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/057l.png",
+    "ground_truth": "big flood",
+    "scene": "057"
+  },
+  {
+    "filename": "057s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/057s.png",
+    "ground_truth": "small flood",
+    "scene": "057"
+  },
+  {
+    "filename": "057w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/057w.png",
+    "ground_truth": "no flood",
+    "scene": "057"
+  },
+  {
+    "filename": "058l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/058l.png",
+    "ground_truth": "big flood",
+    "scene": "058"
+  },
+  {
+    "filename": "058s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/058s.png",
+    "ground_truth": "small flood",
+    "scene": "058"
+  },
+  {
+    "filename": "058w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/058w.png",
+    "ground_truth": "no flood",
+    "scene": "058"
+  },
+  {
+    "filename": "059l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/059l.png",
+    "ground_truth": "big flood",
+    "scene": "059"
+  },
+  {
+    "filename": "059s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/059s.png",
+    "ground_truth": "small flood",
+    "scene": "059"
+  },
+  {
+    "filename": "059w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/059w.png",
+    "ground_truth": "no flood",
+    "scene": "059"
+  },
+  {
+    "filename": "060l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/060l.png",
+    "ground_truth": "big flood",
+    "scene": "060"
+  },
+  {
+    "filename": "060s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/060s.png",
+    "ground_truth": "small flood",
+    "scene": "060"
+  },
+  {
+    "filename": "060w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/060w.png",
+    "ground_truth": "no flood",
+    "scene": "060"
+  },
+  {
+    "filename": "061l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/061l.png",
+    "ground_truth": "big flood",
+    "scene": "061"
+  },
+  {
+    "filename": "061s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/061s.png",
+    "ground_truth": "small flood",
+    "scene": "061"
+  },
+  {
+    "filename": "061w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/061w.png",
+    "ground_truth": "no flood",
+    "scene": "061"
+  },
+  {
+    "filename": "062l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/062l.png",
+    "ground_truth": "big flood",
+    "scene": "062"
+  },
+  {
+    "filename": "062s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/062s.png",
+    "ground_truth": "small flood",
+    "scene": "062"
+  },
+  {
+    "filename": "062w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/062w.png",
+    "ground_truth": "no flood",
+    "scene": "062"
+  },
+  {
+    "filename": "063l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/063l.png",
+    "ground_truth": "big flood",
+    "scene": "063"
+  },
+  {
+    "filename": "063s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/063s.png",
+    "ground_truth": "small flood",
+    "scene": "063"
+  },
+  {
+    "filename": "063w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/063w.png",
+    "ground_truth": "no flood",
+    "scene": "063"
+  },
+  {
+    "filename": "064l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/064l.png",
+    "ground_truth": "big flood",
+    "scene": "064"
+  },
+  {
+    "filename": "064s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/064s.png",
+    "ground_truth": "small flood",
+    "scene": "064"
+  },
+  {
+    "filename": "064w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/064w.png",
+    "ground_truth": "no flood",
+    "scene": "064"
+  },
+  {
+    "filename": "065l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/065l.png",
+    "ground_truth": "big flood",
+    "scene": "065"
+  },
+  {
+    "filename": "065s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/065s.png",
+    "ground_truth": "small flood",
+    "scene": "065"
+  },
+  {
+    "filename": "065w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/065w.png",
+    "ground_truth": "no flood",
+    "scene": "065"
+  },
+  {
+    "filename": "066l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/066l.png",
+    "ground_truth": "big flood",
+    "scene": "066"
+  },
+  {
+    "filename": "066s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/066s.png",
+    "ground_truth": "small flood",
+    "scene": "066"
+  },
+  {
+    "filename": "066w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/066w.png",
+    "ground_truth": "no flood",
+    "scene": "066"
+  },
+  {
+    "filename": "067l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/067l.png",
+    "ground_truth": "big flood",
+    "scene": "067"
+  },
+  {
+    "filename": "067s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/067s.png",
+    "ground_truth": "small flood",
+    "scene": "067"
+  },
+  {
+    "filename": "067w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/067w.png",
+    "ground_truth": "no flood",
+    "scene": "067"
+  },
+  {
+    "filename": "068l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/068l.png",
+    "ground_truth": "big flood",
+    "scene": "068"
+  },
+  {
+    "filename": "068s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/068s.png",
+    "ground_truth": "small flood",
+    "scene": "068"
+  },
+  {
+    "filename": "068w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/068w.png",
+    "ground_truth": "no flood",
+    "scene": "068"
+  },
+  {
+    "filename": "069l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/069l.png",
+    "ground_truth": "big flood",
+    "scene": "069"
+  },
+  {
+    "filename": "069s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/069s.png",
+    "ground_truth": "small flood",
+    "scene": "069"
+  },
+  {
+    "filename": "069w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/069w.png",
+    "ground_truth": "no flood",
+    "scene": "069"
+  },
+  {
+    "filename": "070l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/070l.png",
+    "ground_truth": "big flood",
+    "scene": "070"
+  },
+  {
+    "filename": "070s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/070s.png",
+    "ground_truth": "small flood",
+    "scene": "070"
+  },
+  {
+    "filename": "070w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/070w.png",
+    "ground_truth": "no flood",
+    "scene": "070"
+  },
+  {
+    "filename": "071l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/071l.png",
+    "ground_truth": "big flood",
+    "scene": "071"
+  },
+  {
+    "filename": "071s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/071s.png",
+    "ground_truth": "small flood",
+    "scene": "071"
+  },
+  {
+    "filename": "071w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/071w.png",
+    "ground_truth": "no flood",
+    "scene": "071"
+  },
+  {
+    "filename": "072l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/072l.png",
+    "ground_truth": "big flood",
+    "scene": "072"
+  },
+  {
+    "filename": "072s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/072s.png",
+    "ground_truth": "small flood",
+    "scene": "072"
+  },
+  {
+    "filename": "072w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/072w.png",
+    "ground_truth": "no flood",
+    "scene": "072"
+  },
+  {
+    "filename": "073l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/073l.png",
+    "ground_truth": "big flood",
+    "scene": "073"
+  },
+  {
+    "filename": "073s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/073s.png",
+    "ground_truth": "small flood",
+    "scene": "073"
+  },
+  {
+    "filename": "073w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/073w.png",
+    "ground_truth": "no flood",
+    "scene": "073"
+  },
+  {
+    "filename": "074l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/074l.png",
+    "ground_truth": "big flood",
+    "scene": "074"
+  },
+  {
+    "filename": "074s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/074s.png",
+    "ground_truth": "small flood",
+    "scene": "074"
+  },
+  {
+    "filename": "074w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/074w.png",
+    "ground_truth": "no flood",
+    "scene": "074"
+  },
+  {
+    "filename": "075l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/075l.png",
+    "ground_truth": "big flood",
+    "scene": "075"
+  },
+  {
+    "filename": "075s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/075s.png",
+    "ground_truth": "small flood",
+    "scene": "075"
+  },
+  {
+    "filename": "075w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/075w.png",
+    "ground_truth": "no flood",
+    "scene": "075"
+  },
+  {
+    "filename": "076l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/076l.png",
+    "ground_truth": "big flood",
+    "scene": "076"
+  },
+  {
+    "filename": "076s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/076s.png",
+    "ground_truth": "small flood",
+    "scene": "076"
+  },
+  {
+    "filename": "076w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/076w.png",
+    "ground_truth": "no flood",
+    "scene": "076"
+  },
+  {
+    "filename": "077l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/077l.png",
+    "ground_truth": "big flood",
+    "scene": "077"
+  },
+  {
+    "filename": "077s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/077s.png",
+    "ground_truth": "small flood",
+    "scene": "077"
+  },
+  {
+    "filename": "077w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/077w.png",
+    "ground_truth": "no flood",
+    "scene": "077"
+  },
+  {
+    "filename": "078l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/078l.png",
+    "ground_truth": "big flood",
+    "scene": "078"
+  },
+  {
+    "filename": "078s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/078s.png",
+    "ground_truth": "small flood",
+    "scene": "078"
+  },
+  {
+    "filename": "078w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/078w.png",
+    "ground_truth": "no flood",
+    "scene": "078"
+  },
+  {
+    "filename": "079l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/079l.png",
+    "ground_truth": "big flood",
+    "scene": "079"
+  },
+  {
+    "filename": "079s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/079s.png",
+    "ground_truth": "small flood",
+    "scene": "079"
+  },
+  {
+    "filename": "079w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/079w.png",
+    "ground_truth": "no flood",
+    "scene": "079"
+  },
+  {
+    "filename": "080l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/080l.png",
+    "ground_truth": "big flood",
+    "scene": "080"
+  },
+  {
+    "filename": "080s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/080s.png",
+    "ground_truth": "small flood",
+    "scene": "080"
+  },
+  {
+    "filename": "080w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/080w.png",
+    "ground_truth": "no flood",
+    "scene": "080"
+  },
+  {
+    "filename": "081l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/081l.png",
+    "ground_truth": "big flood",
+    "scene": "081"
+  },
+  {
+    "filename": "081s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/081s.png",
+    "ground_truth": "small flood",
+    "scene": "081"
+  },
+  {
+    "filename": "081w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/081w.png",
+    "ground_truth": "no flood",
+    "scene": "081"
+  },
+  {
+    "filename": "082l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/082l.png",
+    "ground_truth": "big flood",
+    "scene": "082"
+  },
+  {
+    "filename": "082s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/082s.png",
+    "ground_truth": "small flood",
+    "scene": "082"
+  },
+  {
+    "filename": "082w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/082w.png",
+    "ground_truth": "no flood",
+    "scene": "082"
+  },
+  {
+    "filename": "083l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/083l.png",
+    "ground_truth": "big flood",
+    "scene": "083"
+  },
+  {
+    "filename": "083s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/083s.png",
+    "ground_truth": "small flood",
+    "scene": "083"
+  },
+  {
+    "filename": "083w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/083w.png",
+    "ground_truth": "no flood",
+    "scene": "083"
+  },
+  {
+    "filename": "084l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/084l.png",
+    "ground_truth": "big flood",
+    "scene": "084"
+  },
+  {
+    "filename": "084s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/084s.png",
+    "ground_truth": "small flood",
+    "scene": "084"
+  },
+  {
+    "filename": "084w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/084w.png",
+    "ground_truth": "no flood",
+    "scene": "084"
+  },
+  {
+    "filename": "085l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/085l.png",
+    "ground_truth": "big flood",
+    "scene": "085"
+  },
+  {
+    "filename": "085s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/085s.png",
+    "ground_truth": "small flood",
+    "scene": "085"
+  },
+  {
+    "filename": "085w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/085w.png",
+    "ground_truth": "no flood",
+    "scene": "085"
+  },
+  {
+    "filename": "086l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/086l.png",
+    "ground_truth": "big flood",
+    "scene": "086"
+  },
+  {
+    "filename": "086s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/086s.png",
+    "ground_truth": "small flood",
+    "scene": "086"
+  },
+  {
+    "filename": "086w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/086w.png",
+    "ground_truth": "no flood",
+    "scene": "086"
+  },
+  {
+    "filename": "087l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/087l.png",
+    "ground_truth": "big flood",
+    "scene": "087"
+  },
+  {
+    "filename": "087s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/087s.png",
+    "ground_truth": "small flood",
+    "scene": "087"
+  },
+  {
+    "filename": "087w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/087w.png",
+    "ground_truth": "no flood",
+    "scene": "087"
+  },
+  {
+    "filename": "088l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/088l.png",
+    "ground_truth": "big flood",
+    "scene": "088"
+  },
+  {
+    "filename": "088s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/088s.png",
+    "ground_truth": "small flood",
+    "scene": "088"
+  },
+  {
+    "filename": "088w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/088w.png",
+    "ground_truth": "no flood",
+    "scene": "088"
+  },
+  {
+    "filename": "089l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/089l.png",
+    "ground_truth": "big flood",
+    "scene": "089"
+  },
+  {
+    "filename": "089s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/089s.png",
+    "ground_truth": "small flood",
+    "scene": "089"
+  },
+  {
+    "filename": "089w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/089w.png",
+    "ground_truth": "no flood",
+    "scene": "089"
+  },
+  {
+    "filename": "090l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/090l.png",
+    "ground_truth": "big flood",
+    "scene": "090"
+  },
+  {
+    "filename": "090s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/090s.png",
+    "ground_truth": "small flood",
+    "scene": "090"
+  },
+  {
+    "filename": "090w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/090w.png",
+    "ground_truth": "no flood",
+    "scene": "090"
+  },
+  {
+    "filename": "091l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/091l.png",
+    "ground_truth": "big flood",
+    "scene": "091"
+  },
+  {
+    "filename": "091s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/091s.png",
+    "ground_truth": "small flood",
+    "scene": "091"
+  },
+  {
+    "filename": "091w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/091w.png",
+    "ground_truth": "no flood",
+    "scene": "091"
+  },
+  {
+    "filename": "092l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/092l.png",
+    "ground_truth": "big flood",
+    "scene": "092"
+  },
+  {
+    "filename": "092s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/092s.png",
+    "ground_truth": "small flood",
+    "scene": "092"
+  },
+  {
+    "filename": "092w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/092w.png",
+    "ground_truth": "no flood",
+    "scene": "092"
+  },
+  {
+    "filename": "093l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/093l.png",
+    "ground_truth": "big flood",
+    "scene": "093"
+  },
+  {
+    "filename": "093s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/093s.png",
+    "ground_truth": "small flood",
+    "scene": "093"
+  },
+  {
+    "filename": "093w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/093w.png",
+    "ground_truth": "no flood",
+    "scene": "093"
+  },
+  {
+    "filename": "094l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/094l.png",
+    "ground_truth": "big flood",
+    "scene": "094"
+  },
+  {
+    "filename": "094s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/094s.png",
+    "ground_truth": "small flood",
+    "scene": "094"
+  },
+  {
+    "filename": "094w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/094w.png",
+    "ground_truth": "no flood",
+    "scene": "094"
+  },
+  {
+    "filename": "095l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/095l.png",
+    "ground_truth": "big flood",
+    "scene": "095"
+  },
+  {
+    "filename": "095s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/095s.png",
+    "ground_truth": "small flood",
+    "scene": "095"
+  },
+  {
+    "filename": "095w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/095w.png",
+    "ground_truth": "no flood",
+    "scene": "095"
+  },
+  {
+    "filename": "096l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/096l.png",
+    "ground_truth": "big flood",
+    "scene": "096"
+  },
+  {
+    "filename": "096s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/096s.png",
+    "ground_truth": "small flood",
+    "scene": "096"
+  },
+  {
+    "filename": "096w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/096w.png",
+    "ground_truth": "no flood",
+    "scene": "096"
+  },
+  {
+    "filename": "097l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/097l.png",
+    "ground_truth": "big flood",
+    "scene": "097"
+  },
+  {
+    "filename": "097s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/097s.png",
+    "ground_truth": "small flood",
+    "scene": "097"
+  },
+  {
+    "filename": "097w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/097w.png",
+    "ground_truth": "no flood",
+    "scene": "097"
+  },
+  {
+    "filename": "098l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/098l.png",
+    "ground_truth": "big flood",
+    "scene": "098"
+  },
+  {
+    "filename": "098s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/098s.png",
+    "ground_truth": "small flood",
+    "scene": "098"
+  },
+  {
+    "filename": "098w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/098w.png",
+    "ground_truth": "no flood",
+    "scene": "098"
+  },
+  {
+    "filename": "099l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/099l.png",
+    "ground_truth": "big flood",
+    "scene": "099"
+  },
+  {
+    "filename": "099s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/099s.png",
+    "ground_truth": "small flood",
+    "scene": "099"
+  },
+  {
+    "filename": "099w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/099w.png",
+    "ground_truth": "no flood",
+    "scene": "099"
+  },
+  {
+    "filename": "100l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/100l.png",
+    "ground_truth": "big flood",
+    "scene": "100"
+  },
+  {
+    "filename": "100s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/100s.png",
+    "ground_truth": "small flood",
+    "scene": "100"
+  },
+  {
+    "filename": "100w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/100w.png",
+    "ground_truth": "no flood",
+    "scene": "100"
+  },
+  {
+    "filename": "101l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/101l.png",
+    "ground_truth": "big flood",
+    "scene": "101"
+  },
+  {
+    "filename": "101s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/101s.png",
+    "ground_truth": "small flood",
+    "scene": "101"
+  },
+  {
+    "filename": "101w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/101w.png",
+    "ground_truth": "no flood",
+    "scene": "101"
+  },
+  {
+    "filename": "102l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/102l.png",
+    "ground_truth": "big flood",
+    "scene": "102"
+  },
+  {
+    "filename": "102s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/102s.png",
+    "ground_truth": "small flood",
+    "scene": "102"
+  },
+  {
+    "filename": "102w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/102w.png",
+    "ground_truth": "no flood",
+    "scene": "102"
+  },
+  {
+    "filename": "103l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/103l.png",
+    "ground_truth": "big flood",
+    "scene": "103"
+  },
+  {
+    "filename": "103s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/103s.png",
+    "ground_truth": "small flood",
+    "scene": "103"
+  },
+  {
+    "filename": "103w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/103w.png",
+    "ground_truth": "no flood",
+    "scene": "103"
+  },
+  {
+    "filename": "104l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/104l.png",
+    "ground_truth": "big flood",
+    "scene": "104"
+  },
+  {
+    "filename": "104s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/104s.png",
+    "ground_truth": "small flood",
+    "scene": "104"
+  },
+  {
+    "filename": "104w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/104w.png",
+    "ground_truth": "no flood",
+    "scene": "104"
+  },
+  {
+    "filename": "105l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/105l.png",
+    "ground_truth": "big flood",
+    "scene": "105"
+  },
+  {
+    "filename": "105s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/105s.png",
+    "ground_truth": "small flood",
+    "scene": "105"
+  },
+  {
+    "filename": "105w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/105w.png",
+    "ground_truth": "no flood",
+    "scene": "105"
+  },
+  {
+    "filename": "106l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/106l.png",
+    "ground_truth": "big flood",
+    "scene": "106"
+  },
+  {
+    "filename": "106s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/106s.png",
+    "ground_truth": "small flood",
+    "scene": "106"
+  },
+  {
+    "filename": "106w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/106w.png",
+    "ground_truth": "no flood",
+    "scene": "106"
+  },
+  {
+    "filename": "107l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/107l.png",
+    "ground_truth": "big flood",
+    "scene": "107"
+  },
+  {
+    "filename": "107s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/107s.png",
+    "ground_truth": "small flood",
+    "scene": "107"
+  },
+  {
+    "filename": "107w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/107w.png",
+    "ground_truth": "no flood",
+    "scene": "107"
+  },
+  {
+    "filename": "108l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/108l.png",
+    "ground_truth": "big flood",
+    "scene": "108"
+  },
+  {
+    "filename": "108s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/108s.png",
+    "ground_truth": "small flood",
+    "scene": "108"
+  },
+  {
+    "filename": "108w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/108w.png",
+    "ground_truth": "no flood",
+    "scene": "108"
+  },
+  {
+    "filename": "109l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/109l.png",
+    "ground_truth": "big flood",
+    "scene": "109"
+  },
+  {
+    "filename": "109s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/109s.png",
+    "ground_truth": "small flood",
+    "scene": "109"
+  },
+  {
+    "filename": "109w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/109w.png",
+    "ground_truth": "no flood",
+    "scene": "109"
+  },
+  {
+    "filename": "110l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/110l.png",
+    "ground_truth": "big flood",
+    "scene": "110"
+  },
+  {
+    "filename": "110s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/110s.png",
+    "ground_truth": "small flood",
+    "scene": "110"
+  },
+  {
+    "filename": "110w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/110w.png",
+    "ground_truth": "no flood",
+    "scene": "110"
+  },
+  {
+    "filename": "111l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/111l.png",
+    "ground_truth": "big flood",
+    "scene": "111"
+  },
+  {
+    "filename": "111s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/111s.png",
+    "ground_truth": "small flood",
+    "scene": "111"
+  },
+  {
+    "filename": "111w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/111w.png",
+    "ground_truth": "no flood",
+    "scene": "111"
+  },
+  {
+    "filename": "112l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/112l.png",
+    "ground_truth": "big flood",
+    "scene": "112"
+  },
+  {
+    "filename": "112s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/112s.png",
+    "ground_truth": "small flood",
+    "scene": "112"
+  },
+  {
+    "filename": "112w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/112w.png",
+    "ground_truth": "no flood",
+    "scene": "112"
+  },
+  {
+    "filename": "113l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/113l.png",
+    "ground_truth": "big flood",
+    "scene": "113"
+  },
+  {
+    "filename": "113s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/113s.png",
+    "ground_truth": "small flood",
+    "scene": "113"
+  },
+  {
+    "filename": "113w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/113w.png",
+    "ground_truth": "no flood",
+    "scene": "113"
+  },
+  {
+    "filename": "114l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/114l.png",
+    "ground_truth": "big flood",
+    "scene": "114"
+  },
+  {
+    "filename": "114s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/114s.png",
+    "ground_truth": "small flood",
+    "scene": "114"
+  },
+  {
+    "filename": "114w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/114w.png",
+    "ground_truth": "no flood",
+    "scene": "114"
+  },
+  {
+    "filename": "115l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/115l.png",
+    "ground_truth": "big flood",
+    "scene": "115"
+  },
+  {
+    "filename": "115s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/115s.png",
+    "ground_truth": "small flood",
+    "scene": "115"
+  },
+  {
+    "filename": "115w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/115w.png",
+    "ground_truth": "no flood",
+    "scene": "115"
+  },
+  {
+    "filename": "116l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/116l.png",
+    "ground_truth": "big flood",
+    "scene": "116"
+  },
+  {
+    "filename": "116s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/116s.png",
+    "ground_truth": "small flood",
+    "scene": "116"
+  },
+  {
+    "filename": "116w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/116w.png",
+    "ground_truth": "no flood",
+    "scene": "116"
+  },
+  {
+    "filename": "117l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/117l.png",
+    "ground_truth": "big flood",
+    "scene": "117"
+  },
+  {
+    "filename": "117s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/117s.png",
+    "ground_truth": "small flood",
+    "scene": "117"
+  },
+  {
+    "filename": "117w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/117w.png",
+    "ground_truth": "no flood",
+    "scene": "117"
+  },
+  {
+    "filename": "118l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/118l.png",
+    "ground_truth": "big flood",
+    "scene": "118"
+  },
+  {
+    "filename": "118s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/118s.png",
+    "ground_truth": "small flood",
+    "scene": "118"
+  },
+  {
+    "filename": "118w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/118w.png",
+    "ground_truth": "no flood",
+    "scene": "118"
+  },
+  {
+    "filename": "119l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/119l.png",
+    "ground_truth": "big flood",
+    "scene": "119"
+  },
+  {
+    "filename": "119s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/119s.png",
+    "ground_truth": "small flood",
+    "scene": "119"
+  },
+  {
+    "filename": "119w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/119w.png",
+    "ground_truth": "no flood",
+    "scene": "119"
+  },
+  {
+    "filename": "120l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/120l.png",
+    "ground_truth": "big flood",
+    "scene": "120"
+  },
+  {
+    "filename": "120s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/120s.png",
+    "ground_truth": "small flood",
+    "scene": "120"
+  },
+  {
+    "filename": "120w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/120w.png",
+    "ground_truth": "no flood",
+    "scene": "120"
+  },
+  {
+    "filename": "121l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/121l.png",
+    "ground_truth": "big flood",
+    "scene": "121"
+  },
+  {
+    "filename": "121s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/121s.png",
+    "ground_truth": "small flood",
+    "scene": "121"
+  },
+  {
+    "filename": "121w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/121w.png",
+    "ground_truth": "no flood",
+    "scene": "121"
+  },
+  {
+    "filename": "122l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/122l.png",
+    "ground_truth": "big flood",
+    "scene": "122"
+  },
+  {
+    "filename": "122s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/122s.png",
+    "ground_truth": "small flood",
+    "scene": "122"
+  },
+  {
+    "filename": "122w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/122w.png",
+    "ground_truth": "no flood",
+    "scene": "122"
+  },
+  {
+    "filename": "123l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/123l.png",
+    "ground_truth": "big flood",
+    "scene": "123"
+  },
+  {
+    "filename": "123s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/123s.png",
+    "ground_truth": "small flood",
+    "scene": "123"
+  },
+  {
+    "filename": "123w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/123w.png",
+    "ground_truth": "no flood",
+    "scene": "123"
+  },
+  {
+    "filename": "124l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/124l.png",
+    "ground_truth": "big flood",
+    "scene": "124"
+  },
+  {
+    "filename": "124s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/124s.png",
+    "ground_truth": "small flood",
+    "scene": "124"
+  },
+  {
+    "filename": "124w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/124w.png",
+    "ground_truth": "no flood",
+    "scene": "124"
+  },
+  {
+    "filename": "125l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/125l.png",
+    "ground_truth": "big flood",
+    "scene": "125"
+  },
+  {
+    "filename": "125s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/125s.png",
+    "ground_truth": "small flood",
+    "scene": "125"
+  },
+  {
+    "filename": "125w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/125w.png",
+    "ground_truth": "no flood",
+    "scene": "125"
+  },
+  {
+    "filename": "126l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/126l.png",
+    "ground_truth": "big flood",
+    "scene": "126"
+  },
+  {
+    "filename": "126s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/126s.png",
+    "ground_truth": "small flood",
+    "scene": "126"
+  },
+  {
+    "filename": "126w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/126w.png",
+    "ground_truth": "no flood",
+    "scene": "126"
+  },
+  {
+    "filename": "127l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/127l.png",
+    "ground_truth": "big flood",
+    "scene": "127"
+  },
+  {
+    "filename": "127s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/127s.png",
+    "ground_truth": "small flood",
+    "scene": "127"
+  },
+  {
+    "filename": "127w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/127w.png",
+    "ground_truth": "no flood",
+    "scene": "127"
+  },
+  {
+    "filename": "128l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/128l.png",
+    "ground_truth": "big flood",
+    "scene": "128"
+  },
+  {
+    "filename": "128s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/128s.png",
+    "ground_truth": "small flood",
+    "scene": "128"
+  },
+  {
+    "filename": "128w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/128w.png",
+    "ground_truth": "no flood",
+    "scene": "128"
+  },
+  {
+    "filename": "129l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/129l.png",
+    "ground_truth": "big flood",
+    "scene": "129"
+  },
+  {
+    "filename": "129s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/129s.png",
+    "ground_truth": "small flood",
+    "scene": "129"
+  },
+  {
+    "filename": "129w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/129w.png",
+    "ground_truth": "no flood",
+    "scene": "129"
+  },
+  {
+    "filename": "130l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/130l.png",
+    "ground_truth": "big flood",
+    "scene": "130"
+  },
+  {
+    "filename": "130s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/130s.png",
+    "ground_truth": "small flood",
+    "scene": "130"
+  },
+  {
+    "filename": "130w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/130w.png",
+    "ground_truth": "no flood",
+    "scene": "130"
+  },
+  {
+    "filename": "131l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/131l.png",
+    "ground_truth": "big flood",
+    "scene": "131"
+  },
+  {
+    "filename": "131s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/131s.png",
+    "ground_truth": "small flood",
+    "scene": "131"
+  },
+  {
+    "filename": "131w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/131w.png",
+    "ground_truth": "no flood",
+    "scene": "131"
+  },
+  {
+    "filename": "132l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/132l.png",
+    "ground_truth": "big flood",
+    "scene": "132"
+  },
+  {
+    "filename": "132s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/132s.png",
+    "ground_truth": "small flood",
+    "scene": "132"
+  },
+  {
+    "filename": "132w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/132w.png",
+    "ground_truth": "no flood",
+    "scene": "132"
+  },
+  {
+    "filename": "133l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/133l.png",
+    "ground_truth": "big flood",
+    "scene": "133"
+  },
+  {
+    "filename": "133s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/133s.png",
+    "ground_truth": "small flood",
+    "scene": "133"
+  },
+  {
+    "filename": "133w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/133w.png",
+    "ground_truth": "no flood",
+    "scene": "133"
+  },
+  {
+    "filename": "134l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/134l.png",
+    "ground_truth": "big flood",
+    "scene": "134"
+  },
+  {
+    "filename": "134s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/134s.png",
+    "ground_truth": "small flood",
+    "scene": "134"
+  },
+  {
+    "filename": "134w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/134w.png",
+    "ground_truth": "no flood",
+    "scene": "134"
+  },
+  {
+    "filename": "135l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/135l.png",
+    "ground_truth": "big flood",
+    "scene": "135"
+  },
+  {
+    "filename": "135s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/135s.png",
+    "ground_truth": "small flood",
+    "scene": "135"
+  },
+  {
+    "filename": "135w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/135w.png",
+    "ground_truth": "no flood",
+    "scene": "135"
+  },
+  {
+    "filename": "136l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/136l.png",
+    "ground_truth": "big flood",
+    "scene": "136"
+  },
+  {
+    "filename": "136s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/136s.png",
+    "ground_truth": "small flood",
+    "scene": "136"
+  },
+  {
+    "filename": "136w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/136w.png",
+    "ground_truth": "no flood",
+    "scene": "136"
+  },
+  {
+    "filename": "137l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/137l.png",
+    "ground_truth": "big flood",
+    "scene": "137"
+  },
+  {
+    "filename": "137s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/137s.png",
+    "ground_truth": "small flood",
+    "scene": "137"
+  },
+  {
+    "filename": "137w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/137w.png",
+    "ground_truth": "no flood",
+    "scene": "137"
+  },
+  {
+    "filename": "138l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/138l.png",
+    "ground_truth": "big flood",
+    "scene": "138"
+  },
+  {
+    "filename": "138s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/138s.png",
+    "ground_truth": "small flood",
+    "scene": "138"
+  },
+  {
+    "filename": "138w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/138w.png",
+    "ground_truth": "no flood",
+    "scene": "138"
+  },
+  {
+    "filename": "139l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/139l.png",
+    "ground_truth": "big flood",
+    "scene": "139"
+  },
+  {
+    "filename": "139s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/139s.png",
+    "ground_truth": "small flood",
+    "scene": "139"
+  },
+  {
+    "filename": "139w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/139w.png",
+    "ground_truth": "no flood",
+    "scene": "139"
+  },
+  {
+    "filename": "140l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/140l.png",
+    "ground_truth": "big flood",
+    "scene": "140"
+  },
+  {
+    "filename": "140s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/140s.png",
+    "ground_truth": "small flood",
+    "scene": "140"
+  },
+  {
+    "filename": "140w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/140w.png",
+    "ground_truth": "no flood",
+    "scene": "140"
+  },
+  {
+    "filename": "141l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/141l.png",
+    "ground_truth": "big flood",
+    "scene": "141"
+  },
+  {
+    "filename": "141s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/141s.png",
+    "ground_truth": "small flood",
+    "scene": "141"
+  },
+  {
+    "filename": "141w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/141w.png",
+    "ground_truth": "no flood",
+    "scene": "141"
+  },
+  {
+    "filename": "142l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/142l.png",
+    "ground_truth": "big flood",
+    "scene": "142"
+  },
+  {
+    "filename": "142s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/142s.png",
+    "ground_truth": "small flood",
+    "scene": "142"
+  },
+  {
+    "filename": "142w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/142w.png",
+    "ground_truth": "no flood",
+    "scene": "142"
+  },
+  {
+    "filename": "143l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/143l.png",
+    "ground_truth": "big flood",
+    "scene": "143"
+  },
+  {
+    "filename": "143s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/143s.png",
+    "ground_truth": "small flood",
+    "scene": "143"
+  },
+  {
+    "filename": "143w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/143w.png",
+    "ground_truth": "no flood",
+    "scene": "143"
+  },
+  {
+    "filename": "144l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/144l.png",
+    "ground_truth": "big flood",
+    "scene": "144"
+  },
+  {
+    "filename": "144s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/144s.png",
+    "ground_truth": "small flood",
+    "scene": "144"
+  },
+  {
+    "filename": "144w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/144w.png",
+    "ground_truth": "no flood",
+    "scene": "144"
+  },
+  {
+    "filename": "145l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/145l.png",
+    "ground_truth": "big flood",
+    "scene": "145"
+  },
+  {
+    "filename": "145s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/145s.png",
+    "ground_truth": "small flood",
+    "scene": "145"
+  },
+  {
+    "filename": "145w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/145w.png",
+    "ground_truth": "no flood",
+    "scene": "145"
+  },
+  {
+    "filename": "146l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/146l.png",
+    "ground_truth": "big flood",
+    "scene": "146"
+  },
+  {
+    "filename": "146s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/146s.png",
+    "ground_truth": "small flood",
+    "scene": "146"
+  },
+  {
+    "filename": "146w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/146w.png",
+    "ground_truth": "no flood",
+    "scene": "146"
+  },
+  {
+    "filename": "147l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/147l.png",
+    "ground_truth": "big flood",
+    "scene": "147"
+  },
+  {
+    "filename": "147s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/147s.png",
+    "ground_truth": "small flood",
+    "scene": "147"
+  },
+  {
+    "filename": "147w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/147w.png",
+    "ground_truth": "no flood",
+    "scene": "147"
+  },
+  {
+    "filename": "148l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/148l.png",
+    "ground_truth": "big flood",
+    "scene": "148"
+  },
+  {
+    "filename": "148s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/148s.png",
+    "ground_truth": "small flood",
+    "scene": "148"
+  },
+  {
+    "filename": "148w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/148w.png",
+    "ground_truth": "no flood",
+    "scene": "148"
+  },
+  {
+    "filename": "149l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/149l.png",
+    "ground_truth": "big flood",
+    "scene": "149"
+  },
+  {
+    "filename": "149s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/149s.png",
+    "ground_truth": "small flood",
+    "scene": "149"
+  },
+  {
+    "filename": "149w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/149w.png",
+    "ground_truth": "no flood",
+    "scene": "149"
+  },
+  {
+    "filename": "150l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/150l.png",
+    "ground_truth": "big flood",
+    "scene": "150"
+  },
+  {
+    "filename": "150s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/150s.png",
+    "ground_truth": "small flood",
+    "scene": "150"
+  },
+  {
+    "filename": "150w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/150w.png",
+    "ground_truth": "no flood",
+    "scene": "150"
+  },
+  {
+    "filename": "151l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/151l.png",
+    "ground_truth": "big flood",
+    "scene": "151"
+  },
+  {
+    "filename": "151s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/151s.png",
+    "ground_truth": "small flood",
+    "scene": "151"
+  },
+  {
+    "filename": "151w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/151w.png",
+    "ground_truth": "no flood",
+    "scene": "151"
+  },
+  {
+    "filename": "152l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/152l.png",
+    "ground_truth": "big flood",
+    "scene": "152"
+  },
+  {
+    "filename": "152s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/152s.png",
+    "ground_truth": "small flood",
+    "scene": "152"
+  },
+  {
+    "filename": "152w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/152w.png",
+    "ground_truth": "no flood",
+    "scene": "152"
+  },
+  {
+    "filename": "153l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/153l.png",
+    "ground_truth": "big flood",
+    "scene": "153"
+  },
+  {
+    "filename": "153s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/153s.png",
+    "ground_truth": "small flood",
+    "scene": "153"
+  },
+  {
+    "filename": "153w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/153w.png",
+    "ground_truth": "no flood",
+    "scene": "153"
+  },
+  {
+    "filename": "154l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/154l.png",
+    "ground_truth": "big flood",
+    "scene": "154"
+  },
+  {
+    "filename": "154s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/154s.png",
+    "ground_truth": "small flood",
+    "scene": "154"
+  },
+  {
+    "filename": "154w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/154w.png",
+    "ground_truth": "no flood",
+    "scene": "154"
+  },
+  {
+    "filename": "155l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/155l.png",
+    "ground_truth": "big flood",
+    "scene": "155"
+  },
+  {
+    "filename": "155s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/155s.png",
+    "ground_truth": "small flood",
+    "scene": "155"
+  },
+  {
+    "filename": "155w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/155w.png",
+    "ground_truth": "no flood",
+    "scene": "155"
+  },
+  {
+    "filename": "156l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/156l.png",
+    "ground_truth": "big flood",
+    "scene": "156"
+  },
+  {
+    "filename": "156s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/156s.png",
+    "ground_truth": "small flood",
+    "scene": "156"
+  },
+  {
+    "filename": "156w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/156w.png",
+    "ground_truth": "no flood",
+    "scene": "156"
+  },
+  {
+    "filename": "157l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/157l.png",
+    "ground_truth": "big flood",
+    "scene": "157"
+  },
+  {
+    "filename": "157s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/157s.png",
+    "ground_truth": "small flood",
+    "scene": "157"
+  },
+  {
+    "filename": "157w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/157w.png",
+    "ground_truth": "no flood",
+    "scene": "157"
+  },
+  {
+    "filename": "158l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/158l.png",
+    "ground_truth": "big flood",
+    "scene": "158"
+  },
+  {
+    "filename": "158s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/158s.png",
+    "ground_truth": "small flood",
+    "scene": "158"
+  },
+  {
+    "filename": "158w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/158w.png",
+    "ground_truth": "no flood",
+    "scene": "158"
+  },
+  {
+    "filename": "159l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/159l.png",
+    "ground_truth": "big flood",
+    "scene": "159"
+  },
+  {
+    "filename": "159s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/159s.png",
+    "ground_truth": "small flood",
+    "scene": "159"
+  },
+  {
+    "filename": "159w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/159w.png",
+    "ground_truth": "no flood",
+    "scene": "159"
+  },
+  {
+    "filename": "160l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/160l.png",
+    "ground_truth": "big flood",
+    "scene": "160"
+  },
+  {
+    "filename": "160s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/160s.png",
+    "ground_truth": "small flood",
+    "scene": "160"
+  },
+  {
+    "filename": "160w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/160w.png",
+    "ground_truth": "no flood",
+    "scene": "160"
+  },
+  {
+    "filename": "161l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/161l.png",
+    "ground_truth": "big flood",
+    "scene": "161"
+  },
+  {
+    "filename": "161s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/161s.png",
+    "ground_truth": "small flood",
+    "scene": "161"
+  },
+  {
+    "filename": "161w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/161w.png",
+    "ground_truth": "no flood",
+    "scene": "161"
+  },
+  {
+    "filename": "162l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/162l.png",
+    "ground_truth": "big flood",
+    "scene": "162"
+  },
+  {
+    "filename": "162s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/162s.png",
+    "ground_truth": "small flood",
+    "scene": "162"
+  },
+  {
+    "filename": "162w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/162w.png",
+    "ground_truth": "no flood",
+    "scene": "162"
+  },
+  {
+    "filename": "163l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/163l.png",
+    "ground_truth": "big flood",
+    "scene": "163"
+  },
+  {
+    "filename": "163s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/163s.png",
+    "ground_truth": "small flood",
+    "scene": "163"
+  },
+  {
+    "filename": "163w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/163w.png",
+    "ground_truth": "no flood",
+    "scene": "163"
+  },
+  {
+    "filename": "164l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/164l.png",
+    "ground_truth": "big flood",
+    "scene": "164"
+  },
+  {
+    "filename": "164s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/164s.png",
+    "ground_truth": "small flood",
+    "scene": "164"
+  },
+  {
+    "filename": "164w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/164w.png",
+    "ground_truth": "no flood",
+    "scene": "164"
+  },
+  {
+    "filename": "165l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/165l.png",
+    "ground_truth": "big flood",
+    "scene": "165"
+  },
+  {
+    "filename": "165s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/165s.png",
+    "ground_truth": "small flood",
+    "scene": "165"
+  },
+  {
+    "filename": "165w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/165w.png",
+    "ground_truth": "no flood",
+    "scene": "165"
+  },
+  {
+    "filename": "166l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/166l.png",
+    "ground_truth": "big flood",
+    "scene": "166"
+  },
+  {
+    "filename": "166s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/166s.png",
+    "ground_truth": "small flood",
+    "scene": "166"
+  },
+  {
+    "filename": "166w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/166w.png",
+    "ground_truth": "no flood",
+    "scene": "166"
+  },
+  {
+    "filename": "167l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/167l.png",
+    "ground_truth": "big flood",
+    "scene": "167"
+  },
+  {
+    "filename": "167s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/167s.png",
+    "ground_truth": "small flood",
+    "scene": "167"
+  },
+  {
+    "filename": "167w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/167w.png",
+    "ground_truth": "no flood",
+    "scene": "167"
+  },
+  {
+    "filename": "168l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/168l.png",
+    "ground_truth": "big flood",
+    "scene": "168"
+  },
+  {
+    "filename": "168s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/168s.png",
+    "ground_truth": "small flood",
+    "scene": "168"
+  },
+  {
+    "filename": "168w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/168w.png",
+    "ground_truth": "no flood",
+    "scene": "168"
+  },
+  {
+    "filename": "169l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/169l.png",
+    "ground_truth": "big flood",
+    "scene": "169"
+  },
+  {
+    "filename": "169s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/169s.png",
+    "ground_truth": "small flood",
+    "scene": "169"
+  },
+  {
+    "filename": "169w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/169w.png",
+    "ground_truth": "no flood",
+    "scene": "169"
+  },
+  {
+    "filename": "170l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/170l.png",
+    "ground_truth": "big flood",
+    "scene": "170"
+  },
+  {
+    "filename": "170s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/170s.png",
+    "ground_truth": "small flood",
+    "scene": "170"
+  },
+  {
+    "filename": "170w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/170w.png",
+    "ground_truth": "no flood",
+    "scene": "170"
+  },
+  {
+    "filename": "171l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/171l.png",
+    "ground_truth": "big flood",
+    "scene": "171"
+  },
+  {
+    "filename": "171s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/171s.png",
+    "ground_truth": "small flood",
+    "scene": "171"
+  },
+  {
+    "filename": "171w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/171w.png",
+    "ground_truth": "no flood",
+    "scene": "171"
+  },
+  {
+    "filename": "172l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/172l.png",
+    "ground_truth": "big flood",
+    "scene": "172"
+  },
+  {
+    "filename": "172s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/172s.png",
+    "ground_truth": "small flood",
+    "scene": "172"
+  },
+  {
+    "filename": "172w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/172w.png",
+    "ground_truth": "no flood",
+    "scene": "172"
+  },
+  {
+    "filename": "173l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/173l.png",
+    "ground_truth": "big flood",
+    "scene": "173"
+  },
+  {
+    "filename": "173s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/173s.png",
+    "ground_truth": "small flood",
+    "scene": "173"
+  },
+  {
+    "filename": "173w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/173w.png",
+    "ground_truth": "no flood",
+    "scene": "173"
+  },
+  {
+    "filename": "174l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/174l.png",
+    "ground_truth": "big flood",
+    "scene": "174"
+  },
+  {
+    "filename": "174s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/174s.png",
+    "ground_truth": "small flood",
+    "scene": "174"
+  },
+  {
+    "filename": "174w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/174w.png",
+    "ground_truth": "no flood",
+    "scene": "174"
+  },
+  {
+    "filename": "175l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/175l.png",
+    "ground_truth": "big flood",
+    "scene": "175"
+  },
+  {
+    "filename": "175s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/175s.png",
+    "ground_truth": "small flood",
+    "scene": "175"
+  },
+  {
+    "filename": "175w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/175w.png",
+    "ground_truth": "no flood",
+    "scene": "175"
+  },
+  {
+    "filename": "176l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/176l.png",
+    "ground_truth": "big flood",
+    "scene": "176"
+  },
+  {
+    "filename": "176s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/176s.png",
+    "ground_truth": "small flood",
+    "scene": "176"
+  },
+  {
+    "filename": "176w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/176w.png",
+    "ground_truth": "no flood",
+    "scene": "176"
+  },
+  {
+    "filename": "177l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/177l.png",
+    "ground_truth": "big flood",
+    "scene": "177"
+  },
+  {
+    "filename": "177s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/177s.png",
+    "ground_truth": "small flood",
+    "scene": "177"
+  },
+  {
+    "filename": "177w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/177w.png",
+    "ground_truth": "no flood",
+    "scene": "177"
+  },
+  {
+    "filename": "178l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/178l.png",
+    "ground_truth": "big flood",
+    "scene": "178"
+  },
+  {
+    "filename": "178s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/178s.png",
+    "ground_truth": "small flood",
+    "scene": "178"
+  },
+  {
+    "filename": "178w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/178w.png",
+    "ground_truth": "no flood",
+    "scene": "178"
+  },
+  {
+    "filename": "179l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/179l.png",
+    "ground_truth": "big flood",
+    "scene": "179"
+  },
+  {
+    "filename": "179s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/179s.png",
+    "ground_truth": "small flood",
+    "scene": "179"
+  },
+  {
+    "filename": "179w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/179w.png",
+    "ground_truth": "no flood",
+    "scene": "179"
+  },
+  {
+    "filename": "180l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/180l.png",
+    "ground_truth": "big flood",
+    "scene": "180"
+  },
+  {
+    "filename": "180s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/180s.png",
+    "ground_truth": "small flood",
+    "scene": "180"
+  },
+  {
+    "filename": "180w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/180w.png",
+    "ground_truth": "no flood",
+    "scene": "180"
+  },
+  {
+    "filename": "181l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/181l.png",
+    "ground_truth": "big flood",
+    "scene": "181"
+  },
+  {
+    "filename": "181s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/181s.png",
+    "ground_truth": "small flood",
+    "scene": "181"
+  },
+  {
+    "filename": "181w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/181w.png",
+    "ground_truth": "no flood",
+    "scene": "181"
+  },
+  {
+    "filename": "182l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/182l.png",
+    "ground_truth": "big flood",
+    "scene": "182"
+  },
+  {
+    "filename": "182s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/182s.png",
+    "ground_truth": "small flood",
+    "scene": "182"
+  },
+  {
+    "filename": "182w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/182w.png",
+    "ground_truth": "no flood",
+    "scene": "182"
+  },
+  {
+    "filename": "183l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/183l.png",
+    "ground_truth": "big flood",
+    "scene": "183"
+  },
+  {
+    "filename": "183s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/183s.png",
+    "ground_truth": "small flood",
+    "scene": "183"
+  },
+  {
+    "filename": "183w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/183w.png",
+    "ground_truth": "no flood",
+    "scene": "183"
+  },
+  {
+    "filename": "184l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/184l.png",
+    "ground_truth": "big flood",
+    "scene": "184"
+  },
+  {
+    "filename": "184s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/184s.png",
+    "ground_truth": "small flood",
+    "scene": "184"
+  },
+  {
+    "filename": "184w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/184w.png",
+    "ground_truth": "no flood",
+    "scene": "184"
+  },
+  {
+    "filename": "185l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/185l.png",
+    "ground_truth": "big flood",
+    "scene": "185"
+  },
+  {
+    "filename": "185s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/185s.png",
+    "ground_truth": "small flood",
+    "scene": "185"
+  },
+  {
+    "filename": "185w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/185w.png",
+    "ground_truth": "no flood",
+    "scene": "185"
+  },
+  {
+    "filename": "186l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/186l.png",
+    "ground_truth": "big flood",
+    "scene": "186"
+  },
+  {
+    "filename": "186s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/186s.png",
+    "ground_truth": "small flood",
+    "scene": "186"
+  },
+  {
+    "filename": "186w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/186w.png",
+    "ground_truth": "no flood",
+    "scene": "186"
+  },
+  {
+    "filename": "187l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/187l.png",
+    "ground_truth": "big flood",
+    "scene": "187"
+  },
+  {
+    "filename": "187s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/187s.png",
+    "ground_truth": "small flood",
+    "scene": "187"
+  },
+  {
+    "filename": "187w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/187w.png",
+    "ground_truth": "no flood",
+    "scene": "187"
+  },
+  {
+    "filename": "188l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/188l.png",
+    "ground_truth": "big flood",
+    "scene": "188"
+  },
+  {
+    "filename": "188s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/188s.png",
+    "ground_truth": "small flood",
+    "scene": "188"
+  },
+  {
+    "filename": "188w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/188w.png",
+    "ground_truth": "no flood",
+    "scene": "188"
+  },
+  {
+    "filename": "189l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/189l.png",
+    "ground_truth": "big flood",
+    "scene": "189"
+  },
+  {
+    "filename": "189s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/189s.png",
+    "ground_truth": "small flood",
+    "scene": "189"
+  },
+  {
+    "filename": "189w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/189w.png",
+    "ground_truth": "no flood",
+    "scene": "189"
+  },
+  {
+    "filename": "190l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/190l.png",
+    "ground_truth": "big flood",
+    "scene": "190"
+  },
+  {
+    "filename": "190s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/190s.png",
+    "ground_truth": "small flood",
+    "scene": "190"
+  },
+  {
+    "filename": "190w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/190w.png",
+    "ground_truth": "no flood",
+    "scene": "190"
+  },
+  {
+    "filename": "191l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/191l.png",
+    "ground_truth": "big flood",
+    "scene": "191"
+  },
+  {
+    "filename": "191s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/191s.png",
+    "ground_truth": "small flood",
+    "scene": "191"
+  },
+  {
+    "filename": "191w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/191w.png",
+    "ground_truth": "no flood",
+    "scene": "191"
+  },
+  {
+    "filename": "192l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/192l.png",
+    "ground_truth": "big flood",
+    "scene": "192"
+  },
+  {
+    "filename": "192s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/192s.png",
+    "ground_truth": "small flood",
+    "scene": "192"
+  },
+  {
+    "filename": "192w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/192w.png",
+    "ground_truth": "no flood",
+    "scene": "192"
+  },
+  {
+    "filename": "193l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/193l.png",
+    "ground_truth": "big flood",
+    "scene": "193"
+  },
+  {
+    "filename": "193s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/193s.png",
+    "ground_truth": "small flood",
+    "scene": "193"
+  },
+  {
+    "filename": "193w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/193w.png",
+    "ground_truth": "no flood",
+    "scene": "193"
+  },
+  {
+    "filename": "194l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/194l.png",
+    "ground_truth": "big flood",
+    "scene": "194"
+  },
+  {
+    "filename": "194s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/194s.png",
+    "ground_truth": "small flood",
+    "scene": "194"
+  },
+  {
+    "filename": "194w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/194w.png",
+    "ground_truth": "no flood",
+    "scene": "194"
+  },
+  {
+    "filename": "195l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/195l.png",
+    "ground_truth": "big flood",
+    "scene": "195"
+  },
+  {
+    "filename": "195s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/195s.png",
+    "ground_truth": "small flood",
+    "scene": "195"
+  },
+  {
+    "filename": "195w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/195w.png",
+    "ground_truth": "no flood",
+    "scene": "195"
+  },
+  {
+    "filename": "196l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/196l.png",
+    "ground_truth": "big flood",
+    "scene": "196"
+  },
+  {
+    "filename": "196s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/196s.png",
+    "ground_truth": "small flood",
+    "scene": "196"
+  },
+  {
+    "filename": "196w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/196w.png",
+    "ground_truth": "no flood",
+    "scene": "196"
+  },
+  {
+    "filename": "197l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/197l.png",
+    "ground_truth": "big flood",
+    "scene": "197"
+  },
+  {
+    "filename": "197s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/197s.png",
+    "ground_truth": "small flood",
+    "scene": "197"
+  },
+  {
+    "filename": "197w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/197w.png",
+    "ground_truth": "no flood",
+    "scene": "197"
+  },
+  {
+    "filename": "198l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/198l.png",
+    "ground_truth": "big flood",
+    "scene": "198"
+  },
+  {
+    "filename": "198s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/198s.png",
+    "ground_truth": "small flood",
+    "scene": "198"
+  },
+  {
+    "filename": "198w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/198w.png",
+    "ground_truth": "no flood",
+    "scene": "198"
+  },
+  {
+    "filename": "199l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/199l.png",
+    "ground_truth": "big flood",
+    "scene": "199"
+  },
+  {
+    "filename": "199s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/199s.png",
+    "ground_truth": "small flood",
+    "scene": "199"
+  },
+  {
+    "filename": "199w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/199w.png",
+    "ground_truth": "no flood",
+    "scene": "199"
+  },
+  {
+    "filename": "200l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/200l.png",
+    "ground_truth": "big flood",
+    "scene": "200"
+  },
+  {
+    "filename": "200s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/200s.png",
+    "ground_truth": "small flood",
+    "scene": "200"
+  },
+  {
+    "filename": "200w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/200w.png",
+    "ground_truth": "no flood",
+    "scene": "200"
+  },
+  {
+    "filename": "201l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/201l.png",
+    "ground_truth": "big flood",
+    "scene": "201"
+  },
+  {
+    "filename": "201s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/201s.png",
+    "ground_truth": "small flood",
+    "scene": "201"
+  },
+  {
+    "filename": "201w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/201w.png",
+    "ground_truth": "no flood",
+    "scene": "201"
+  },
+  {
+    "filename": "202l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/202l.png",
+    "ground_truth": "big flood",
+    "scene": "202"
+  },
+  {
+    "filename": "202s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/202s.png",
+    "ground_truth": "small flood",
+    "scene": "202"
+  },
+  {
+    "filename": "202w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/202w.png",
+    "ground_truth": "no flood",
+    "scene": "202"
+  },
+  {
+    "filename": "203l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/203l.png",
+    "ground_truth": "big flood",
+    "scene": "203"
+  },
+  {
+    "filename": "203s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/203s.png",
+    "ground_truth": "small flood",
+    "scene": "203"
+  },
+  {
+    "filename": "203w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/203w.png",
+    "ground_truth": "no flood",
+    "scene": "203"
+  },
+  {
+    "filename": "204l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/204l.png",
+    "ground_truth": "big flood",
+    "scene": "204"
+  },
+  {
+    "filename": "204s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/204s.png",
+    "ground_truth": "small flood",
+    "scene": "204"
+  },
+  {
+    "filename": "204w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/204w.png",
+    "ground_truth": "no flood",
+    "scene": "204"
+  },
+  {
+    "filename": "205l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/205l.png",
+    "ground_truth": "big flood",
+    "scene": "205"
+  },
+  {
+    "filename": "205s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/205s.png",
+    "ground_truth": "small flood",
+    "scene": "205"
+  },
+  {
+    "filename": "205w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/205w.png",
+    "ground_truth": "no flood",
+    "scene": "205"
+  },
+  {
+    "filename": "206l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/206l.png",
+    "ground_truth": "big flood",
+    "scene": "206"
+  },
+  {
+    "filename": "206s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/206s.png",
+    "ground_truth": "small flood",
+    "scene": "206"
+  },
+  {
+    "filename": "206w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/206w.png",
+    "ground_truth": "no flood",
+    "scene": "206"
+  },
+  {
+    "filename": "207l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/207l.png",
+    "ground_truth": "big flood",
+    "scene": "207"
+  },
+  {
+    "filename": "207s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/207s.png",
+    "ground_truth": "small flood",
+    "scene": "207"
+  },
+  {
+    "filename": "207w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/207w.png",
+    "ground_truth": "no flood",
+    "scene": "207"
+  },
+  {
+    "filename": "208l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/208l.png",
+    "ground_truth": "big flood",
+    "scene": "208"
+  },
+  {
+    "filename": "208s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/208s.png",
+    "ground_truth": "small flood",
+    "scene": "208"
+  },
+  {
+    "filename": "208w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/208w.png",
+    "ground_truth": "no flood",
+    "scene": "208"
+  },
+  {
+    "filename": "209l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/209l.png",
+    "ground_truth": "big flood",
+    "scene": "209"
+  },
+  {
+    "filename": "209s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/209s.png",
+    "ground_truth": "small flood",
+    "scene": "209"
+  },
+  {
+    "filename": "209w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/209w.png",
+    "ground_truth": "no flood",
+    "scene": "209"
+  },
+  {
+    "filename": "210l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/210l.png",
+    "ground_truth": "big flood",
+    "scene": "210"
+  },
+  {
+    "filename": "210s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/210s.png",
+    "ground_truth": "small flood",
+    "scene": "210"
+  },
+  {
+    "filename": "210w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/210w.png",
+    "ground_truth": "no flood",
+    "scene": "210"
+  },
+  {
+    "filename": "211l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/211l.png",
+    "ground_truth": "big flood",
+    "scene": "211"
+  },
+  {
+    "filename": "211s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/211s.png",
+    "ground_truth": "small flood",
+    "scene": "211"
+  },
+  {
+    "filename": "211w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/211w.png",
+    "ground_truth": "no flood",
+    "scene": "211"
+  },
+  {
+    "filename": "212l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/212l.png",
+    "ground_truth": "big flood",
+    "scene": "212"
+  },
+  {
+    "filename": "212s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/212s.png",
+    "ground_truth": "small flood",
+    "scene": "212"
+  },
+  {
+    "filename": "212w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/212w.png",
+    "ground_truth": "no flood",
+    "scene": "212"
+  },
+  {
+    "filename": "213l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/213l.png",
+    "ground_truth": "big flood",
+    "scene": "213"
+  },
+  {
+    "filename": "213s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/213s.png",
+    "ground_truth": "small flood",
+    "scene": "213"
+  },
+  {
+    "filename": "213w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/213w.png",
+    "ground_truth": "no flood",
+    "scene": "213"
+  },
+  {
+    "filename": "214l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/214l.png",
+    "ground_truth": "big flood",
+    "scene": "214"
+  },
+  {
+    "filename": "214s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/214s.png",
+    "ground_truth": "small flood",
+    "scene": "214"
+  },
+  {
+    "filename": "214w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/214w.png",
+    "ground_truth": "no flood",
+    "scene": "214"
+  },
+  {
+    "filename": "215l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/215l.png",
+    "ground_truth": "big flood",
+    "scene": "215"
+  },
+  {
+    "filename": "215s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/215s.png",
+    "ground_truth": "small flood",
+    "scene": "215"
+  },
+  {
+    "filename": "215w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/215w.png",
+    "ground_truth": "no flood",
+    "scene": "215"
+  },
+  {
+    "filename": "216l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/216l.png",
+    "ground_truth": "big flood",
+    "scene": "216"
+  },
+  {
+    "filename": "216s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/216s.png",
+    "ground_truth": "small flood",
+    "scene": "216"
+  },
+  {
+    "filename": "216w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/216w.png",
+    "ground_truth": "no flood",
+    "scene": "216"
+  },
+  {
+    "filename": "217l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/217l.png",
+    "ground_truth": "big flood",
+    "scene": "217"
+  },
+  {
+    "filename": "217s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/217s.png",
+    "ground_truth": "small flood",
+    "scene": "217"
+  },
+  {
+    "filename": "217w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/217w.png",
+    "ground_truth": "no flood",
+    "scene": "217"
+  },
+  {
+    "filename": "218l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/218l.png",
+    "ground_truth": "big flood",
+    "scene": "218"
+  },
+  {
+    "filename": "218s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/218s.png",
+    "ground_truth": "small flood",
+    "scene": "218"
+  },
+  {
+    "filename": "218w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/218w.png",
+    "ground_truth": "no flood",
+    "scene": "218"
+  },
+  {
+    "filename": "219l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/219l.png",
+    "ground_truth": "big flood",
+    "scene": "219"
+  },
+  {
+    "filename": "219s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/219s.png",
+    "ground_truth": "small flood",
+    "scene": "219"
+  },
+  {
+    "filename": "219w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/219w.png",
+    "ground_truth": "no flood",
+    "scene": "219"
+  },
+  {
+    "filename": "220l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/220l.png",
+    "ground_truth": "big flood",
+    "scene": "220"
+  },
+  {
+    "filename": "220s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/220s.png",
+    "ground_truth": "small flood",
+    "scene": "220"
+  },
+  {
+    "filename": "220w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/220w.png",
+    "ground_truth": "no flood",
+    "scene": "220"
+  },
+  {
+    "filename": "221l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/221l.png",
+    "ground_truth": "big flood",
+    "scene": "221"
+  },
+  {
+    "filename": "221s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/221s.png",
+    "ground_truth": "small flood",
+    "scene": "221"
+  },
+  {
+    "filename": "221w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/221w.png",
+    "ground_truth": "no flood",
+    "scene": "221"
+  },
+  {
+    "filename": "222l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/222l.png",
+    "ground_truth": "big flood",
+    "scene": "222"
+  },
+  {
+    "filename": "222s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/222s.png",
+    "ground_truth": "small flood",
+    "scene": "222"
+  },
+  {
+    "filename": "222w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/222w.png",
+    "ground_truth": "no flood",
+    "scene": "222"
+  },
+  {
+    "filename": "223l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/223l.png",
+    "ground_truth": "big flood",
+    "scene": "223"
+  },
+  {
+    "filename": "223s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/223s.png",
+    "ground_truth": "small flood",
+    "scene": "223"
+  },
+  {
+    "filename": "223w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/223w.png",
+    "ground_truth": "no flood",
+    "scene": "223"
+  },
+  {
+    "filename": "224l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/224l.png",
+    "ground_truth": "big flood",
+    "scene": "224"
+  },
+  {
+    "filename": "224s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/224s.png",
+    "ground_truth": "small flood",
+    "scene": "224"
+  },
+  {
+    "filename": "224w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/224w.png",
+    "ground_truth": "no flood",
+    "scene": "224"
+  },
+  {
+    "filename": "225l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/225l.png",
+    "ground_truth": "big flood",
+    "scene": "225"
+  },
+  {
+    "filename": "225s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/225s.png",
+    "ground_truth": "small flood",
+    "scene": "225"
+  },
+  {
+    "filename": "225w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/225w.png",
+    "ground_truth": "no flood",
+    "scene": "225"
+  },
+  {
+    "filename": "226l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/226l.png",
+    "ground_truth": "big flood",
+    "scene": "226"
+  },
+  {
+    "filename": "226s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/226s.png",
+    "ground_truth": "small flood",
+    "scene": "226"
+  },
+  {
+    "filename": "226w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/226w.png",
+    "ground_truth": "no flood",
+    "scene": "226"
+  },
+  {
+    "filename": "227l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/227l.png",
+    "ground_truth": "big flood",
+    "scene": "227"
+  },
+  {
+    "filename": "227s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/227s.png",
+    "ground_truth": "small flood",
+    "scene": "227"
+  },
+  {
+    "filename": "227w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/227w.png",
+    "ground_truth": "no flood",
+    "scene": "227"
+  },
+  {
+    "filename": "228l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/228l.png",
+    "ground_truth": "big flood",
+    "scene": "228"
+  },
+  {
+    "filename": "228s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/228s.png",
+    "ground_truth": "small flood",
+    "scene": "228"
+  },
+  {
+    "filename": "228w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/228w.png",
+    "ground_truth": "no flood",
+    "scene": "228"
+  },
+  {
+    "filename": "229l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/229l.png",
+    "ground_truth": "big flood",
+    "scene": "229"
+  },
+  {
+    "filename": "229s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/229s.png",
+    "ground_truth": "small flood",
+    "scene": "229"
+  },
+  {
+    "filename": "229w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/229w.png",
+    "ground_truth": "no flood",
+    "scene": "229"
+  },
+  {
+    "filename": "230l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/230l.png",
+    "ground_truth": "big flood",
+    "scene": "230"
+  },
+  {
+    "filename": "230s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/230s.png",
+    "ground_truth": "small flood",
+    "scene": "230"
+  },
+  {
+    "filename": "230w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/230w.png",
+    "ground_truth": "no flood",
+    "scene": "230"
+  },
+  {
+    "filename": "231l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/231l.png",
+    "ground_truth": "big flood",
+    "scene": "231"
+  },
+  {
+    "filename": "231s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/231s.png",
+    "ground_truth": "small flood",
+    "scene": "231"
+  },
+  {
+    "filename": "231w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/231w.png",
+    "ground_truth": "no flood",
+    "scene": "231"
+  },
+  {
+    "filename": "232l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/232l.png",
+    "ground_truth": "big flood",
+    "scene": "232"
+  },
+  {
+    "filename": "232s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/232s.png",
+    "ground_truth": "small flood",
+    "scene": "232"
+  },
+  {
+    "filename": "232w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/232w.png",
+    "ground_truth": "no flood",
+    "scene": "232"
+  },
+  {
+    "filename": "233l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/233l.png",
+    "ground_truth": "big flood",
+    "scene": "233"
+  },
+  {
+    "filename": "233s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/233s.png",
+    "ground_truth": "small flood",
+    "scene": "233"
+  },
+  {
+    "filename": "233w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/233w.png",
+    "ground_truth": "no flood",
+    "scene": "233"
+  },
+  {
+    "filename": "234l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/234l.png",
+    "ground_truth": "big flood",
+    "scene": "234"
+  },
+  {
+    "filename": "234s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/234s.png",
+    "ground_truth": "small flood",
+    "scene": "234"
+  },
+  {
+    "filename": "234w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/234w.png",
+    "ground_truth": "no flood",
+    "scene": "234"
+  },
+  {
+    "filename": "235l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/235l.png",
+    "ground_truth": "big flood",
+    "scene": "235"
+  },
+  {
+    "filename": "235s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/235s.png",
+    "ground_truth": "small flood",
+    "scene": "235"
+  },
+  {
+    "filename": "235w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/235w.png",
+    "ground_truth": "no flood",
+    "scene": "235"
+  },
+  {
+    "filename": "236l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/236l.png",
+    "ground_truth": "big flood",
+    "scene": "236"
+  },
+  {
+    "filename": "236s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/236s.png",
+    "ground_truth": "small flood",
+    "scene": "236"
+  },
+  {
+    "filename": "236w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/236w.png",
+    "ground_truth": "no flood",
+    "scene": "236"
+  },
+  {
+    "filename": "237l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/237l.png",
+    "ground_truth": "big flood",
+    "scene": "237"
+  },
+  {
+    "filename": "237s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/237s.png",
+    "ground_truth": "small flood",
+    "scene": "237"
+  },
+  {
+    "filename": "237w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/237w.png",
+    "ground_truth": "no flood",
+    "scene": "237"
+  },
+  {
+    "filename": "238l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/238l.png",
+    "ground_truth": "big flood",
+    "scene": "238"
+  },
+  {
+    "filename": "238s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/238s.png",
+    "ground_truth": "small flood",
+    "scene": "238"
+  },
+  {
+    "filename": "238w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/238w.png",
+    "ground_truth": "no flood",
+    "scene": "238"
+  },
+  {
+    "filename": "239l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/239l.png",
+    "ground_truth": "big flood",
+    "scene": "239"
+  },
+  {
+    "filename": "239s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/239s.png",
+    "ground_truth": "small flood",
+    "scene": "239"
+  },
+  {
+    "filename": "239w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/239w.png",
+    "ground_truth": "no flood",
+    "scene": "239"
+  },
+  {
+    "filename": "240l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/240l.png",
+    "ground_truth": "big flood",
+    "scene": "240"
+  },
+  {
+    "filename": "240s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/240s.png",
+    "ground_truth": "small flood",
+    "scene": "240"
+  },
+  {
+    "filename": "240w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/240w.png",
+    "ground_truth": "no flood",
+    "scene": "240"
+  },
+  {
+    "filename": "241l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/241l.png",
+    "ground_truth": "big flood",
+    "scene": "241"
+  },
+  {
+    "filename": "241s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/241s.png",
+    "ground_truth": "small flood",
+    "scene": "241"
+  },
+  {
+    "filename": "241w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/241w.png",
+    "ground_truth": "no flood",
+    "scene": "241"
+  },
+  {
+    "filename": "242l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/242l.png",
+    "ground_truth": "big flood",
+    "scene": "242"
+  },
+  {
+    "filename": "242s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/242s.png",
+    "ground_truth": "small flood",
+    "scene": "242"
+  },
+  {
+    "filename": "242w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/242w.png",
+    "ground_truth": "no flood",
+    "scene": "242"
+  },
+  {
+    "filename": "243l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/243l.png",
+    "ground_truth": "big flood",
+    "scene": "243"
+  },
+  {
+    "filename": "243s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/243s.png",
+    "ground_truth": "small flood",
+    "scene": "243"
+  },
+  {
+    "filename": "243w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/243w.png",
+    "ground_truth": "no flood",
+    "scene": "243"
+  },
+  {
+    "filename": "244l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/244l.png",
+    "ground_truth": "big flood",
+    "scene": "244"
+  },
+  {
+    "filename": "244s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/244s.png",
+    "ground_truth": "small flood",
+    "scene": "244"
+  },
+  {
+    "filename": "244w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/244w.png",
+    "ground_truth": "no flood",
+    "scene": "244"
+  },
+  {
+    "filename": "245l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/245l.png",
+    "ground_truth": "big flood",
+    "scene": "245"
+  },
+  {
+    "filename": "245s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/245s.png",
+    "ground_truth": "small flood",
+    "scene": "245"
+  },
+  {
+    "filename": "245w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/245w.png",
+    "ground_truth": "no flood",
+    "scene": "245"
+  },
+  {
+    "filename": "246l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/246l.png",
+    "ground_truth": "big flood",
+    "scene": "246"
+  },
+  {
+    "filename": "246s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/246s.png",
+    "ground_truth": "small flood",
+    "scene": "246"
+  },
+  {
+    "filename": "246w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/246w.png",
+    "ground_truth": "no flood",
+    "scene": "246"
+  },
+  {
+    "filename": "247l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/247l.png",
+    "ground_truth": "big flood",
+    "scene": "247"
+  },
+  {
+    "filename": "247s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/247s.png",
+    "ground_truth": "small flood",
+    "scene": "247"
+  },
+  {
+    "filename": "247w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/247w.png",
+    "ground_truth": "no flood",
+    "scene": "247"
+  },
+  {
+    "filename": "248l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/248l.png",
+    "ground_truth": "big flood",
+    "scene": "248"
+  },
+  {
+    "filename": "248s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/248s.png",
+    "ground_truth": "small flood",
+    "scene": "248"
+  },
+  {
+    "filename": "248w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/248w.png",
+    "ground_truth": "no flood",
+    "scene": "248"
+  },
+  {
+    "filename": "249l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/249l.png",
+    "ground_truth": "big flood",
+    "scene": "249"
+  },
+  {
+    "filename": "249s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/249s.png",
+    "ground_truth": "small flood",
+    "scene": "249"
+  },
+  {
+    "filename": "249w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/249w.png",
+    "ground_truth": "no flood",
+    "scene": "249"
+  },
+  {
+    "filename": "250l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/250l.png",
+    "ground_truth": "big flood",
+    "scene": "250"
+  },
+  {
+    "filename": "250s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/250s.png",
+    "ground_truth": "small flood",
+    "scene": "250"
+  },
+  {
+    "filename": "250w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/250w.png",
+    "ground_truth": "no flood",
+    "scene": "250"
+  },
+  {
+    "filename": "251l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/251l.png",
+    "ground_truth": "big flood",
+    "scene": "251"
+  },
+  {
+    "filename": "251s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/251s.png",
+    "ground_truth": "small flood",
+    "scene": "251"
+  },
+  {
+    "filename": "251w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/251w.png",
+    "ground_truth": "no flood",
+    "scene": "251"
+  },
+  {
+    "filename": "252l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/252l.png",
+    "ground_truth": "big flood",
+    "scene": "252"
+  },
+  {
+    "filename": "252s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/252s.png",
+    "ground_truth": "small flood",
+    "scene": "252"
+  },
+  {
+    "filename": "252w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/252w.png",
+    "ground_truth": "no flood",
+    "scene": "252"
+  },
+  {
+    "filename": "253l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/253l.png",
+    "ground_truth": "big flood",
+    "scene": "253"
+  },
+  {
+    "filename": "253s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/253s.png",
+    "ground_truth": "small flood",
+    "scene": "253"
+  },
+  {
+    "filename": "253w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/253w.png",
+    "ground_truth": "no flood",
+    "scene": "253"
+  },
+  {
+    "filename": "254l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/254l.png",
+    "ground_truth": "big flood",
+    "scene": "254"
+  },
+  {
+    "filename": "254s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/254s.png",
+    "ground_truth": "small flood",
+    "scene": "254"
+  },
+  {
+    "filename": "254w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/254w.png",
+    "ground_truth": "no flood",
+    "scene": "254"
+  },
+  {
+    "filename": "255l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/255l.png",
+    "ground_truth": "big flood",
+    "scene": "255"
+  },
+  {
+    "filename": "255s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/255s.png",
+    "ground_truth": "small flood",
+    "scene": "255"
+  },
+  {
+    "filename": "255w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/255w.png",
+    "ground_truth": "no flood",
+    "scene": "255"
+  },
+  {
+    "filename": "256l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/256l.png",
+    "ground_truth": "big flood",
+    "scene": "256"
+  },
+  {
+    "filename": "256s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/256s.png",
+    "ground_truth": "small flood",
+    "scene": "256"
+  },
+  {
+    "filename": "256w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/256w.png",
+    "ground_truth": "no flood",
+    "scene": "256"
+  },
+  {
+    "filename": "257l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/257l.png",
+    "ground_truth": "big flood",
+    "scene": "257"
+  },
+  {
+    "filename": "257s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/257s.png",
+    "ground_truth": "small flood",
+    "scene": "257"
+  },
+  {
+    "filename": "257w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/257w.png",
+    "ground_truth": "no flood",
+    "scene": "257"
+  },
+  {
+    "filename": "258l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/258l.png",
+    "ground_truth": "big flood",
+    "scene": "258"
+  },
+  {
+    "filename": "258s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/258s.png",
+    "ground_truth": "small flood",
+    "scene": "258"
+  },
+  {
+    "filename": "258w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/258w.png",
+    "ground_truth": "no flood",
+    "scene": "258"
+  },
+  {
+    "filename": "259l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/259l.png",
+    "ground_truth": "big flood",
+    "scene": "259"
+  },
+  {
+    "filename": "259s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/259s.png",
+    "ground_truth": "small flood",
+    "scene": "259"
+  },
+  {
+    "filename": "259w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/259w.png",
+    "ground_truth": "no flood",
+    "scene": "259"
+  },
+  {
+    "filename": "260l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/260l.png",
+    "ground_truth": "big flood",
+    "scene": "260"
+  },
+  {
+    "filename": "260s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/260s.png",
+    "ground_truth": "small flood",
+    "scene": "260"
+  },
+  {
+    "filename": "260w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/260w.png",
+    "ground_truth": "no flood",
+    "scene": "260"
+  },
+  {
+    "filename": "261l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/261l.png",
+    "ground_truth": "big flood",
+    "scene": "261"
+  },
+  {
+    "filename": "261s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/261s.png",
+    "ground_truth": "small flood",
+    "scene": "261"
+  },
+  {
+    "filename": "261w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/261w.png",
+    "ground_truth": "no flood",
+    "scene": "261"
+  },
+  {
+    "filename": "262l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/262l.png",
+    "ground_truth": "big flood",
+    "scene": "262"
+  },
+  {
+    "filename": "262s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/262s.png",
+    "ground_truth": "small flood",
+    "scene": "262"
+  },
+  {
+    "filename": "262w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/262w.png",
+    "ground_truth": "no flood",
+    "scene": "262"
+  },
+  {
+    "filename": "263l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/263l.png",
+    "ground_truth": "big flood",
+    "scene": "263"
+  },
+  {
+    "filename": "263s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/263s.png",
+    "ground_truth": "small flood",
+    "scene": "263"
+  },
+  {
+    "filename": "263w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/263w.png",
+    "ground_truth": "no flood",
+    "scene": "263"
+  },
+  {
+    "filename": "264l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/264l.png",
+    "ground_truth": "big flood",
+    "scene": "264"
+  },
+  {
+    "filename": "264s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/264s.png",
+    "ground_truth": "small flood",
+    "scene": "264"
+  },
+  {
+    "filename": "264w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/264w.png",
+    "ground_truth": "no flood",
+    "scene": "264"
+  },
+  {
+    "filename": "265l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/265l.png",
+    "ground_truth": "big flood",
+    "scene": "265"
+  },
+  {
+    "filename": "265s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/265s.png",
+    "ground_truth": "small flood",
+    "scene": "265"
+  },
+  {
+    "filename": "265w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/265w.png",
+    "ground_truth": "no flood",
+    "scene": "265"
+  },
+  {
+    "filename": "266l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/266l.png",
+    "ground_truth": "big flood",
+    "scene": "266"
+  },
+  {
+    "filename": "266s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/266s.png",
+    "ground_truth": "small flood",
+    "scene": "266"
+  },
+  {
+    "filename": "266w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/266w.png",
+    "ground_truth": "no flood",
+    "scene": "266"
+  },
+  {
+    "filename": "267l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/267l.png",
+    "ground_truth": "big flood",
+    "scene": "267"
+  },
+  {
+    "filename": "267s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/267s.png",
+    "ground_truth": "small flood",
+    "scene": "267"
+  },
+  {
+    "filename": "267w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/267w.png",
+    "ground_truth": "no flood",
+    "scene": "267"
+  },
+  {
+    "filename": "268l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/268l.png",
+    "ground_truth": "big flood",
+    "scene": "268"
+  },
+  {
+    "filename": "268s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/268s.png",
+    "ground_truth": "small flood",
+    "scene": "268"
+  },
+  {
+    "filename": "268w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/268w.png",
+    "ground_truth": "no flood",
+    "scene": "268"
+  },
+  {
+    "filename": "269l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/269l.png",
+    "ground_truth": "big flood",
+    "scene": "269"
+  },
+  {
+    "filename": "269s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/269s.png",
+    "ground_truth": "small flood",
+    "scene": "269"
+  },
+  {
+    "filename": "269w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/269w.png",
+    "ground_truth": "no flood",
+    "scene": "269"
+  },
+  {
+    "filename": "270l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/270l.png",
+    "ground_truth": "big flood",
+    "scene": "270"
+  },
+  {
+    "filename": "270s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/270s.png",
+    "ground_truth": "small flood",
+    "scene": "270"
+  },
+  {
+    "filename": "270w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/270w.png",
+    "ground_truth": "no flood",
+    "scene": "270"
+  },
+  {
+    "filename": "271l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/271l.png",
+    "ground_truth": "big flood",
+    "scene": "271"
+  },
+  {
+    "filename": "271s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/271s.png",
+    "ground_truth": "small flood",
+    "scene": "271"
+  },
+  {
+    "filename": "271w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/271w.png",
+    "ground_truth": "no flood",
+    "scene": "271"
+  },
+  {
+    "filename": "272l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/272l.png",
+    "ground_truth": "big flood",
+    "scene": "272"
+  },
+  {
+    "filename": "272s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/272s.png",
+    "ground_truth": "small flood",
+    "scene": "272"
+  },
+  {
+    "filename": "272w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/272w.png",
+    "ground_truth": "no flood",
+    "scene": "272"
+  },
+  {
+    "filename": "273l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/273l.png",
+    "ground_truth": "big flood",
+    "scene": "273"
+  },
+  {
+    "filename": "273s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/273s.png",
+    "ground_truth": "small flood",
+    "scene": "273"
+  },
+  {
+    "filename": "273w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/273w.png",
+    "ground_truth": "no flood",
+    "scene": "273"
+  },
+  {
+    "filename": "274l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/274l.png",
+    "ground_truth": "big flood",
+    "scene": "274"
+  },
+  {
+    "filename": "274s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/274s.png",
+    "ground_truth": "small flood",
+    "scene": "274"
+  },
+  {
+    "filename": "274w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/274w.png",
+    "ground_truth": "no flood",
+    "scene": "274"
+  },
+  {
+    "filename": "275l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/275l.png",
+    "ground_truth": "big flood",
+    "scene": "275"
+  },
+  {
+    "filename": "275s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/275s.png",
+    "ground_truth": "small flood",
+    "scene": "275"
+  },
+  {
+    "filename": "275w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/275w.png",
+    "ground_truth": "no flood",
+    "scene": "275"
+  },
+  {
+    "filename": "276l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/276l.png",
+    "ground_truth": "big flood",
+    "scene": "276"
+  },
+  {
+    "filename": "276s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/276s.png",
+    "ground_truth": "small flood",
+    "scene": "276"
+  },
+  {
+    "filename": "276w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/276w.png",
+    "ground_truth": "no flood",
+    "scene": "276"
+  },
+  {
+    "filename": "277l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/277l.png",
+    "ground_truth": "big flood",
+    "scene": "277"
+  },
+  {
+    "filename": "277s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/277s.png",
+    "ground_truth": "small flood",
+    "scene": "277"
+  },
+  {
+    "filename": "277w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/277w.png",
+    "ground_truth": "no flood",
+    "scene": "277"
+  },
+  {
+    "filename": "278l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/278l.png",
+    "ground_truth": "big flood",
+    "scene": "278"
+  },
+  {
+    "filename": "278s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/278s.png",
+    "ground_truth": "small flood",
+    "scene": "278"
+  },
+  {
+    "filename": "278w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/278w.png",
+    "ground_truth": "no flood",
+    "scene": "278"
+  },
+  {
+    "filename": "279l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/279l.png",
+    "ground_truth": "big flood",
+    "scene": "279"
+  },
+  {
+    "filename": "279s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/279s.png",
+    "ground_truth": "small flood",
+    "scene": "279"
+  },
+  {
+    "filename": "279w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/279w.png",
+    "ground_truth": "no flood",
+    "scene": "279"
+  },
+  {
+    "filename": "280l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/280l.png",
+    "ground_truth": "big flood",
+    "scene": "280"
+  },
+  {
+    "filename": "280s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/280s.png",
+    "ground_truth": "small flood",
+    "scene": "280"
+  },
+  {
+    "filename": "280w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/280w.png",
+    "ground_truth": "no flood",
+    "scene": "280"
+  },
+  {
+    "filename": "281l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/281l.png",
+    "ground_truth": "big flood",
+    "scene": "281"
+  },
+  {
+    "filename": "281s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/281s.png",
+    "ground_truth": "small flood",
+    "scene": "281"
+  },
+  {
+    "filename": "281w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/281w.png",
+    "ground_truth": "no flood",
+    "scene": "281"
+  },
+  {
+    "filename": "282l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/282l.png",
+    "ground_truth": "big flood",
+    "scene": "282"
+  },
+  {
+    "filename": "282s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/282s.png",
+    "ground_truth": "small flood",
+    "scene": "282"
+  },
+  {
+    "filename": "282w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/282w.png",
+    "ground_truth": "no flood",
+    "scene": "282"
+  },
+  {
+    "filename": "283l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/283l.png",
+    "ground_truth": "big flood",
+    "scene": "283"
+  },
+  {
+    "filename": "283s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/283s.png",
+    "ground_truth": "small flood",
+    "scene": "283"
+  },
+  {
+    "filename": "283w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/283w.png",
+    "ground_truth": "no flood",
+    "scene": "283"
+  },
+  {
+    "filename": "284l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/284l.png",
+    "ground_truth": "big flood",
+    "scene": "284"
+  },
+  {
+    "filename": "284s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/284s.png",
+    "ground_truth": "small flood",
+    "scene": "284"
+  },
+  {
+    "filename": "284w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/284w.png",
+    "ground_truth": "no flood",
+    "scene": "284"
+  },
+  {
+    "filename": "285l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/285l.png",
+    "ground_truth": "big flood",
+    "scene": "285"
+  },
+  {
+    "filename": "285s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/285s.png",
+    "ground_truth": "small flood",
+    "scene": "285"
+  },
+  {
+    "filename": "285w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/285w.png",
+    "ground_truth": "no flood",
+    "scene": "285"
+  },
+  {
+    "filename": "286l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/286l.png",
+    "ground_truth": "big flood",
+    "scene": "286"
+  },
+  {
+    "filename": "286s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/286s.png",
+    "ground_truth": "small flood",
+    "scene": "286"
+  },
+  {
+    "filename": "286w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/286w.png",
+    "ground_truth": "no flood",
+    "scene": "286"
+  },
+  {
+    "filename": "287l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/287l.png",
+    "ground_truth": "big flood",
+    "scene": "287"
+  },
+  {
+    "filename": "287s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/287s.png",
+    "ground_truth": "small flood",
+    "scene": "287"
+  },
+  {
+    "filename": "287w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/287w.png",
+    "ground_truth": "no flood",
+    "scene": "287"
+  },
+  {
+    "filename": "288l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/288l.png",
+    "ground_truth": "big flood",
+    "scene": "288"
+  },
+  {
+    "filename": "288s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/288s.png",
+    "ground_truth": "small flood",
+    "scene": "288"
+  },
+  {
+    "filename": "288w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/288w.png",
+    "ground_truth": "no flood",
+    "scene": "288"
+  },
+  {
+    "filename": "289l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/289l.png",
+    "ground_truth": "big flood",
+    "scene": "289"
+  },
+  {
+    "filename": "289s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/289s.png",
+    "ground_truth": "small flood",
+    "scene": "289"
+  },
+  {
+    "filename": "289w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/289w.png",
+    "ground_truth": "no flood",
+    "scene": "289"
+  },
+  {
+    "filename": "290l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/290l.png",
+    "ground_truth": "big flood",
+    "scene": "290"
+  },
+  {
+    "filename": "290s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/290s.png",
+    "ground_truth": "small flood",
+    "scene": "290"
+  },
+  {
+    "filename": "290w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/290w.png",
+    "ground_truth": "no flood",
+    "scene": "290"
+  },
+  {
+    "filename": "291l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/291l.png",
+    "ground_truth": "big flood",
+    "scene": "291"
+  },
+  {
+    "filename": "291s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/291s.png",
+    "ground_truth": "small flood",
+    "scene": "291"
+  },
+  {
+    "filename": "291w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/291w.png",
+    "ground_truth": "no flood",
+    "scene": "291"
+  },
+  {
+    "filename": "292l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/292l.png",
+    "ground_truth": "big flood",
+    "scene": "292"
+  },
+  {
+    "filename": "292s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/292s.png",
+    "ground_truth": "small flood",
+    "scene": "292"
+  },
+  {
+    "filename": "292w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/292w.png",
+    "ground_truth": "no flood",
+    "scene": "292"
+  },
+  {
+    "filename": "293l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/293l.png",
+    "ground_truth": "big flood",
+    "scene": "293"
+  },
+  {
+    "filename": "293s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/293s.png",
+    "ground_truth": "small flood",
+    "scene": "293"
+  },
+  {
+    "filename": "293w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/293w.png",
+    "ground_truth": "no flood",
+    "scene": "293"
+  },
+  {
+    "filename": "294l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/294l.png",
+    "ground_truth": "big flood",
+    "scene": "294"
+  },
+  {
+    "filename": "294s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/294s.png",
+    "ground_truth": "small flood",
+    "scene": "294"
+  },
+  {
+    "filename": "294w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/294w.png",
+    "ground_truth": "no flood",
+    "scene": "294"
+  },
+  {
+    "filename": "295l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/295l.png",
+    "ground_truth": "big flood",
+    "scene": "295"
+  },
+  {
+    "filename": "295s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/295s.png",
+    "ground_truth": "small flood",
+    "scene": "295"
+  },
+  {
+    "filename": "295w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/295w.png",
+    "ground_truth": "no flood",
+    "scene": "295"
+  },
+  {
+    "filename": "296l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/296l.png",
+    "ground_truth": "big flood",
+    "scene": "296"
+  },
+  {
+    "filename": "296s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/296s.png",
+    "ground_truth": "small flood",
+    "scene": "296"
+  },
+  {
+    "filename": "296w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/296w.png",
+    "ground_truth": "no flood",
+    "scene": "296"
+  },
+  {
+    "filename": "297l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/297l.png",
+    "ground_truth": "big flood",
+    "scene": "297"
+  },
+  {
+    "filename": "297s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/297s.png",
+    "ground_truth": "small flood",
+    "scene": "297"
+  },
+  {
+    "filename": "297w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/297w.png",
+    "ground_truth": "no flood",
+    "scene": "297"
+  },
+  {
+    "filename": "298l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/298l.png",
+    "ground_truth": "big flood",
+    "scene": "298"
+  },
+  {
+    "filename": "298s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/298s.png",
+    "ground_truth": "small flood",
+    "scene": "298"
+  },
+  {
+    "filename": "298w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/298w.png",
+    "ground_truth": "no flood",
+    "scene": "298"
+  },
+  {
+    "filename": "299l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/299l.png",
+    "ground_truth": "big flood",
+    "scene": "299"
+  },
+  {
+    "filename": "299s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/299s.png",
+    "ground_truth": "small flood",
+    "scene": "299"
+  },
+  {
+    "filename": "299w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/299w.png",
+    "ground_truth": "no flood",
+    "scene": "299"
+  },
+  {
+    "filename": "300l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/300l.png",
+    "ground_truth": "big flood",
+    "scene": "300"
+  },
+  {
+    "filename": "300s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/300s.png",
+    "ground_truth": "small flood",
+    "scene": "300"
+  },
+  {
+    "filename": "300w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/300w.png",
+    "ground_truth": "no flood",
+    "scene": "300"
+  },
+  {
+    "filename": "301l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/301l.png",
+    "ground_truth": "big flood",
+    "scene": "301"
+  },
+  {
+    "filename": "301s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/301s.png",
+    "ground_truth": "small flood",
+    "scene": "301"
+  },
+  {
+    "filename": "301w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/301w.png",
+    "ground_truth": "no flood",
+    "scene": "301"
+  },
+  {
+    "filename": "302l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/302l.png",
+    "ground_truth": "big flood",
+    "scene": "302"
+  },
+  {
+    "filename": "302s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/302s.png",
+    "ground_truth": "small flood",
+    "scene": "302"
+  },
+  {
+    "filename": "302w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/302w.png",
+    "ground_truth": "no flood",
+    "scene": "302"
+  },
+  {
+    "filename": "303l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/303l.png",
+    "ground_truth": "big flood",
+    "scene": "303"
+  },
+  {
+    "filename": "303s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/303s.png",
+    "ground_truth": "small flood",
+    "scene": "303"
+  },
+  {
+    "filename": "303w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/303w.png",
+    "ground_truth": "no flood",
+    "scene": "303"
+  },
+  {
+    "filename": "304l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/304l.png",
+    "ground_truth": "big flood",
+    "scene": "304"
+  },
+  {
+    "filename": "304s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/304s.png",
+    "ground_truth": "small flood",
+    "scene": "304"
+  },
+  {
+    "filename": "304w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/304w.png",
+    "ground_truth": "no flood",
+    "scene": "304"
+  },
+  {
+    "filename": "305l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/305l.png",
+    "ground_truth": "big flood",
+    "scene": "305"
+  },
+  {
+    "filename": "305s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/305s.png",
+    "ground_truth": "small flood",
+    "scene": "305"
+  },
+  {
+    "filename": "305w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/305w.png",
+    "ground_truth": "no flood",
+    "scene": "305"
+  },
+  {
+    "filename": "306l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/306l.png",
+    "ground_truth": "big flood",
+    "scene": "306"
+  },
+  {
+    "filename": "306s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/306s.png",
+    "ground_truth": "small flood",
+    "scene": "306"
+  },
+  {
+    "filename": "306w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/306w.png",
+    "ground_truth": "no flood",
+    "scene": "306"
+  },
+  {
+    "filename": "307l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/307l.png",
+    "ground_truth": "big flood",
+    "scene": "307"
+  },
+  {
+    "filename": "307s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/307s.png",
+    "ground_truth": "small flood",
+    "scene": "307"
+  },
+  {
+    "filename": "307w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/307w.png",
+    "ground_truth": "no flood",
+    "scene": "307"
+  },
+  {
+    "filename": "308l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/308l.png",
+    "ground_truth": "big flood",
+    "scene": "308"
+  },
+  {
+    "filename": "308s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/308s.png",
+    "ground_truth": "small flood",
+    "scene": "308"
+  },
+  {
+    "filename": "308w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/308w.png",
+    "ground_truth": "no flood",
+    "scene": "308"
+  },
+  {
+    "filename": "309l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/309l.png",
+    "ground_truth": "big flood",
+    "scene": "309"
+  },
+  {
+    "filename": "309s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/309s.png",
+    "ground_truth": "small flood",
+    "scene": "309"
+  },
+  {
+    "filename": "309w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/309w.png",
+    "ground_truth": "no flood",
+    "scene": "309"
+  },
+  {
+    "filename": "310l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/310l.png",
+    "ground_truth": "big flood",
+    "scene": "310"
+  },
+  {
+    "filename": "310s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/310s.png",
+    "ground_truth": "small flood",
+    "scene": "310"
+  },
+  {
+    "filename": "310w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/310w.png",
+    "ground_truth": "no flood",
+    "scene": "310"
+  },
+  {
+    "filename": "311l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/311l.png",
+    "ground_truth": "big flood",
+    "scene": "311"
+  },
+  {
+    "filename": "311s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/311s.png",
+    "ground_truth": "small flood",
+    "scene": "311"
+  },
+  {
+    "filename": "311w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/311w.png",
+    "ground_truth": "no flood",
+    "scene": "311"
+  },
+  {
+    "filename": "312l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/312l.png",
+    "ground_truth": "big flood",
+    "scene": "312"
+  },
+  {
+    "filename": "312s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/312s.png",
+    "ground_truth": "small flood",
+    "scene": "312"
+  },
+  {
+    "filename": "312w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/312w.png",
+    "ground_truth": "no flood",
+    "scene": "312"
+  },
+  {
+    "filename": "313l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/313l.png",
+    "ground_truth": "big flood",
+    "scene": "313"
+  },
+  {
+    "filename": "313s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/313s.png",
+    "ground_truth": "small flood",
+    "scene": "313"
+  },
+  {
+    "filename": "313w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/313w.png",
+    "ground_truth": "no flood",
+    "scene": "313"
+  },
+  {
+    "filename": "314l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/314l.png",
+    "ground_truth": "big flood",
+    "scene": "314"
+  },
+  {
+    "filename": "314s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/314s.png",
+    "ground_truth": "small flood",
+    "scene": "314"
+  },
+  {
+    "filename": "314w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/314w.png",
+    "ground_truth": "no flood",
+    "scene": "314"
+  },
+  {
+    "filename": "315l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/315l.png",
+    "ground_truth": "big flood",
+    "scene": "315"
+  },
+  {
+    "filename": "315s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/315s.png",
+    "ground_truth": "small flood",
+    "scene": "315"
+  },
+  {
+    "filename": "315w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/315w.png",
+    "ground_truth": "no flood",
+    "scene": "315"
+  },
+  {
+    "filename": "316l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/316l.png",
+    "ground_truth": "big flood",
+    "scene": "316"
+  },
+  {
+    "filename": "316s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/316s.png",
+    "ground_truth": "small flood",
+    "scene": "316"
+  },
+  {
+    "filename": "316w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/316w.png",
+    "ground_truth": "no flood",
+    "scene": "316"
+  },
+  {
+    "filename": "317l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/317l.png",
+    "ground_truth": "big flood",
+    "scene": "317"
+  },
+  {
+    "filename": "317s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/317s.png",
+    "ground_truth": "small flood",
+    "scene": "317"
+  },
+  {
+    "filename": "317w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/317w.png",
+    "ground_truth": "no flood",
+    "scene": "317"
+  },
+  {
+    "filename": "318l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/318l.png",
+    "ground_truth": "big flood",
+    "scene": "318"
+  },
+  {
+    "filename": "318s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/318s.png",
+    "ground_truth": "small flood",
+    "scene": "318"
+  },
+  {
+    "filename": "318w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/318w.png",
+    "ground_truth": "no flood",
+    "scene": "318"
+  },
+  {
+    "filename": "319l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/319l.png",
+    "ground_truth": "big flood",
+    "scene": "319"
+  },
+  {
+    "filename": "319s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/319s.png",
+    "ground_truth": "small flood",
+    "scene": "319"
+  },
+  {
+    "filename": "319w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/319w.png",
+    "ground_truth": "no flood",
+    "scene": "319"
+  },
+  {
+    "filename": "320l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/320l.png",
+    "ground_truth": "big flood",
+    "scene": "320"
+  },
+  {
+    "filename": "320s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/320s.png",
+    "ground_truth": "small flood",
+    "scene": "320"
+  },
+  {
+    "filename": "320w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/320w.png",
+    "ground_truth": "no flood",
+    "scene": "320"
+  },
+  {
+    "filename": "321l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/321l.png",
+    "ground_truth": "big flood",
+    "scene": "321"
+  },
+  {
+    "filename": "321s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/321s.png",
+    "ground_truth": "small flood",
+    "scene": "321"
+  },
+  {
+    "filename": "321w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/321w.png",
+    "ground_truth": "no flood",
+    "scene": "321"
+  },
+  {
+    "filename": "322l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/322l.png",
+    "ground_truth": "big flood",
+    "scene": "322"
+  },
+  {
+    "filename": "322s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/322s.png",
+    "ground_truth": "small flood",
+    "scene": "322"
+  },
+  {
+    "filename": "322w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/322w.png",
+    "ground_truth": "no flood",
+    "scene": "322"
+  },
+  {
+    "filename": "323l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/323l.png",
+    "ground_truth": "big flood",
+    "scene": "323"
+  },
+  {
+    "filename": "323s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/323s.png",
+    "ground_truth": "small flood",
+    "scene": "323"
+  },
+  {
+    "filename": "323w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/323w.png",
+    "ground_truth": "no flood",
+    "scene": "323"
+  },
+  {
+    "filename": "324l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/324l.png",
+    "ground_truth": "big flood",
+    "scene": "324"
+  },
+  {
+    "filename": "324s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/324s.png",
+    "ground_truth": "small flood",
+    "scene": "324"
+  },
+  {
+    "filename": "324w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/324w.png",
+    "ground_truth": "no flood",
+    "scene": "324"
+  },
+  {
+    "filename": "325l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/325l.png",
+    "ground_truth": "big flood",
+    "scene": "325"
+  },
+  {
+    "filename": "325s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/325s.png",
+    "ground_truth": "small flood",
+    "scene": "325"
+  },
+  {
+    "filename": "325w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/325w.png",
+    "ground_truth": "no flood",
+    "scene": "325"
+  },
+  {
+    "filename": "326l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/326l.png",
+    "ground_truth": "big flood",
+    "scene": "326"
+  },
+  {
+    "filename": "326s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/326s.png",
+    "ground_truth": "small flood",
+    "scene": "326"
+  },
+  {
+    "filename": "326w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/326w.png",
+    "ground_truth": "no flood",
+    "scene": "326"
+  },
+  {
+    "filename": "327l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/327l.png",
+    "ground_truth": "big flood",
+    "scene": "327"
+  },
+  {
+    "filename": "327s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/327s.png",
+    "ground_truth": "small flood",
+    "scene": "327"
+  },
+  {
+    "filename": "327w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/327w.png",
+    "ground_truth": "no flood",
+    "scene": "327"
+  },
+  {
+    "filename": "328l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/328l.png",
+    "ground_truth": "big flood",
+    "scene": "328"
+  },
+  {
+    "filename": "328s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/328s.png",
+    "ground_truth": "small flood",
+    "scene": "328"
+  },
+  {
+    "filename": "328w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/328w.png",
+    "ground_truth": "no flood",
+    "scene": "328"
+  },
+  {
+    "filename": "329l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/329l.png",
+    "ground_truth": "big flood",
+    "scene": "329"
+  },
+  {
+    "filename": "329s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/329s.png",
+    "ground_truth": "small flood",
+    "scene": "329"
+  },
+  {
+    "filename": "329w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/329w.png",
+    "ground_truth": "no flood",
+    "scene": "329"
+  },
+  {
+    "filename": "330l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/330l.png",
+    "ground_truth": "big flood",
+    "scene": "330"
+  },
+  {
+    "filename": "330s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/330s.png",
+    "ground_truth": "small flood",
+    "scene": "330"
+  },
+  {
+    "filename": "330w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/330w.png",
+    "ground_truth": "no flood",
+    "scene": "330"
+  },
+  {
+    "filename": "331l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/331l.png",
+    "ground_truth": "big flood",
+    "scene": "331"
+  },
+  {
+    "filename": "331s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/331s.png",
+    "ground_truth": "small flood",
+    "scene": "331"
+  },
+  {
+    "filename": "331w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/331w.png",
+    "ground_truth": "no flood",
+    "scene": "331"
+  },
+  {
+    "filename": "332l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/332l.png",
+    "ground_truth": "big flood",
+    "scene": "332"
+  },
+  {
+    "filename": "332s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/332s.png",
+    "ground_truth": "small flood",
+    "scene": "332"
+  },
+  {
+    "filename": "332w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/332w.png",
+    "ground_truth": "no flood",
+    "scene": "332"
+  },
+  {
+    "filename": "333l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/333l.png",
+    "ground_truth": "big flood",
+    "scene": "333"
+  },
+  {
+    "filename": "333s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/333s.png",
+    "ground_truth": "small flood",
+    "scene": "333"
+  },
+  {
+    "filename": "333w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/333w.png",
+    "ground_truth": "no flood",
+    "scene": "333"
+  },
+  {
+    "filename": "334l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/334l.png",
+    "ground_truth": "big flood",
+    "scene": "334"
+  },
+  {
+    "filename": "334s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/334s.png",
+    "ground_truth": "small flood",
+    "scene": "334"
+  },
+  {
+    "filename": "334w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/334w.png",
+    "ground_truth": "no flood",
+    "scene": "334"
+  },
+  {
+    "filename": "335l.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/335l.png",
+    "ground_truth": "big flood",
+    "scene": "335"
+  },
+  {
+    "filename": "335s.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/335s.png",
+    "ground_truth": "small flood",
+    "scene": "335"
+  },
+  {
+    "filename": "335w.png",
+    "path": "/content/drive/MyDrive/fixed_synthetic_output (1)/335w.png",
+    "ground_truth": "no flood",
+    "scene": "335"
+  }
+]

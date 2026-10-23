@@ -1,0 +1,391 @@
+\documentclass[conference]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{url}
+% Float separation tightened to fit the 10-page proceedings limit.
+% Font sizes and margins are untouched, as IEEE requires.
+\setlength{\textfloatsep}{8pt plus 2pt minus 2pt}
+\setlength{\floatsep}{8pt plus 2pt minus 2pt}
+\setlength{\dbltextfloatsep}{8pt plus 2pt minus 2pt}
+
+\begin{document}
+
+\title{Diagnosing the Synthetic-to-Real Gap in Small VLMs for Deployable Flood Monitoring}
+
+\author{
+\IEEEauthorblockN{Kunal Chevuri}
+\IEEEauthorblockA{\textit{Prosper High School}\\
+Prosper, TX, USA}
+\and
+\IEEEauthorblockN{Angel Peredo}
+\IEEEauthorblockA{\textit{The University of Texas Rio Grande Valley}\\
+Edinburg, TX, USA}
+\and
+\IEEEauthorblockN{Sergei Chuprov}
+\IEEEauthorblockA{\textit{The University of Texas Rio Grande Valley}\\
+Edinburg, TX, USA}
+}
+
+\maketitle
+
+\begin{abstract}
+Small vision-language models (VLMs) are attractive for roadway flood monitoring because they can run on edge hardware near the traffic cameras that already exist. Adapting one to this task needs labeled flood imagery, which is scarce, so training sets are commonly supplemented with synthetic images. A model fitted to synthetic imagery often loses accuracy when tested on real photographs, a synthetic-to-real gap that is well established for large-scale vision benchmarks but has not been measured for small VLMs on flood imagery. This paper measures that gap and identifies where it comes from. We build a synthetic roadway flood dataset by generative editing of real closed-circuit television frames, then evaluate SmolVLM2-2.2B, Qwen2-VL-2B, and the self-supervised encoder I-JEPA on three-class flood severity against 340 real photographs. Fine-tuning on synthetic data alone transfers poorly, and each model fails toward a different severity class, so the failure mode has to be measured per model rather than assumed. Blending real images into fine-tuning improves macro-recall over the synthetic-only baseline at every mixture tested, but seed-to-seed standard deviation reaches 8.4 percentage points, and a recipe validated on one VLM does not transfer to the other. Freezing the pretrained vision encoder and training only a three-class logistic regression on its output is stronger and far steadier, peaking at 80.8\% macro-recall. A parameter-matched control separates the pretraining objective from the adaptation procedure: applying that same small classifier to each VLM's own frozen vision encoder recovers the advantage at all nine mixtures, while varying the amount of synthetic data changes neither encoder's result measurably. The advantage therefore does not come from I-JEPA's pretraining objective. How few parameters the adaptation exposes to the few hundred real labels is the most likely explanation, though our comparison cannot separate it from other differences between fine-tuning and a linear probe. Deployments should reuse the vision encoder already present rather than fine-tune it, which also leaves the language model intact.
+\end{abstract}
+
+\begin{IEEEkeywords}
+vision-language models, flood monitoring, domain generalization, edge deployment
+\end{IEEEkeywords}
+
+\section{Introduction}
+
+Localized flooding on roadways poses a persistent risk to public safety, and reliable automated monitoring capable of operating in real time on existing infrastructure remains difficult to deploy at scale. Closed-circuit television (CCTV) networks deployed for traffic management offer an attractive low-cost sensing modality for this task, since they provide continuous, dense coverage of road networks without requiring additional physical infrastructure. A camera only sees flooding after it happens. That is a real limit, but it is a different job from forecasting. Operational hydrological forecasting predicts discharge and inundation for a gauged basin hours to days ahead~\cite{nevo2022flood}, and in-situ water-level sensors report depth at the points where they are installed~\cite{shi2021lowcost}. Neither says which specific road is underwater right now. Closing a road or routing traffic around it needs that answer, and getting it means looking at the road. Instrumenting every street is what makes the sensor route expensive: even a deliberately low-cost depth sensor is a per-site install with its own power and communications~\cite{shi2021lowcost}, whereas cameras already look at the road. Established computer vision approaches to estimating flood severity from such imagery work, but they rest on assumptions that are impractical to satisfy at scale. They locate objects of approximately known size to infer water depth~\cite{chaudhary2020water}, or track a proxy index that is only meaningful relative to one fixed camera viewpoint~\cite{moydevitry2019scalable}. Vision-language models (VLMs) have recently been proposed as an alternative, since they reason about hazard conditions semantically and directly from visual input, without calibrated reference objects or per-camera geometric assumptions.
+
+Work applying foundation models to this domain has so far concentrated on large, API-hosted systems. Comparative evaluations of GPT-4 Vision, Gemini, LLaVA, and related models on hydrological imagery report that they read visual scenes competently, including judging flood severity~\cite{kadiyala2024mllm}, and GPT-4o has likewise been applied to geolocating flood photographs~\cite{schmidt2025geocoding} and to post-disaster damage assessment~\cite{chen2026lvlm}. Models that size are too expensive to run continuously across a camera network, which is why we ask whether small, open-weight VLMs behave the same way.
+
+Adapting them runs into a second constraint. Supervised adaptation needs labeled flood imagery, and public collections of roadway flood photographs are small and unevenly distributed across severity levels. Synthetic imagery is a common way to enlarge a training set under that kind of scarcity. Rendered urban-driving datasets established that this works: adding synthetic frames to a real training set improves segmentation accuracy~\cite{ros2016synthia}, and synthetic frames combined with only a third of the real labels can outperform training on the full real set~\cite{richter2016playing}. In both cases the real labels still do necessary work, which leaves open what happens when the mix tips far toward synthetic. This paper measures whether that opens a synthetic-to-real gap in small VLMs on this task, what form the gap takes, and how reliably it can be closed.
+
+To study this we first built the training data. Starting from real CCTV frames, we used generative image editing to raise the water level in each scene. The result is a roadway flood dataset of 1{,}005 images across three severity levels, in which the same base scene recurs at several water levels. The experiments here use a fixed 104-image subset. We then evaluate two small, open-weight VLMs, SmolVLM2-2.2B~\cite{marafioti2025smolvlm} and Qwen2-VL-2B~\cite{wang2024qwen2vl}, chosen because they need far less compute and memory than large API-hosted models, against real flood photographs. Both show a severe synthetic-to-real gap, and the two fail in different directions: one collapses toward over-predicting the majority severity class, while the other loses the ability to recognize the minority class at all. We then evaluate candidate fixes, namely combining the two models' predictions without retraining and fine-tuning on mixtures of synthetic and real data, testing each across multiple random seeds rather than reporting single runs.
+
+Because fine-tuning proves sensitive to exactly which few real images it sees, we then ask where the failure actually lives: in the visual features, or in the adaptation procedure. To separate the two we freeze each VLM's own vision tower and train only a small classifier on its output, holding data, splits, and seeds fixed so that the sole difference from fine-tuning is how many parameters reach the real labels. I-JEPA~\cite{assran2023ijepa}, a self-supervised vision encoder never trained with language supervision, serves as an outside check on whether any of this depends on vision-language pretraining. Freezing turns out to be both stronger and far steadier across seeds than fine-tuning, which for a deployed monitoring system matters as much as the mean. Our contributions are fourfold:
+
+\begin{enumerate}
+\item A publicly released synthetic roadway flood dataset of 1{,}005 labeled images spanning three severity levels, generated from 335 base CCTV views, each appearing at all three severities so that one road can be compared across water levels with the rest of the scene held fixed.
+\item A diagnosis of the synthetic-to-real gap in two open-weight VLMs at the 2B-parameter scale, showing it is not one failure but three structurally distinct pre-adaptation collapses, one per method evaluated.
+\item An evaluation of candidate fixes, combining two models' predictions and blended fine-tuning, with reproducibility testing across random seeds, showing that a fine-tuning recipe validated on one small VLM does not transfer to another.
+\item Evidence that a frozen encoder under a linear classifier is both stronger and steadier than fine-tuning. A parameter-matched control tests why: running that same small classifier on each VLM's own frozen vision tower recovers the advantage. The gain therefore does not come from the pretraining objective. How few parameters the adaptation exposes to the small real sample is the most likely remaining explanation.
+\end{enumerate}
+
+\section{Related Work}
+
+\textbf{Flood assessment from ground-level imagery.} Estimating how deep water is from a single photograph is hard because a photograph carries no scale. Existing methods supply that scale externally. Chaudhary et al.~\cite{chaudhary2020water} detect object classes whose real size is roughly known, such as people and cars, and regress water level against them, reaching about 11~cm error on crowd-sourced images. Moy de Vitry et al.~\cite{moydevitry2019scalable} avoid absolute depth entirely and instead segment floodwater in surveillance video to produce a trend index that only means anything relative to one fixed camera view. Both require either reference objects in frame or a per-camera calibration step, which is what makes semantic reasoning over raw pixels attractive as an alternative.
+
+\textbf{Foundation models applied to hydrological imagery.} Recent work has evaluated large multimodal models on water-related visual tasks. Kadiyala et al.~\cite{kadiyala2024mllm} compare GPT-4 Vision, Gemini, LLaVA, and Multimodal-GPT across hydrological applications and report that the strongest of these interpret flood scenes and assess severity with reasonable accuracy. These are API-hosted models in the hundreds of billions of parameters. Querying one on every camera frame is not affordable at network scale, which is the standard argument for two-stage video analytics: run a cheap model over every frame and reserve the expensive model for frames the cheap one flags~\cite{kang2017noscope}. Small open-weight VLMs such as SmolVLM~\cite{marafioti2025smolvlm} and Qwen2-VL~\cite{wang2024qwen2vl} raise a different possibility, namely running the semantic model locally on modest hardware, and it is their behavior on real flood imagery that we examine here.
+
+\textbf{Synthetic training data and the synthetic-to-real gap.} Because labeled real imagery is scarce for this task, synthetic data is a common substitute. Rendered urban-driving datasets established that this works. Both use synthetic data \emph{alongside} real data rather than in place of it: adding SYNTHIA to a real training set improves segmentation performance~\cite{ros2016synthia}, and rendered game frames plus a third of the real labels outperform the full real training set~\cite{richter2016playing}. Neither reports what happens when a model is trained mostly on synthetic imagery, which is the regime a data-scarce task like ours falls into. How much real data is needed, and whether adding it reliably fixes the problem for a given architecture, is what our dose-response evaluation, which sweeps the amount of real data added, measures.
+
+\textbf{Frozen features versus fine-tuning.} I-JEPA, the Image-based Joint-Embedding Predictive Architecture~\cite{assran2023ijepa}, learns visual representations by predicting masked regions in latent rather than pixel space. It emits no language and needs no instruction tuning. Its features are used by fitting a classifier on top while they stay frozen. Freezing an encoder rather than fine-tuning it has a known advantage under distribution shift. Kumar et al.~\cite{kumar2022finetuning} show that fine-tuning can distort good pretrained features and end up worse than a linear probe out of distribution. How good those features are is not settled by the encoder's headline accuracy either. Kornblith et al.~\cite{kornblith2019better} find that transfer from frozen penultimate-layer features is highly sensitive to how the encoder was trained: regularization choices that raise ImageNet accuracy can yield features that transfer worse. Our setting has a hard distribution shift and only a few hundred real labels. We therefore treat this as a hypothesis to test, not a foregone conclusion. Our control holds the classifier fixed and varies only which encoder supplies the features and how many parameters are trainable.
+
+\section{Empirical Study Setup}
+\label{sec:setup}
+
+\textbf{Synthetic data.} Public collections of roadway flood imagery are small, and severity levels within them are unevenly represented, so we generated additional training images. We started from real roadway traffic camera views and used Gemini 3 Pro Image (Nano Banana Pro) to raise the water level, with one prompt per condition. Each named a depth: ``no significant water accumulation'', puddles ``only 2 inches deep'', and floodwater ``2 feet deep'' submerging the lower half of the tires. All three also forbade the model to ``move, add, or delete any vehicles, buildings, or people'' and required it to ``maintain the exact original camera angle, focal length, and perspective''. An edited frame therefore differs from its source mainly in how much standing water is present; the released archive gives the prompts in full. Each base view was edited into three conditions, wet pavement, shallow standing water, and deep standing water, which serve as the labels no flood, small flood, and big flood. No flood here means wet pavement rather than a dry road. Separating it from small flood is therefore harder than separating a dry road from a flooded one. The campaign covered 335 base views and produced 1{,}005 images, all of which we release: 335 no flood, 335 small flood, and 335 big flood.\footnote{The dataset is publicly available at \url{https://doi.org/10.5281/zenodo.23251071}. The release holds the 1{,}005 images, a label manifest, and the three editing prompts in full.} Every base view is present at all three water levels, so one road can be compared across severities with the scene otherwise unchanged. The experiments use a fixed 104-image subset: 35 no flood, 37 small flood, and 32 big flood, drawn from 44 base views. It is held constant across every model, blend ratio, and seed, so comparisons differ only in the factor under test. An ablation below reports how much that quantity matters. Figure~\ref{fig:datasetexamples} shows examples.
+
+One caveat, since it affects what a model can learn here: the edits also change things that are not water, most visibly lighting and sky, and they garble fine text such as agency logos. A model trained on these images alone therefore has shortcuts absent from real footage. That is a plausible contributor to the synthetic-to-real gap we go on to measure.
+
+\textbf{Real-world data.} For evaluation on real imagery we use STURM-FloodDepth~\cite{notarangelo2025sturm}, a publicly available benchmark of 340 street-level photographs of submerged vehicles taken under uncontrolled conditions. Its labels are five ordinal flood levels, which we consolidate into our three-class scheme: Level 0 becomes no flood, Levels 1--2 become small flood, and Levels 3--4 become big flood. We consolidate because what matters operationally is whether a road is passable, not a fine-grained depth ordinal, and because the three-class scheme is what the models are prompted with throughout.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.86\columnwidth]{figures/dataset_examples.png}
+\caption{Representative examples from both data sources across all three severity classes. Top row: our synthetic CCTV imagery. Bottom row: real STURM-FloodDepth photographs. The visual gap between the two rows is what the rest of this paper measures.}
+\label{fig:datasetexamples}
+\end{figure}
+
+\textbf{Models evaluated.} We evaluate three approaches: SmolVLM2-2.2B~\cite{marafioti2025smolvlm} and Qwen2-VL-2B~\cite{wang2024qwen2vl}, two small, open-weight VLMs suitable for edge deployment, and I-JEPA~\cite{assran2023ijepa} (ViT-H/14, ImageNet-1K pretrained), a self-supervised vision encoder used as a frozen feature extractor rather than a fine-tuned generative model. For SmolVLM and Qwen2-VL, we evaluate zero-shot prompting, few-shot prompting, and parameter-efficient fine-tuning. For I-JEPA, we extract a fixed image embedding by mean-pooling the model's patch-token output, then train a lightweight logistic regression classifier on top of these embeddings; the I-JEPA encoder itself is never fine-tuned.
+
+\textbf{Prompts.} Both VLMs use a single instruction, held fixed across few-shot evaluation, fine-tuning, and dose-response evaluation, and for SmolVLM2-2.2B at zero-shot too, so differences between conditions are not confounded by wording:
+
+\begin{quote}
+\small\ttfamily Answer with one label only: no flood, small flood, big flood.
+\end{quote}
+
+\noindent Qwen's zero-shot run instead used the top-scoring bare question in Table~\ref{tab:prompts}. The image is supplied as the other element of the same user turn. Model output is mapped to a class by case-insensitive substring match, checking for ``big flood'' first, then ``small flood'', then ``no flood'', with any remaining response that mentions flooding assigned to small flood. In the few-shot condition we prepend three demonstrations, one per class, as alternating user and assistant turns: each user turn carries a demonstration image and the same instruction, each assistant turn only the correct label, and the query image follows last. The three demonstration images are excluded from evaluation. Fine-tuning uses the same single-turn format, with the ground-truth label string as the assistant target.
+
+We chose that instruction empirically. Table~\ref{tab:prompts} lists a prompt-engineering sweep run on Qwen2-VL-2B over the synthetic set, comparing a bare question against four longer instructions that variously direct the model to reference objects, reason step by step, or define each severity class explicitly. No elaboration beat the bare question. The best of them matched it, and the other three were 18 to 31 points worse, with step-by-step reasoning the most damaging. This is why the final experiments use the shortest form rather than an engineered prompt.
+
+\begin{table}[t]
+\caption{Prompt Sweep on Synthetic Data (Qwen2-VL-2B, $n=104$)}
+\label{tab:prompts}
+\centering
+\begin{tabular}{lc}
+\toprule
+\textbf{Prompt} & \textbf{Accuracy} \\
+\midrule
+Bare question, three label options & \textbf{61.5\%} \\
+Class definitions by vehicle passability & \textbf{61.5\%} \\
+Directed to reference objects (vehicles, lane lines) & 43.3\% \\
+Wet pavement vs.\ standing water emphasis & 33.7\% \\
+Step-by-step reasoning before answering & 30.8\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Fine-tuning setup.} Both SmolVLM2-2.2B and Qwen2-VL-2B are fine-tuned using QLoRA~\cite{dettmers2023qlora}, with the base model quantized to 4-bit precision (NF4) and LoRA~\cite{hu2021lora} adapters (rank 8, alpha 16, dropout 0.05) applied only to the language-model attention projection layers; the vision tower is kept frozen in both cases. Training uses AdamW~\cite{loshchilov2019decoupled} with a learning rate of $1\mathrm{e}{-4}$, gradient accumulation over 4 steps, and 3 epochs. This configuration was held constant across both architectures and every blend ratio, isolating the effect of training data composition rather than hyperparameter tuning.
+
+\textbf{Blended fine-tuning and dose-response evaluation.} To find how much real data is needed to narrow the synthetic-to-real gap, we build training sets that blend all 104 synthetic images with a stratified, class-balanced subset of real STURM-FloodDepth images. We use nine ratios: 15\%, 20\%, 30\%, 40\%, 50\%, 60\%, 70\%, 80\%, and 90\% of the real dataset. At each ratio the selected real images train and the rest are held out for evaluation, strictly disjoint and checked in code. \emph{Blend ratio} means the fraction of the 340-image real pool assigned to training, not the proportion of real images inside the resulting training set. All 104 synthetic images are present at every ratio, so an 80\% blend ratio gives 272 real plus 104 synthetic images, 72.3\% real, holding out the remaining 68 for evaluation. Table~\ref{tab:synthsize} lists the synthetic share at each ratio. Each ratio is evaluated across three independent random seeds, governing both the train/test partition and the shuffle order. SmolVLM and I-JEPA cover the full 15--90\% range; Qwen2-VL-2B covers the same range after a dedicated variance-completion run.
+
+\textbf{Parameter-matched linear-probe control.} I-JEPA differs from the fine-tuned VLMs in two ways at once: a different pretraining objective, and far fewer trainable parameters exposed to the real data. To separate them, we build a control that changes only the second. For each VLM we freeze the entire model and extract a fixed embedding by mean-pooling the vision tower's raw patch-token output (SmolVLM: the SigLIP-style vision transformer's \texttt{last\_hidden\_state}, 1152-dim; Qwen2-VL: the vision transformer's block output before its patch-merger projection, 1280-dim). We take these before any cross-modal projection, so the language model never runs. We then fit the identical StandardScaler-plus-logistic-regression classifier used for I-JEPA, at all nine blend ratios and across the same three seeds and splits used elsewhere. Because a frozen embedding does not depend on the blend ratio, the sweep costs one forward pass per image and refits only the classifier. The three encoders run at different native input resolutions.
+
+\textbf{Synthetic-set size ablation.} The dose-response sweep varies how much real data is added while holding the synthetic set at all 104 images, so on its own it cannot say how much those synthetic images contribute. We therefore repeat the linear-probe sweep while varying the number of synthetic images from zero, a real-only control, up to all 104, sampled stratified by class using the run seed. The real splits, seeds, and classifier are unchanged, so the only variable is how many synthetic images enter training. We run this for all three encoders at all nine ratios and test each real-only versus full-synthetic pair with a paired $t$-test across the three seeds.
+
+\textbf{Combining two models' predictions.} By an ensemble we mean merging the labels two models have already produced, with no further training. We test it because SmolVLM and Qwen2-VL fail in opposite directions before adaptation, so each might cover the other's blind spot. We evaluate three combinations. The first is a hand-written override rule defaulting to Qwen's prediction, but outputting small flood when Qwen says big flood and SmolVLM says small flood, targeting Qwen's largest error of sending real small-flood images to big flood. The second is a majority vote across three prediction sources. The third pairs Qwen's zero-shot predictions with our best fine-tuned SmolVLM2-2.2B, evaluated on that model's held-out split.
+
+\textbf{Evaluation metrics.} We report overall accuracy and macro-averaged recall, the average of per-class recall across the three severity classes. We lead with macro-recall because the real-world evaluation set is class-imbalanced, so accuracy can be inflated by a model that simply predicts the majority class; macro-recall penalizes that directly. To test whether mean differences between methods reflect a real effect rather than seed-to-seed variation, we run paired significance tests at every ratio where both methods have three-seed data, with a Bonferroni correction across the resulting family of comparisons.
+
+\textbf{Additional analyses.} Three extra evaluations cover deployment properties beyond accuracy. A classical HSV color-space baseline, fit only on training data, checks that learned approaches beat simple pixel statistics. A confidence calibration analysis compares the best fine-tuned model's token confidence on correct versus incorrect predictions, by class. A compute-footprint comparison reports parameter count, peak memory, and per-image latency.
+
+\section{Results}
+
+Tables~\ref{tab:summary} and \ref{tab:doseresponse} summarize every configuration evaluated. Every experiment below serves one question: does synthetic flood imagery transfer to real roadway conditions in a small VLM, and if not, where does the failure live? We report them in the order the study ran. The first three establish that a gap exists, that it differs by model, and that blending in real data narrows it only unreliably. The rest narrow down where it comes from: the parameter-matched control asks whether the fault is in the visual features or the adaptation procedure, the ablation asks whether the synthetic images are to blame, and the ensemble and supplementary results cover what is left.
+
+\begin{table}[t]
+\caption{Summary of Key Results on Real-World Data (STURM-FloodDepth)}
+\label{tab:summary}
+\centering
+\begin{tabular}{lcc}
+\toprule
+\textbf{Method} & \textbf{Accuracy} & \textbf{Macro-Recall} \\
+\midrule
+SmolVLM2-2.2B, zero-shot & 56.5\% & 36.3\% \\
+SmolVLM2-2.2B, 3-shot & 29.1\% & 28.6\% \\
+Qwen2-VL-2B, zero-shot & 37.9\% & 55.5\% \\
+SmolVLM2-2.2B FT (synthetic-only) & 42.1\% & 48.3\% \\
+Best ensemble (Qwen + FT SmolVLM) & 63.0\% & 67.2\% \\
+Classical CV baseline & 43.7\% & 39.5\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\caption{Blended Fine-Tuning Dose-Response Comparison (Mean $\pm$ Std Macro-Recall, 3 Seeds per Ratio)}
+\label{tab:doseresponse}
+\centering
+\begin{tabular}{lccc}
+\toprule
+\textbf{Real pool} & \textbf{SmolVLM} & \textbf{Qwen} & \textbf{I-JEPA} \\
+\midrule
+15\%  & 52.6 $\pm$ 5.0 & 35.5 $\pm$ 2.2 & 50.7 $\pm$ 4.5 \\
+20\%  & 50.8 $\pm$ 6.3 & 33.6 $\pm$ 0.8 & 53.6 $\pm$ 2.4 \\
+30\%  & 57.2 $\pm$ 7.5 & 35.1 $\pm$ 1.6 & 57.6 $\pm$ 2.4 \\
+40\%  & 55.3 $\pm$ 1.2 & 35.5 $\pm$ 0.3 & 63.8 $\pm$ 3.0 \\
+50\%  & 52.3 $\pm$ 6.6 & 34.9 $\pm$ 1.4 & 71.2 $\pm$ 0.5 \\
+60\%  & 61.0 $\pm$ 4.2 & 39.7 $\pm$ 3.8 & 74.3 $\pm$ 4.3 \\
+70\%  & 54.4 $\pm$ 8.4 & 41.1 $\pm$ 2.4 & 76.6 $\pm$ 6.2 \\
+80\%  & 64.5 $\pm$ 6.1 & 42.3 $\pm$ 2.6 & \textbf{80.8 $\pm$ 1.2} \\
+90\%  & 53.5 $\pm$ 5.1 & 33.7 $\pm$ 1.3 & 73.4 $\pm$ 3.4 \\
+\bottomrule
+\end{tabular}
+\\[2pt]
+{\footnotesize ``Real pool'' is the share of the 340-image real dataset assigned to training, \emph{not} the share of real images inside the resulting training set. All 104 synthetic images are present in every row, so the two differ; Table~\ref{tab:synthsize} lists the synthetic share at each row.}
+\end{table}
+
+\textbf{Zero-shot and few-shot baselines expose two structurally opposite failure modes.} On synthetic data, prompting alone plateaus: the best prompting configuration for SmolVLM2-2.2B (3-shot) reaches 64.4\% accuracy, and no prompt variation we tested improved on the simplest instruction. Fine-tuning SmolVLM2-2.2B on synthetic data alone looks like a solution, reaching 95.0\% and 85.0\% accuracy across two independent held-out synthetic splits, but it collapses on real STURM-FloodDepth data (42.1\% accuracy, 48.3\% macro-recall). Learning the synthetic distribution well is therefore not evidence of anything about real performance.
+
+Testing both models on real data without any fine-tuning shows where that collapse comes from, and that it is not one problem but two opposite ones. SmolVLM2-2.2B collapses to predicting ``small flood'' for nearly every image (100.0\% recall on that class, 6.2\% and 2.7\% on the remaining two). Because small flood is the majority class here, that pushes accuracy up to 56.5\% while the model is barely telling the classes apart. Qwen2-VL-2B fails in the mirror image: strong recall on both extreme classes (82.5\% and 84.0\%) but zero recall on small flood, with every real small-flood image pushed to either no flood or big flood. Few-shot prompting does not repair either failure; SmolVLM2-2.2B 3-shot on real data reaches only 29.1\% accuracy, near chance for three classes, at 4.5 times the inference latency of zero-shot. Figure~\ref{fig:failuremodes} adds a third pattern: I-JEPA in its synthetic-only-trained state, the closest analog to an unadapted VLM, collapses toward ``no flood'' (93.8\% recall on that class, 0.5\% on small flood, 26.7\% on big flood). Three methods, three different default classes. Every unadapted model collapses on this task, but which class it collapses toward is not shared.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.75\columnwidth]{figures/failure_modes_barchart.png}
+\caption{Per-class recall before real-data adaptation. SmolVLM (zero-shot) and Qwen2-VL (zero-shot) collapse toward opposite classes; I-JEPA (synthetic-only trained) collapses toward a third, distinct class.}
+\label{fig:failuremodes}
+\end{figure}
+
+\textbf{Blended fine-tuning improves both small VLMs over their synthetic-only baselines, but with meaningfully different reliability, across the full range of real-data ratios tested.} For SmolVLM2-2.2B, blending real data into the fine-tuning set improves macro-recall over the synthetic-only baseline at every ratio tested, from 15\% through 90\%. However, a reproducibility check using three independent random seeds at every ratio reveals substantial run-to-run variance throughout this range, with macro-recall standard deviation reaching as high as 8.4 percentage points. A single-seed result that appeared to identify 30\% as an optimal blend ratio did not survive seed variation, and performance beyond 50\% real data plateaus rather than continuing to improve. Reporting a single run here would have produced a confident and wrong recommendation.
+
+Qwen2-VL-2B behaves differently, and its difference is the more informative one. Fine-tuned across the full nine-ratio range with a dedicated variance-completion pass, it produced consistently weaker results than SmolVLM at every ratio tested, with macro-recall remaining between 33.6\% and 42.3\% throughout. Per-class analysis shows this weakness is not merely low performance but a specific failure mode: at nearly every ratio, Qwen collapses toward one or two classes rather than discriminating among all three, mirroring the class-collapse pattern of its own unadapted zero-shot state. Unlike SmolVLM's variance, however, Qwen's macro-recall standard deviation across seeds is consistently tight (as low as 0.3 percentage points), so this collapse is not unstable training; it is a failure that repeats on every run of this architecture. Across the full range, then, the recipe validated on SmolVLM does not transfer to Qwen's architecture, and fails in a specific, diagnosable way rather than merely producing weaker results.
+
+\textbf{A frozen, self-supervised vision encoder outperforms both fine-tuned VLMs at eight of the nine real-data ratios tested, and is generally steadier across seeds.} We use I-JEPA as a frozen feature extractor, with a lightweight logistic regression classifier trained on blended synthetic and real embeddings. Both accuracy and macro-recall improve near-monotonically as the proportion of real data increases: from 57.4\% accuracy / 50.7\% macro-recall at 15\% real data to a peak of 79.4\% accuracy / 80.8\% macro-recall at 80\%. Figure~\ref{fig:probedose} plots this as the reference curve. The nine ratios were swept rather than selected, so 80\% is where the curve peaks, not a mixture chosen in advance. That peak also rests on the smallest test sets in the sweep: 68 real images at 80\% and 34 at 90\%, against 289 at 15\%. A handful of easy or hard images moves a 68-image score noticeably. We therefore read 80\% as where this curve happens to peak on this benchmark, not as a recommended mixture; Section~\ref{sec:limitations} returns to the point. I-JEPA's mean macro-recall exceeds Qwen's at all nine ratios and SmolVLM's at eight of the nine. The exception is the lowest ratio, 15\%, where SmolVLM leads by 1.9 points; I-JEPA overtakes it from 20\% onward. Seed variance is not uniform either. I-JEPA's standard deviation is tighter than SmolVLM's at seven of the nine ratios, the exceptions being 40\% (1.2 against 3.0, favoring SmolVLM) and 60\%, where the two are effectively tied. Trained on synthetic data alone, I-JEPA underperforms both VLMs (28.2\% accuracy, 40.3\% macro-recall), consistent with its pretraining on natural photographs rather than edited CCTV frames. Its advantage emerges only once real data is introduced, and it keeps growing through 80\% real data while SmolVLM's fine-tuning plateaus.
+
+Per-class behavior after adaptation separates the three methods further. Figure~\ref{fig:postadapt} shows per-class recall at each method's 80\% configuration. I-JEPA becomes well-balanced across all three classes, with a 12-percentage-point spread between its strongest and weakest. SmolVLM improves but remains uneven, its big-flood recall lagging the other two classes. Qwen's imbalance does not shrink so much as invert. Before adaptation it ignored small flood; after, it over-favors that class at the expense of the other two, the same collapse noted above. Figure~\ref{fig:confusion} shows the full 3$\times$3 confusion structure at this same 80\% configuration. Qwen predicts small flood for 70.8\%, 77.5\%, and 66.7\% of no-flood, small-flood, and big-flood images respectively, confirming a collapse onto one class rather than genuine three-way discrimination. SmolVLM's confusion instead concentrates in the big-flood row (44.4\% predicted small flood). I-JEPA's off-diagonal mass is smaller than either: its largest error is 22.9\% of no-flood images predicted small flood, under half Qwen's dominant confusion.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.88\columnwidth]{figures/probe_dose_response.png}
+\caption{Macro-recall vs.\ real-data blend ratio, three seeds per point, with shaded bands showing standard deviation. Left: full QLoRA fine-tuning of each VLM. Right: each VLM's own vision tower frozen behind a linear probe. I-JEPA, always frozen with a linear probe, is the same reference curve in both panels. Freezing collapses the large spread between methods seen under fine-tuning.}
+\label{fig:probedose}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.75\columnwidth]{figures/post_adaptation_recall.png}
+\caption{Per-class recall after real-data adaptation, all three methods at their 80\% real-data blend configuration.}
+\label{fig:postadapt}
+\end{figure}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.82\textwidth]{figures/confusion_matrices.png}
+\caption{Full confusion matrices at the 80\% real-data blend configuration, pooled across three seeds, for all three methods. Rows are true class, columns are predicted class; cell values are row-normalized (recall) percentages with raw counts in parentheses.}
+\label{fig:confusion}
+\end{figure*}
+
+\textbf{The mean advantage of I-JEPA over Qwen2-VL-2B is statistically significant; its advantage over SmolVLM2-2.2B, while consistent in direction, is not, at our sample size.} The mean differences above could reflect sampling variation across three seeds rather than a real effect. To check, we ran paired significance tests comparing I-JEPA against each VLM at every ratio with three-seed data. I-JEPA's advantage over Qwen2-VL-2B is statistically significant (uncorrected $\alpha=0.05$) at eight of the nine ratios, failing only at 15\% ($p=0.062$). It survives Bonferroni correction across the full family of comparisons at two ratios, 50\% and 80\%. The advantage over SmolVLM2-2.2B is consistent in direction from 20\% upward, but reaches significance at no individual ratio (p-values ranging 0.06--0.96). With three seeds per configuration we are powered to detect the Qwen gap but not the smaller SmolVLM one. We therefore report the latter as a directional trend only.
+
+\textbf{A parameter-matched linear-probe control rules out the self-supervised pretraining objective as the source of I-JEPA's advantage.} The comparison so far is confounded: QLoRA fine-tuning updates adapters spread across a 2+ billion parameter language model, while I-JEPA exposes only a three-class logistic regression head to the same real data. Table~\ref{tab:linearprobe} and Figure~\ref{fig:probedose} report the matched control described in Section~\ref{sec:setup}, which removes that confound by giving each VLM's own frozen tower the same probe, splits, and seeds used for I-JEPA, at all nine ratios.
+
+The control changes what the earlier comparison means. Both linear-probed VLMs beat their own fully fine-tuned counterparts at every one of the nine ratios, and the improvement is largest exactly where fine-tuning struggles most: Qwen rises from 33.7\% to 79.4\% macro-recall at 90\% real data, and from 34.9\% to 74.8\% at 50\%. The probes also match or exceed I-JEPA itself at eight of the nine ratios, with the widest margins at the lowest real-data ratios, where Qwen's probe reaches 65.6\% against I-JEPA's 50.7\% at 15\%. The 80\% ratio, where our original single-ratio control happened to be run, is the one point on the curve where I-JEPA leads, by 2.9 to 3.0 points. Across the full curve, then, I-JEPA's pretraining objective holds no leftover advantage over either VLM tower's. The single-ratio view suggested one, and it does not survive the other eight ratios. The probes are also far steadier across seeds than the fine-tuned models, for instance 67.6\% $\pm$ 0.6 for SmolVLM's probe at 30\% against 57.2\% $\pm$ 7.5 fine-tuned. In this low-data regime, then, what separates methods is not which encoder produced the features. Why freezing helps is a separate question, which we take up in the discussion. One caveat applies to the cross-encoder half of this comparison specifically: the three encoders run at different native input resolutions, which we return to in our limitations.
+
+\begin{table}[t]
+\caption{Parameter-Matched Linear-Probe Control Across the Full Dose-Response Range (Mean $\pm$ Std Macro-Recall, 3 Seeds per Ratio)}
+\label{tab:linearprobe}
+\centering
+\begin{tabular}{lccc}
+\toprule
+ & \multicolumn{2}{c}{\textbf{Frozen tower + probe}} & \\
+\cmidrule(lr){2-3}
+\textbf{Real pool} & \textbf{SmolVLM} & \textbf{Qwen} & \textbf{I-JEPA} \\
+\midrule
+15\% & 61.3 $\pm$ 1.2 & \textbf{65.6 $\pm$ 1.7} & 50.7 $\pm$ 4.5 \\
+20\% & 64.0 $\pm$ 2.1 & \textbf{65.0 $\pm$ 2.3} & 53.6 $\pm$ 2.4 \\
+30\% & \textbf{67.6 $\pm$ 0.6} & 66.4 $\pm$ 1.1 & 57.6 $\pm$ 2.4 \\
+40\% & 71.2 $\pm$ 3.5 & \textbf{71.5 $\pm$ 2.8} & 63.8 $\pm$ 3.0 \\
+50\% & 71.4 $\pm$ 3.5 & \textbf{74.8 $\pm$ 2.6} & 71.2 $\pm$ 0.5 \\
+60\% & 77.4 $\pm$ 3.1 & \textbf{78.0 $\pm$ 0.7} & 74.3 $\pm$ 4.3 \\
+70\% & \textbf{78.2 $\pm$ 1.9} & 76.8 $\pm$ 3.4 & 76.6 $\pm$ 6.2 \\
+80\% & 77.9 $\pm$ 1.5 & 77.8 $\pm$ 1.5 & \textbf{80.8 $\pm$ 1.2} \\
+90\% & 77.7 $\pm$ 1.0 & \textbf{79.4 $\pm$ 2.8} & 73.4 $\pm$ 3.4 \\
+\bottomrule
+\end{tabular}
+\\[2pt]
+{\footnotesize Best per row in bold. ``Real pool'' is defined as in Table~\ref{tab:doseresponse}. Compare against the fully fine-tuned counterparts there: each probe beats its own fine-tuned model at all nine ratios.}
+\end{table}
+
+\textbf{Removing the synthetic images entirely leaves both VLM probes essentially unchanged.} Table~\ref{tab:synthsize} reports what happens when the 104 synthetic images are dropped from the probe's training set. For both VLM towers the effect is at most 3.0 points in either direction and reaches significance at no ratio (smallest $p=0.116$). With three seeds we cannot rule out real effects of that size, but we can say that the synthetic images are not what produces the probe's advantage over fine-tuning, which is several times larger and holds at every ratio. I-JEPA is the exception, and the sign of its effect depends on how much of the training mix the synthetic images occupy. Where they dominate, at the three lowest ratios, they hurt: macro-recall falls 6.0 points at 15\% ($p=0.021$), the one significant cell in the table, where synthetic images are 67\% of the training set. Once they are a clear minority, from 40\% onward, they help, by 0.8 to 11.6 points, though no individual gain reaches significance at this sample size. This gives a direct answer to how much synthetic data is useful here. It helps only as a minority of the training mix, and only for the encoder whose pretraining least covers this domain. For a tower already pretrained on large-scale image-text data it made no measurable difference at any mixture we tested, and never substituted for real images.
+
+\begin{table}[t]
+\caption{Effect of the Synthetic Set on Linear-Probe Macro-Recall}
+\label{tab:synthsize}
+\centering
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Blend} & \textbf{Synthetic \%} & \multicolumn{3}{c}{$\Delta$ \textbf{macro-recall (points)}} \\
+\cmidrule(lr){3-5}
+\textbf{ratio} & \textbf{of train set} & \textbf{SmolVLM} & \textbf{Qwen} & \textbf{I-JEPA} \\
+\midrule
+15\% & 67.1\% & $+0.5$ & $+1.9$ & $-6.0$* \\
+20\% & 60.5\% & $+1.6$ & $+1.7$ & $-4.0$ \\
+30\% & 50.5\% & $-1.4$ & $+0.6$ & $-2.3$ \\
+40\% & 43.3\% & $-2.5$ & $+0.8$ & $+0.8$ \\
+50\% & 38.0\% & $-3.0$ & $+0.4$ & $+4.5$ \\
+60\% & 33.8\% & $-3.0$ & $+0.2$ & $+4.0$ \\
+70\% & 30.4\% & $-1.4$ & $-0.4$ & $+3.9$ \\
+80\% & 27.7\% & $-1.5$ & $-1.9$ & $+11.6$ \\
+90\% & 25.4\% & $-1.6$ & $-1.0$ & $+7.2$ \\
+\bottomrule
+\end{tabular}
+\\[2pt]
+{\footnotesize $\Delta$ is macro-recall with all 104 synthetic images minus macro-recall with none, same real splits and seeds. Positive means the synthetic set helped. *~$p<0.05$, paired $t$-test over three seeds; no other cell is significant.}
+\end{table}
+
+\textbf{Scaling the synthetic set tenfold does not change the conclusion.} Tables~\ref{tab:linearprobe} and~\ref{tab:synthsize} hold the synthetic set at 104 images, so neither can say whether that quantity limits the result. We repeated the probe sweep over the full 1{,}005-image release, at all nine ratios and ten synthetic-set sizes, three seeds each, scored on held-out real images only. The effect does not grow with the data: I-JEPA's gain at an 80\% real pool peaks at 11.1 points with 78 synthetic images and falls to 6.3 points with all 1{,}005, while SmolVLM loses ground at all nine ratios and Qwen at eight of the nine. The mixture explains this better than the count. At 1{,}005 the synthetic images occupy between 77\% and 95\% of every training set, so the minority-share condition above holds nowhere. The peak is stable: 80\% is best for I-JEPA at every synthetic-set size of 52 images or more, and beats 90\% at all ten sizes. Synthetic data helps one encoder, only as a minority of the mixture, and more of it does not help more.
+
+\textbf{Combining predictions helps the weaker model but does not beat adaptation.} The override rule does improve on Qwen's zero-shot predictions, raising accuracy from 37.9\% to 44.7\% and macro-recall from 55.5\% to 57.5\% across all 340 real images, which confirms that the two models' opposite failures are partly complementary. It does not change the ranking, however. Pairing Qwen with our best fine-tuned SmolVLM2-2.2B reaches 63.0\% accuracy / 67.2\% macro-recall, below the 64.7\% / 67.8\% that checkpoint reaches alone on the same split (one seed; Table~\ref{tab:doseresponse} gives the three-seed mean as 57.2 $\pm$ 7.5), and a majority vote over all three prediction sources is worse still at 48.7\% / 58.0\%. Merging predictions after the fact does not recover what adapting the model provides.
+
+\textbf{Supplementary analyses.} A classical HSV color-thresholding baseline reaches 43.7\% accuracy / 39.5\% macro-recall, below every learned approach, so the results above are not explained by an easy task. Table~\ref{tab:compute} reports parameter count, peak memory, and latency: I-JEPA's frozen ViT-H/14 is roughly 3.5$\times$ smaller than either VLM (0.63B vs.\ 2.2B+), though its latency was measured on different hardware (see note). Confidence calibration on the best fine-tuned model gives 88.0\% average token confidence on correct predictions against 82.9\% on incorrect ones, broken down by class in Table~\ref{tab:calibration}.
+
+\begin{table}[t]
+\caption{Compute Footprint and Inference Latency}
+\label{tab:compute}
+\centering
+\begin{tabular}{lccc}
+\toprule
+\textbf{Method} & \textbf{Params} & \textbf{Peak VRAM} & \textbf{Latency/image} \\
+\midrule
+SmolVLM2-2.2B & 2.25B & 4.63 GB & 5.69 s \\
+Qwen2-VL-2B & 2.21B & 4.56 GB & 0.30 s \\
+I-JEPA + LogReg & 0.63B & 1.30 GB$^{*}$ & 7.86 s$^{\dagger}$ \\
+\bottomrule
+\end{tabular}
+\\[2pt]
+{\footnotesize $^{*}$Estimated from parameter count using the fp16-loading overhead ratio observed for the two measured rows; not directly measured (no GPU available for I-JEPA in this analysis environment).}\\
+{\footnotesize $^{\dagger}$Measured on CPU; SmolVLM/Qwen were measured on GPU, so magnitudes are not directly comparable -- I-JEPA's single non-autoregressive pass would be faster than either VLM on equivalent hardware.}
+\end{table}
+
+\begin{table}[t]
+\caption{Per-Class Confidence Calibration (SmolVLM2-2.2B, 30\% Blend, Clean Condition)}
+\label{tab:calibration}
+\centering
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Class} & \textbf{Conf.\ (correct)} & \textbf{$n$} & \textbf{Conf.\ (wrong)} & \textbf{$n$} \\
+\midrule
+no flood & 92.2\% & 49 & 82.8\% & 7 \\
+small flood & 87.1\% & 74 & 84.4\% & 55 \\
+big flood & 83.7\% & 31 & 78.9\% & 22 \\
+\bottomrule
+\end{tabular}
+\\[2pt]
+{\footnotesize Correct-minus-wrong gaps quoted in Section~\ref{sec:discussion-choosing} are computed before rounding, so they can differ by 0.1 from the difference of the rounded values shown here.}
+\end{table}
+
+\section{Discussion}
+
+\subsection{What the failure modes tell us}
+
+Three methods, given the same images and the same class distribution, defaulted to three different classes before adaptation. That is a reason not to treat the synthetic-to-real gap as one defect with one fix. If the training data alone determined the failure, the failures would look alike; instead each model fell back on whatever its own pretraining made cheapest, and only the direction of the fallback differed. In practice, an integrator cannot guess how a model will fail on real footage from how a similar model failed, and has to measure it per model.
+
+Adaptation does not correct these tendencies evenly either. I-JEPA's per-class recall becomes genuinely balanced once real data is added. Qwen's imbalance inverts rather than resolves: it stops ignoring small flood and starts over-predicting it, with very low seed-to-seed variance. Low variance is usually reassuring, but here it means the opposite. An unlucky run can be retried; a failure that reproduces across three seeds means this fine-tuning recipe and this architecture do not fit each other. The same goes for the recipe as a whole: a configuration validated on SmolVLM did not transfer to Qwen, so each architecture has to be validated on its own.
+
+\subsection{Why freezing works better here}
+
+Fine-tuning updates a large jointly trained system from a few hundred real examples. With that little data, which examples are drawn and in what order matters, the most likely source of SmolVLM's blended seed variance. Freezing the encoder and fitting a linear head removes almost all of that exposure: the same features are produced regardless of the training draw, and only a three-class classifier is estimated from the real labels.
+
+Our parameter-matched control tests that explanation rather than assuming it, and the answer is cleaner than expected. Freezing each VLM's own vision tower reproduces the advantage: both probes beat their fine-tuned versions at all nine ratios and their seed variance falls to I-JEPA's level. What this rules out is self-supervised versus vision-language pretraining as the deciding factor. The most likely remaining explanation is how many parameters see the small real sample, consistent with the broader finding that fine-tuning can distort otherwise good pretrained features under distribution shift~\cite{kumar2022finetuning}. We cannot isolate it, though. Our probe and our QLoRA fine-tuning also differ in where the trained parameters sit, in the training objective, and in the 4-bit quantization of the base model, and any of those could contribute. Parameter count is the explanation we favor, not the only one available. The practical consequence does not depend on settling it: either way, freezing lets a deployment reuse the vision tower of the VLM it already runs rather than host a second pretrained model.
+
+\subsection{Choosing among these architectures}
+\label{sec:discussion-choosing}
+
+None of these options dominates the others, and the frozen probe's accuracy advantage should not be read as a recommendation to always use it. Table~\ref{tab:tradeoffs} summarizes the trade.
+
+\begin{table}[t]
+\caption{Trade-offs Among the Approaches Evaluated}
+\label{tab:tradeoffs}
+\centering
+\begin{tabular}{lccc}
+\toprule
+ & \textbf{Task} & \textbf{Language} & \textbf{Real} \\
+\textbf{Approach} & \textbf{labels} & \textbf{output} & \textbf{macro-recall} \\
+\midrule
+VLM, zero-shot        & none & yes & 36.3--55.5\% \\
+VLM, fine-tuned       & hundreds & label only & up to 64.5\% \\
+Frozen tower + probe  & hundreds & LM intact & up to 79.4\% \\
+I-JEPA + probe        & hundreds & none & up to 80.8\% \\
+\bottomrule
+\end{tabular}
+\\[2pt]
+{\footnotesize ``Label only'' reflects the fine-tuning target, which is the bare class string; ``LM intact'' means the probe reads the frozen vision tower and never modifies or runs the language model, which remains available.}
+\end{table}
+
+The column that matters most is the first. A VLM can be pointed at a new camera network and produce severity judgments with no task labels at all, which no probe-based method can do, because a probe cannot exist before someone has labeled examples. Where labeled data does not yet exist, or where a site is being surveyed before anyone commits to annotation, the zero-shot VLM is the only one of these four options that runs. The accuracy is poor, but the alternative is nothing.
+
+The second thing only VLMs provide is language. A probe emits a class index; it cannot say that water is covering the right two lanes while the shoulder stays clear. For an operator deciding whether to dispatch, that description is much of the value, and it is the main reason to prefer a VLM over a plain vision encoder for this task at all. Our results should not be read as an argument for discarding it.
+
+That framing changes how the two adaptation strategies compare, in a way the accuracy numbers alone do not show. Fine-tuning is supervised on the bare class string, so it optimizes the language model toward emitting a label and away from describing anything; whatever descriptive ability the base model had is spent buying the accuracy in Table~\ref{tab:doseresponse}. The frozen-tower probe spends nothing: it reads the vision tower's patch embeddings before the cross-modal projection, so the language model is neither modified nor executed and remains exactly as capable of description as the released checkpoint. So the option that classifies better is also the one that keeps the ability that made a VLM worth using, which is the strongest practical argument for freezing.
+
+We tested this directly. On a held-out sample of 120 real images (40 per class), we asked both zero-shot VLMs and our fine-tuned SmolVLM2-2.2B for a short description followed by a severity call, and compared that named severity against the same model's answer to the bare-label prompt. Fine-tuning does not destroy the ability to describe: the fine-tuned model wrote a real sentence on all 120 images when asked to. What changes is what it says. Its label-mode predictions spread across all three classes (68 no flood, 17 small flood, 35 big flood); asked to describe first, it named small flood on 115 of 120, and macro-recall on that named severity fell 17.5 points below its own bare-label accuracy on the same images. Two thirds of those 115 rest on a parser rule: a description that mentions flooding without naming a severity is counted small flood (78 of 115; the model wrote ``small flood'' outright in the other 37). That rule affects how large the drop is, not which way it runs. The two zero-shot VLMs move the other way, gaining 7.5 points in description mode. Fine-tuning does not merely fail to transfer its accuracy to free text; it makes that text measurably less trustworthy than the label the same weights give if simply asked, a second argument for the frozen probe.
+
+The two roles can then be separated at run time. The frozen tower's forward pass is the dominant cost and is computed once per frame, after which the probe consumes its output directly and the language model consumes the same output only when needed. Running the probe on every frame and invoking the language model only on flagged frames preserves the description where it is useful, at a fraction of the cost of generating text every frame. This is the standard two-stage arrangement in video analytics~\cite{kang2017noscope}. What is new here is the trigger: on our data it is both cheaper and more reliable than the per-frame model it replaces.
+
+One caution about that language output. Fluency is not evidence of correctness. Our calibration analysis shows the fine-tuned model's confidence separates its correct from its incorrect predictions by only 2.7 and 4.7 points on the two flood classes, against 9.4 points on no flood. Confidence-based filtering is therefore weakest on exactly the classes where a missed call is most costly, and a generated description of a wrong judgment will read as fluently as a description of a right one.
+
+\subsection{Limitations}
+\label{sec:limitations}
+
+Our conclusions are scoped to two open-weight VLMs at the 2B-parameter scale and one self-supervised encoder, so they describe that setting rather than small VLMs in general. Whether the frozen-encoder advantage holds at 7B and above is untested here. A larger language model might absorb a few hundred real labels without the instability we see at 2B, or might distort its features further; we cannot tell from these results, and that is the single most useful extension of this work.
+
+Our real-world evaluation rests on a single benchmark. Test sets also shrink at the highest blend ratios, from 289 real images at 15\% to 68 at 80\% and 34 at 90\%, adding evaluation noise exactly where I-JEPA's curve peaks. That asymmetry matters for the probe comparison: the one ratio where I-JEPA leads (80\%) rests on 68 images, while the low-ratio points where the probes lead by the widest margins rest on roughly four times as many. We therefore trust the lack of a consistent I-JEPA advantage more than the ordering at 80\%, without claiming that ordering is itself an artifact.
+
+The synthetic data has a known weakness. Because the images are generative edits, they vary in more than water level, and a model could in principle latch onto lighting or the garbled text described in Section~\ref{sec:setup} rather than the flooding. We did not measure how much of the synthetic-to-real gap this accounts for; doing so would need an edit that changes water alone.
+
+The language-mode evaluation in Section~\ref{sec:discussion-choosing} runs on one 120-image sample with a single scorer: the automated label parser used throughout this paper. No second person independently scored the free-text output. We also did not check the descriptions for hallucinated detail beyond whether the severity they name is correct. A larger sample and hand-scored hallucination checks would strengthen that result, but are not needed to show which way the effect runs.
+
+The synthetic-set ablation is also underpowered. Three seeds are enough to show the effect on either VLM tower is small, but not enough to show it is zero, and the I-JEPA gains at high real-data ratios are large without being significant. The ablation covers the linear-probe condition only; repeating it under fine-tuning would require retraining the full sweep.
+
+Two narrower caveats. First, the three frozen encoders run at different native input resolutions: I-JEPA 224$\times$224, SmolVLM's tower 384$\times$384, and Qwen's roughly 504$\times$504. The VLM towers therefore see more spatial detail. This does not affect the parameter-count conclusion, which compares each VLM against its own fine-tuned version on identical inputs. It does mean the leftover differences between encoders are not a clean pretraining comparison. Second, fine-tuning hyperparameters were held constant across architectures by design. Per-architecture tuning might narrow the gap between fine-tuning and freezing.
+
+\section{Conclusion}
+
+We built a synthetic roadway flood dataset to make supervised study of this task possible, then used it to examine how two open-weight VLMs at the 2B scale handle the move from synthetic to real imagery. The gap is not one failure: SmolVLM2-2.2B, Qwen2-VL-2B, and I-JEPA each default toward a different severity class before adaptation. Blended fine-tuning improves both VLMs over their synthetic-only baselines, but seed-level testing exposes its cost. SmolVLM's macro-recall carries a standard deviation as high as 8.4 points run to run, and Qwen collapses onto one or two classes reproducibly. A recipe validated on one architecture therefore cannot be assumed to hold on another. Freezing an encoder and fitting a linear classifier is both stronger and steadier, reaching 80.8\% macro-recall. Our parameter-matched control provides evidence for why: running the same probe on each VLM's own frozen vision tower recovers the advantage at all nine blend ratios. The gain therefore does not depend on which pretraining objective produced the features. Limiting how many parameters are exposed to a few hundred real labels is the most likely reason, though not one we can isolate from the other differences between the two adaptation methods. Varying how many synthetic images the probe sees changes neither VLM tower's result measurably, which places the gain in the adaptation procedure rather than in the added data. For deployment, this means reusing the vision tower already present rather than adding an encoder or fine-tuning. That also leaves the language model unmodified and available for description on flagged frames, where it remains the only component that can explain what a camera is showing.
+
+\section*{AI Disclosure}
+
+The authors used Claude (Anthropic) to draft and edit portions of this manuscript, and to write the analysis scripts behind Table~\ref{tab:synthsize} and Section~\ref{sec:discussion-choosing}. Experimental design and all reported results were checked by the authors, and every numeric claim is recomputed from the result files by an automated verification script.
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}

@@ -1,0 +1,342 @@
+[
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level0/car-1194-Level0_1.jpg",
+    "filename": "car-1194-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level0/car-131-Level0_1.jpg",
+    "filename": "car-131-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level0/car-117-Level0_7.jpg",
+    "filename": "car-117-Level0_7.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level0/car-2237-Level0_1.jpg",
+    "filename": "car-2237-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level0/car-800-Level0_2.jpg",
+    "filename": "car-800-Level0_2.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level0/car-103-Level0_10.jpg",
+    "filename": "car-103-Level0_10.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level0/car-1007-Level0_1.jpg",
+    "filename": "car-1007-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level0/car-83-Level0_3.jpg",
+    "filename": "car-83-Level0_3.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level0/car-988-Level0_2.jpg",
+    "filename": "car-988-Level0_2.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level0/car-1709-Level0_3.jpg",
+    "filename": "car-1709-Level0_3.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level0/car2-54-Level0_2.jpg",
+    "filename": "car2-54-Level0_2.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level0/car-1508-Level0_1.jpg",
+    "filename": "car-1508-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level0/car-197-Level0_2.jpg",
+    "filename": "car-197-Level0_2.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level0/car-434-Level0_1.jpg",
+    "filename": "car-434-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level0/car2-42-Level0_2.jpg",
+    "filename": "car2-42-Level0_2.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level0/car-469-Level0_6.jpg",
+    "filename": "car-469-Level0_6.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level1/car-489-Level1_2.jpg",
+    "filename": "car-489-Level1_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level2/car-936-Level2_1.jpg",
+    "filename": "car-936-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level1/car-659-Level1_5.jpg",
+    "filename": "car-659-Level1_5.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level2/car-117-Level2_8.jpg",
+    "filename": "car-117-Level2_8.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level1/car-659-Level1_1.jpg",
+    "filename": "car-659-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level2/car-476-Level2_6.jpg",
+    "filename": "car-476-Level2_6.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level1/car-1648-Level1_3.jpg",
+    "filename": "car-1648-Level1_3.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level2/car-640-Level2_1.jpg",
+    "filename": "car-640-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level2/car-360-Level2_1.jpg",
+    "filename": "car-360-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level1/car-1637-Level1_6.jpg",
+    "filename": "car-1637-Level1_6.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level2/car-1434-Level2_1.jpg",
+    "filename": "car-1434-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level1/car-1750-Level1_3.jpg",
+    "filename": "car-1750-Level1_3.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level1/car-422-Level1_2.jpg",
+    "filename": "car-422-Level1_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level1/car-1033-Level1_15.jpg",
+    "filename": "car-1033-Level1_15.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level2/car-573-Level2_19.jpg",
+    "filename": "car-573-Level2_19.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level2/car-1306-Level2_2.jpg",
+    "filename": "car-1306-Level2_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level2/car-1774-Level2_1.jpg",
+    "filename": "car-1774-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level2/car-785-Level2_1.jpg",
+    "filename": "car-785-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level2/car-1022-Level2_1.jpg",
+    "filename": "car-1022-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level2/car-1749-Level2_4.jpg",
+    "filename": "car-1749-Level2_4.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level2/car-2042-Level2_4.jpg",
+    "filename": "car-2042-Level2_4.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level1/car-868-Level1_1.jpg",
+    "filename": "car-868-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level2/car-567-Level2_2.jpg",
+    "filename": "car-567-Level2_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level2/car-2141-Level2_6.jpg",
+    "filename": "car-2141-Level2_6.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level2/car-1350-Level2_2.jpg",
+    "filename": "car-1350-Level2_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level2/car-2354-Level2_1.jpg",
+    "filename": "car-2354-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level1/car-543-Level1_2.jpg",
+    "filename": "car-543-Level1_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level2/car-2132-Level2_3.jpg",
+    "filename": "car-2132-Level2_3.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level1/car-1745-Level1_2.jpg",
+    "filename": "car-1745-Level1_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level2/car-2241-Level2_1.jpg",
+    "filename": "car-2241-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level1/car-2346-Level1_1.jpg",
+    "filename": "car-2346-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level1/car-844-Level1_1.jpg",
+    "filename": "car-844-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level2/car-564-Level2_3.jpg",
+    "filename": "car-564-Level2_3.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level1/car-1377-Level1_1.jpg",
+    "filename": "car-1377-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level2/car-606-Level2_5.jpg",
+    "filename": "car-606-Level2_5.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level2/car-606-Level2_3.jpg",
+    "filename": "car-606-Level2_3.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level1/car-1637-Level1_3.jpg",
+    "filename": "car-1637-Level1_3.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level4/car4-61-Level4_4.jpg",
+    "filename": "car4-61-Level4_4.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level4/car-2212-Level4_1.jpg",
+    "filename": "car-2212-Level4_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level3/car-1435-Level3_1.jpg",
+    "filename": "car-1435-Level3_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level3/car-1845-Level3_1.jpg",
+    "filename": "car-1845-Level3_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level4/car-576-Level4_2.jpg",
+    "filename": "car-576-Level4_2.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level3/car-752-Level3_3.jpg",
+    "filename": "car-752-Level3_3.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level3/car-1499-Level3_2.jpg",
+    "filename": "car-1499-Level3_2.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level4/car-2108-Level4_2.jpg",
+    "filename": "car-2108-Level4_2.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level3/car-470-Level3_2.jpg",
+    "filename": "car-470-Level3_2.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level4/car-1386-Level4_1.jpg",
+    "filename": "car-1386-Level4_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level3/car-1122-Level3_3.jpg",
+    "filename": "car-1122-Level3_3.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level3/car-651-Level3_5.jpg",
+    "filename": "car-651-Level3_5.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level3/car-1227-Level3_1.jpg",
+    "filename": "car-1227-Level3_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level4/car-1875-Level4_1.jpg",
+    "filename": "car-1875-Level4_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/drive/MyDrive/Flood Detection VLM/data/sturm_flooddepth_real/upscaled_images/Level3/car-2050-Level3_1.jpg",
+    "filename": "car-2050-Level3_1.jpg",
+    "ground_truth": "big flood"
+  }
+]

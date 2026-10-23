@@ -1,0 +1,147 @@
+{
+  "smolvlm_zs_label": {
+    "n": 120,
+    "accuracy": 33.33,
+    "macro_recall": 33.33,
+    "per_class_recall": {
+      "no flood": 22.5,
+      "small flood": 60.0,
+      "big flood": 17.5
+    },
+    "mean_word_count": 7.0,
+    "median_word_count": 7.0,
+    "degenerate_share": 7.5,
+    "parse_rules": {
+      "explicit_small": 65,
+      "fallback_default": 42,
+      "explicit_none": 1,
+      "explicit_big": 9,
+      "fallback_mentions_flood": 3
+    },
+    "fallback_share": 37.5
+  },
+  "smolvlm_zs_desc": {
+    "n": 120,
+    "accuracy": 40.83,
+    "macro_recall": 40.83,
+    "per_class_recall": {
+      "no flood": 22.5,
+      "small flood": 85.0,
+      "big flood": 15.0
+    },
+    "mean_word_count": 50.9,
+    "median_word_count": 47.0,
+    "degenerate_share": 0.0,
+    "parse_rules": {
+      "explicit_none": 10,
+      "fallback_mentions_flood": 76,
+      "explicit_big": 13,
+      "explicit_small": 21
+    },
+    "fallback_share": 63.3
+  },
+  "qwen_zs_label": {
+    "n": 120,
+    "accuracy": 35.0,
+    "macro_recall": 35.0,
+    "per_class_recall": {
+      "no flood": 100.0,
+      "small flood": 0.0,
+      "big flood": 5.0
+    },
+    "mean_word_count": 2,
+    "median_word_count": 2.0,
+    "degenerate_share": 100.0,
+    "parse_rules": {
+      "explicit_none": 118,
+      "explicit_big": 2
+    },
+    "fallback_share": 0.0
+  },
+  "qwen_zs_desc": {
+    "n": 120,
+    "accuracy": 42.5,
+    "macro_recall": 42.5,
+    "per_class_recall": {
+      "no flood": 30.0,
+      "small flood": 35.0,
+      "big flood": 62.5
+    },
+    "mean_word_count": 21.0,
+    "median_word_count": 23.0,
+    "degenerate_share": 0.0,
+    "parse_rules": {
+      "explicit_small": 38,
+      "fallback_mentions_flood": 14,
+      "explicit_big": 51,
+      "explicit_none": 17
+    },
+    "fallback_share": 11.7
+  },
+  "smolvlm_ft_label": {
+    "n": 120,
+    "accuracy": 53.33,
+    "macro_recall": 53.33,
+    "per_class_recall": {
+      "no flood": 87.5,
+      "small flood": 15.0,
+      "big flood": 57.5
+    },
+    "mean_word_count": 2.3,
+    "median_word_count": 2.0,
+    "degenerate_share": 96.7,
+    "parse_rules": {
+      "explicit_none": 64,
+      "explicit_big": 35,
+      "fallback_default": 4,
+      "explicit_small": 17
+    },
+    "fallback_share": 3.3
+  },
+  "smolvlm_ft_desc": {
+    "n": 120,
+    "accuracy": 35.83,
+    "macro_recall": 35.83,
+    "per_class_recall": {
+      "no flood": 5.0,
+      "small flood": 97.5,
+      "big flood": 5.0
+    },
+    "mean_word_count": 26.4,
+    "median_word_count": 26.0,
+    "degenerate_share": 0.0,
+    "parse_rules": {
+      "explicit_small": 37,
+      "fallback_mentions_flood": 78,
+      "explicit_big": 3,
+      "explicit_none": 2
+    },
+    "fallback_share": 65.0
+  },
+  "_paired_contrasts": {
+    "smolvlm_zs": {
+      "macro_recall_label": 33.33,
+      "macro_recall_language": 40.83,
+      "delta_macro_recall": 7.5,
+      "mean_words_label": 7.0,
+      "mean_words_language": 50.9,
+      "degenerate_share_language": 0.0
+    },
+    "qwen_zs": {
+      "macro_recall_label": 35.0,
+      "macro_recall_language": 42.5,
+      "delta_macro_recall": 7.5,
+      "mean_words_label": 2,
+      "mean_words_language": 21.0,
+      "degenerate_share_language": 0.0
+    },
+    "smolvlm_ft": {
+      "macro_recall_label": 53.33,
+      "macro_recall_language": 35.83,
+      "delta_macro_recall": -17.5,
+      "mean_words_label": 2.3,
+      "mean_words_language": 26.4,
+      "degenerate_share_language": 0.0
+    }
+  }
+}

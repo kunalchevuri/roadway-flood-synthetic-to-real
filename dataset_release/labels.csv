@@ -1,0 +1,1006 @@
+filename,scene_id,label,water_condition,width,height,archive
+001w.png,001,no flood,wet pavement,1280,777,fixed_synthetic_output-20261007T215927Z-1-002.zip
+001s.png,001,small flood,shallow standing water,1280,777,fixed_synthetic_output-20261007T215927Z-1-002.zip
+001l.png,001,big flood,deep standing water,1280,777,fixed_synthetic_output-20261007T215927Z-1-002.zip
+002w.png,002,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+002s.png,002,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+002l.png,002,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+003w.png,003,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+003s.png,003,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+003l.png,003,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+004w.png,004,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+004s.png,004,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+004l.png,004,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+005w.png,005,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+005s.png,005,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+005l.png,005,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+006w.png,006,no flood,wet pavement,1000,608,fixed_synthetic_output-20261007T215927Z-1-002.zip
+006s.png,006,small flood,shallow standing water,1000,608,fixed_synthetic_output-20261007T215927Z-1-002.zip
+006l.png,006,big flood,deep standing water,1000,608,fixed_synthetic_output-20261007T215927Z-1-002.zip
+007w.png,007,no flood,wet pavement,1000,608,fixed_synthetic_output-20261007T215927Z-1-002.zip
+007s.png,007,small flood,shallow standing water,1000,608,fixed_synthetic_output-20261007T215927Z-1-002.zip
+007l.png,007,big flood,deep standing water,1000,608,fixed_synthetic_output-20261007T215927Z-1-002.zip
+008w.png,008,no flood,wet pavement,1000,608,fixed_synthetic_output-20261007T215927Z-1-002.zip
+008s.png,008,small flood,shallow standing water,1000,608,fixed_synthetic_output-20261007T215927Z-1-002.zip
+008l.png,008,big flood,deep standing water,1000,608,fixed_synthetic_output-20261007T215927Z-1-002.zip
+009w.png,009,no flood,wet pavement,800,486,fixed_synthetic_output-20261007T215927Z-1-002.zip
+009s.png,009,small flood,shallow standing water,800,486,fixed_synthetic_output-20261007T215927Z-1-002.zip
+009l.png,009,big flood,deep standing water,800,486,fixed_synthetic_output-20261007T215927Z-1-002.zip
+010w.png,010,no flood,wet pavement,800,486,fixed_synthetic_output-20261007T215927Z-1-002.zip
+010s.png,010,small flood,shallow standing water,800,486,fixed_synthetic_output-20261007T215927Z-1-002.zip
+010l.png,010,big flood,deep standing water,800,486,fixed_synthetic_output-20261007T215927Z-1-002.zip
+011w.png,011,no flood,wet pavement,800,486,fixed_synthetic_output-20261007T215927Z-1-002.zip
+011s.png,011,small flood,shallow standing water,800,486,fixed_synthetic_output-20261007T215927Z-1-002.zip
+011l.png,011,big flood,deep standing water,800,486,fixed_synthetic_output-20261007T215927Z-1-002.zip
+012w.png,012,no flood,wet pavement,800,486,fixed_synthetic_output-20261007T215927Z-1-002.zip
+012s.png,012,small flood,shallow standing water,800,486,fixed_synthetic_output-20261007T215927Z-1-002.zip
+012l.png,012,big flood,deep standing water,800,486,fixed_synthetic_output-20261007T215927Z-1-002.zip
+013w.png,013,no flood,wet pavement,800,486,fixed_synthetic_output-20261007T215927Z-1-002.zip
+013s.png,013,small flood,shallow standing water,800,486,fixed_synthetic_output-20261007T215927Z-1-002.zip
+013l.png,013,big flood,deep standing water,800,486,fixed_synthetic_output-20261007T215927Z-1-002.zip
+014w.png,014,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+014s.png,014,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+014l.png,014,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+015w.png,015,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+015s.png,015,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+015l.png,015,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+016w.png,016,no flood,wet pavement,1920,1166,fixed_synthetic_output-20261007T215927Z-1-002.zip
+016s.png,016,small flood,shallow standing water,1920,1166,fixed_synthetic_output-20261007T215927Z-1-002.zip
+016l.png,016,big flood,deep standing water,1920,1166,fixed_synthetic_output-20261007T215927Z-1-002.zip
+017w.png,017,no flood,wet pavement,1000,608,fixed_synthetic_output-20261007T215927Z-1-002.zip
+017s.png,017,small flood,shallow standing water,1000,608,fixed_synthetic_output-20261007T215927Z-1-002.zip
+017l.png,017,big flood,deep standing water,1000,608,fixed_synthetic_output-20261007T215927Z-1-002.zip
+018w.png,018,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+018s.png,018,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+018l.png,018,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+019w.png,019,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+019s.png,019,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+019l.png,019,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+020w.png,020,no flood,wet pavement,1920,1166,fixed_synthetic_output-20261007T215927Z-1-002.zip
+020s.png,020,small flood,shallow standing water,1920,1166,fixed_synthetic_output-20261007T215927Z-1-002.zip
+020l.png,020,big flood,deep standing water,1920,1166,fixed_synthetic_output-20261007T215927Z-1-002.zip
+021w.png,021,no flood,wet pavement,1920,1166,fixed_synthetic_output-20261007T215927Z-1-002.zip
+021s.png,021,small flood,shallow standing water,1920,1166,fixed_synthetic_output-20261007T215927Z-1-002.zip
+021l.png,021,big flood,deep standing water,1920,1166,fixed_synthetic_output-20261007T215927Z-1-002.zip
+022w.png,022,no flood,wet pavement,768,466,fixed_synthetic_output-20261007T215927Z-1-002.zip
+022s.png,022,small flood,shallow standing water,768,466,fixed_synthetic_output-20261007T215927Z-1-002.zip
+022l.png,022,big flood,deep standing water,768,466,fixed_synthetic_output-20261007T215927Z-1-002.zip
+023w.png,023,no flood,wet pavement,768,466,fixed_synthetic_output-20261007T215927Z-1-002.zip
+023s.png,023,small flood,shallow standing water,768,466,fixed_synthetic_output-20261007T215927Z-1-002.zip
+023l.png,023,big flood,deep standing water,768,466,fixed_synthetic_output-20261007T215927Z-1-002.zip
+024w.png,024,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+024s.png,024,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+024l.png,024,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+025w.png,025,no flood,wet pavement,768,466,fixed_synthetic_output-20261007T215927Z-1-002.zip
+025s.png,025,small flood,shallow standing water,768,466,fixed_synthetic_output-20261007T215927Z-1-002.zip
+025l.png,025,big flood,deep standing water,768,466,fixed_synthetic_output-20261007T215927Z-1-002.zip
+026w.png,026,no flood,wet pavement,768,466,fixed_synthetic_output-20261007T215927Z-1-002.zip
+026s.png,026,small flood,shallow standing water,768,466,fixed_synthetic_output-20261007T215927Z-1-002.zip
+026l.png,026,big flood,deep standing water,768,466,fixed_synthetic_output-20261007T215927Z-1-002.zip
+027w.png,027,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+027s.png,027,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+027l.png,027,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+028w.png,028,no flood,wet pavement,640,388,fixed_synthetic_output-20261007T215927Z-1-002.zip
+028s.png,028,small flood,shallow standing water,640,388,fixed_synthetic_output-20261007T215927Z-1-002.zip
+028l.png,028,big flood,deep standing water,640,388,fixed_synthetic_output-20261007T215927Z-1-002.zip
+029w.png,029,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+029s.png,029,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+029l.png,029,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+030w.png,030,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+030s.png,030,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+030l.png,030,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+031w.png,031,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+031s.png,031,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+031l.png,031,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+032w.png,032,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+032s.png,032,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+032l.png,032,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+033w.png,033,no flood,wet pavement,768,466,fixed_synthetic_output-20261007T215927Z-1-002.zip
+033s.png,033,small flood,shallow standing water,768,466,fixed_synthetic_output-20261007T215927Z-1-002.zip
+033l.png,033,big flood,deep standing water,768,466,fixed_synthetic_output-20261007T215927Z-1-002.zip
+034w.png,034,no flood,wet pavement,768,466,fixed_synthetic_output-20261007T215927Z-1-002.zip
+034s.png,034,small flood,shallow standing water,768,466,fixed_synthetic_output-20261007T215927Z-1-002.zip
+034l.png,034,big flood,deep standing water,768,466,fixed_synthetic_output-20261007T215927Z-1-002.zip
+035w.png,035,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+035s.png,035,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+035l.png,035,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+036w.png,036,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+036s.png,036,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+036l.png,036,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+037w.png,037,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+037s.png,037,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+037l.png,037,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+038w.png,038,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+038s.png,038,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+038l.png,038,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+039w.png,039,no flood,wet pavement,1280,720,fixed_synthetic_output-20261007T215927Z-1-002.zip
+039s.png,039,small flood,shallow standing water,1280,720,fixed_synthetic_output-20261007T215927Z-1-002.zip
+039l.png,039,big flood,deep standing water,1280,720,fixed_synthetic_output-20261007T215927Z-1-002.zip
+040w.png,040,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+040s.png,040,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+040l.png,040,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+041w.png,041,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+041s.png,041,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+041l.png,041,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+042w.png,042,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+042s.png,042,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+042l.png,042,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+043w.png,043,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+043s.png,043,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+043l.png,043,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+044w.png,044,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+044s.png,044,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+044l.png,044,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+045w.png,045,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+045s.png,045,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+045l.png,045,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+046w.png,046,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+046s.png,046,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+046l.png,046,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+047w.png,047,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+047s.png,047,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+047l.png,047,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+048w.png,048,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+048s.png,048,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+048l.png,048,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+049w.png,049,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+049s.png,049,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+049l.png,049,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+050w.png,050,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+050s.png,050,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+050l.png,050,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+051w.png,051,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+051s.png,051,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+051l.png,051,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+052w.png,052,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+052s.png,052,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+052l.png,052,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+053w.png,053,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+053s.png,053,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+053l.png,053,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+054w.png,054,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+054s.png,054,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+054l.png,054,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+055w.png,055,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+055s.png,055,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+055l.png,055,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+056w.png,056,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+056s.png,056,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+056l.png,056,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+057w.png,057,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+057s.png,057,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+057l.png,057,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+058w.png,058,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+058s.png,058,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+058l.png,058,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+059w.png,059,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+059s.png,059,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+059l.png,059,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+060w.png,060,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+060s.png,060,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+060l.png,060,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+061w.png,061,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+061s.png,061,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+061l.png,061,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+062w.png,062,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+062s.png,062,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+062l.png,062,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+063w.png,063,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+063s.png,063,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+063l.png,063,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+064w.png,064,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+064s.png,064,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+064l.png,064,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+065w.png,065,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+065s.png,065,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+065l.png,065,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+066w.png,066,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+066s.png,066,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+066l.png,066,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+067w.png,067,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+067s.png,067,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+067l.png,067,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+068w.png,068,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+068s.png,068,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+068l.png,068,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+069w.png,069,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+069s.png,069,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+069l.png,069,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+070w.png,070,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+070s.png,070,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+070l.png,070,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+071w.png,071,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+071s.png,071,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+071l.png,071,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+072w.png,072,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+072s.png,072,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+072l.png,072,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+073w.png,073,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+073s.png,073,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+073l.png,073,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+074w.png,074,no flood,wet pavement,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+074s.png,074,small flood,shallow standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+074l.png,074,big flood,deep standing water,960,540,fixed_synthetic_output-20261007T215927Z-1-002.zip
+075w.png,075,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+075s.png,075,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+075l.png,075,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+076w.png,076,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+076s.png,076,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+076l.png,076,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+077w.png,077,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+077s.png,077,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+077l.png,077,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+078w.png,078,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+078s.png,078,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+078l.png,078,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+079w.png,079,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+079s.png,079,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+079l.png,079,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+080w.png,080,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+080s.png,080,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+080l.png,080,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+081w.png,081,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+081s.png,081,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+081l.png,081,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+082w.png,082,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+082s.png,082,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+082l.png,082,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+083w.png,083,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+083s.png,083,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+083l.png,083,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+084w.png,084,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+084s.png,084,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+084l.png,084,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+085w.png,085,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+085s.png,085,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+085l.png,085,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+086w.png,086,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+086s.png,086,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+086l.png,086,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+087w.png,087,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+087s.png,087,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+087l.png,087,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+088w.png,088,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+088s.png,088,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+088l.png,088,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+089w.png,089,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+089s.png,089,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+089l.png,089,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+090w.png,090,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+090s.png,090,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+090l.png,090,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+091w.png,091,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+091s.png,091,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+091l.png,091,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+092w.png,092,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+092s.png,092,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+092l.png,092,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+093w.png,093,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+093s.png,093,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+093l.png,093,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+094w.png,094,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+094s.png,094,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+094l.png,094,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+095w.png,095,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+095s.png,095,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+095l.png,095,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+096w.png,096,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+096s.png,096,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+096l.png,096,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+097w.png,097,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+097s.png,097,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+097l.png,097,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+098w.png,098,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+098s.png,098,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+098l.png,098,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+099w.png,099,no flood,wet pavement,1280,720,fixed_synthetic_output-20261007T215927Z-1-001.zip
+099s.png,099,small flood,shallow standing water,1280,720,fixed_synthetic_output-20261007T215927Z-1-001.zip
+099l.png,099,big flood,deep standing water,1280,720,fixed_synthetic_output-20261007T215927Z-1-001.zip
+100w.png,100,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+100s.png,100,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+100l.png,100,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+101w.png,101,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+101s.png,101,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+101l.png,101,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+102w.png,102,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+102s.png,102,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+102l.png,102,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+103w.png,103,no flood,wet pavement,1280,720,fixed_synthetic_output-20261007T215927Z-1-001.zip
+103s.png,103,small flood,shallow standing water,1280,720,fixed_synthetic_output-20261007T215927Z-1-001.zip
+103l.png,103,big flood,deep standing water,1280,720,fixed_synthetic_output-20261007T215927Z-1-001.zip
+104w.png,104,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+104s.png,104,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+104l.png,104,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+105w.png,105,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+105s.png,105,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+105l.png,105,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+106w.png,106,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-002.zip
+106s.png,106,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+106l.png,106,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+107w.png,107,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+107s.png,107,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+107l.png,107,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+108w.png,108,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+108s.png,108,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+108l.png,108,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+109w.png,109,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+109s.png,109,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+109l.png,109,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+110w.png,110,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+110s.png,110,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+110l.png,110,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+111w.png,111,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+111s.png,111,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+111l.png,111,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+112w.png,112,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+112s.png,112,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+112l.png,112,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+113w.png,113,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+113s.png,113,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+113l.png,113,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+114w.png,114,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+114s.png,114,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+114l.png,114,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+115w.png,115,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+115s.png,115,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+115l.png,115,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+116w.png,116,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+116s.png,116,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+116l.png,116,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+117w.png,117,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+117s.png,117,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+117l.png,117,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+118w.png,118,no flood,wet pavement,1437,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+118s.png,118,small flood,shallow standing water,1437,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+118l.png,118,big flood,deep standing water,1437,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+119w.png,119,no flood,wet pavement,1436,1078,fixed_synthetic_output-20261007T215927Z-1-001.zip
+119s.png,119,small flood,shallow standing water,1436,1078,fixed_synthetic_output-20261007T215927Z-1-001.zip
+119l.png,119,big flood,deep standing water,1436,1078,fixed_synthetic_output-20261007T215927Z-1-001.zip
+120w.png,120,no flood,wet pavement,1438,1078,fixed_synthetic_output-20261007T215927Z-1-001.zip
+120s.png,120,small flood,shallow standing water,1438,1078,fixed_synthetic_output-20261007T215927Z-1-001.zip
+120l.png,120,big flood,deep standing water,1438,1078,fixed_synthetic_output-20261007T215927Z-1-001.zip
+121w.png,121,no flood,wet pavement,1435,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+121s.png,121,small flood,shallow standing water,1435,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+121l.png,121,big flood,deep standing water,1435,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+122w.png,122,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+122s.png,122,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+122l.png,122,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+123w.png,123,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+123s.png,123,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+123l.png,123,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+124w.png,124,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+124s.png,124,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+124l.png,124,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+125w.png,125,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+125s.png,125,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+125l.png,125,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+126w.png,126,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+126s.png,126,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+126l.png,126,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+127w.png,127,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+127s.png,127,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+127l.png,127,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+128w.png,128,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+128s.png,128,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+128l.png,128,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+129w.png,129,no flood,wet pavement,1438,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+129s.png,129,small flood,shallow standing water,1438,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+129l.png,129,big flood,deep standing water,1438,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+130w.png,130,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+130s.png,130,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+130l.png,130,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+131w.png,131,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+131s.png,131,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+131l.png,131,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+132w.png,132,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+132s.png,132,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+132l.png,132,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+133w.png,133,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+133s.png,133,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+133l.png,133,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+134w.png,134,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+134s.png,134,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+134l.png,134,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+135w.png,135,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+135s.png,135,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+135l.png,135,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+136w.png,136,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+136s.png,136,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+136l.png,136,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+137w.png,137,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+137s.png,137,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+137l.png,137,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+138w.png,138,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+138s.png,138,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+138l.png,138,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+139w.png,139,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+139s.png,139,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+139l.png,139,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+140w.png,140,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+140s.png,140,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+140l.png,140,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+141w.png,141,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+141s.png,141,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+141l.png,141,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+142w.png,142,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+142s.png,142,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+142l.png,142,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+143w.png,143,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+143s.png,143,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+143l.png,143,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+144w.png,144,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+144s.png,144,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+144l.png,144,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+145w.png,145,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+145s.png,145,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+145l.png,145,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+146w.png,146,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+146s.png,146,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+146l.png,146,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+147w.png,147,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+147s.png,147,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+147l.png,147,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+148w.png,148,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+148s.png,148,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+148l.png,148,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+149w.png,149,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+149s.png,149,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+149l.png,149,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+150w.png,150,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+150s.png,150,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+150l.png,150,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+151w.png,151,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+151s.png,151,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+151l.png,151,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+152w.png,152,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+152s.png,152,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+152l.png,152,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+153w.png,153,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+153s.png,153,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+153l.png,153,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+154w.png,154,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+154s.png,154,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+154l.png,154,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+155w.png,155,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+155s.png,155,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+155l.png,155,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+156w.png,156,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+156s.png,156,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+156l.png,156,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+157w.png,157,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+157s.png,157,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+157l.png,157,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+158w.png,158,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+158s.png,158,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+158l.png,158,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+159w.png,159,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+159s.png,159,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+159l.png,159,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+160w.png,160,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+160s.png,160,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+160l.png,160,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+161w.png,161,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+161s.png,161,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+161l.png,161,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+162w.png,162,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+162s.png,162,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+162l.png,162,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+163w.png,163,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+163s.png,163,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+163l.png,163,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+164w.png,164,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+164s.png,164,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+164l.png,164,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+165w.png,165,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+165s.png,165,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+165l.png,165,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+166w.png,166,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+166s.png,166,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+166l.png,166,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+167w.png,167,no flood,wet pavement,1619,1075,fixed_synthetic_output-20261007T215927Z-1-001.zip
+167s.png,167,small flood,shallow standing water,1619,1075,fixed_synthetic_output-20261007T215927Z-1-001.zip
+167l.png,167,big flood,deep standing water,1619,1075,fixed_synthetic_output-20261007T215927Z-1-001.zip
+168w.png,168,no flood,wet pavement,1616,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+168s.png,168,small flood,shallow standing water,1616,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+168l.png,168,big flood,deep standing water,1616,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+169w.png,169,no flood,wet pavement,1619,1071,fixed_synthetic_output-20261007T215927Z-1-001.zip
+169s.png,169,small flood,shallow standing water,1619,1071,fixed_synthetic_output-20261007T215927Z-1-001.zip
+169l.png,169,big flood,deep standing water,1619,1071,fixed_synthetic_output-20261007T215927Z-1-001.zip
+170w.png,170,no flood,wet pavement,1620,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+170s.png,170,small flood,shallow standing water,1620,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+170l.png,170,big flood,deep standing water,1620,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+171w.png,171,no flood,wet pavement,1620,1075,fixed_synthetic_output-20261007T215927Z-1-001.zip
+171s.png,171,small flood,shallow standing water,1620,1075,fixed_synthetic_output-20261007T215927Z-1-001.zip
+171l.png,171,big flood,deep standing water,1620,1075,fixed_synthetic_output-20261007T215927Z-1-001.zip
+172w.png,172,no flood,wet pavement,1617,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+172s.png,172,small flood,shallow standing water,1617,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+172l.png,172,big flood,deep standing water,1617,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+173w.png,173,no flood,wet pavement,1620,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+173s.png,173,small flood,shallow standing water,1620,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+173l.png,173,big flood,deep standing water,1620,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+174w.png,174,no flood,wet pavement,1352,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+174s.png,174,small flood,shallow standing water,1352,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+174l.png,174,big flood,deep standing water,1352,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+175w.png,175,no flood,wet pavement,1618,1077,fixed_synthetic_output-20261007T215927Z-1-001.zip
+175s.png,175,small flood,shallow standing water,1618,1077,fixed_synthetic_output-20261007T215927Z-1-001.zip
+175l.png,175,big flood,deep standing water,1618,1077,fixed_synthetic_output-20261007T215927Z-1-001.zip
+176w.png,176,no flood,wet pavement,1618,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+176s.png,176,small flood,shallow standing water,1618,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+176l.png,176,big flood,deep standing water,1618,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+177w.png,177,no flood,wet pavement,1616,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+177s.png,177,small flood,shallow standing water,1616,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+177l.png,177,big flood,deep standing water,1616,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+178w.png,178,no flood,wet pavement,1620,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+178s.png,178,small flood,shallow standing water,1620,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+178l.png,178,big flood,deep standing water,1620,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+179w.png,179,no flood,wet pavement,1620,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+179s.png,179,small flood,shallow standing water,1620,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+179l.png,179,big flood,deep standing water,1620,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+180w.png,180,no flood,wet pavement,1621,1077,fixed_synthetic_output-20261007T215927Z-1-001.zip
+180s.png,180,small flood,shallow standing water,1621,1077,fixed_synthetic_output-20261007T215927Z-1-001.zip
+180l.png,180,big flood,deep standing water,1621,1077,fixed_synthetic_output-20261007T215927Z-1-001.zip
+181w.png,181,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+181s.png,181,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+181l.png,181,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+182w.png,182,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+182s.png,182,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+182l.png,182,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+183w.png,183,no flood,wet pavement,1619,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+183s.png,183,small flood,shallow standing water,1619,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+183l.png,183,big flood,deep standing water,1619,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+184w.png,184,no flood,wet pavement,1619,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+184s.png,184,small flood,shallow standing water,1619,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+184l.png,184,big flood,deep standing water,1619,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+185w.png,185,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+185s.png,185,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+185l.png,185,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+186w.png,186,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+186s.png,186,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+186l.png,186,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+187w.png,187,no flood,wet pavement,1617,1074,fixed_synthetic_output-20261007T215927Z-1-001.zip
+187s.png,187,small flood,shallow standing water,1617,1074,fixed_synthetic_output-20261007T215927Z-1-001.zip
+187l.png,187,big flood,deep standing water,1617,1074,fixed_synthetic_output-20261007T215927Z-1-001.zip
+188w.png,188,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+188s.png,188,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+188l.png,188,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+189w.png,189,no flood,wet pavement,1447,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+189s.png,189,small flood,shallow standing water,1447,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+189l.png,189,big flood,deep standing water,1447,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+190w.png,190,no flood,wet pavement,1619,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+190s.png,190,small flood,shallow standing water,1619,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+190l.png,190,big flood,deep standing water,1619,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+191w.png,191,no flood,wet pavement,1619,1078,fixed_synthetic_output-20261007T215927Z-1-001.zip
+191s.png,191,small flood,shallow standing water,1619,1078,fixed_synthetic_output-20261007T215927Z-1-001.zip
+191l.png,191,big flood,deep standing water,1619,1078,fixed_synthetic_output-20261007T215927Z-1-001.zip
+192w.png,192,no flood,wet pavement,1618,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+192s.png,192,small flood,shallow standing water,1618,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+192l.png,192,big flood,deep standing water,1618,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+193w.png,193,no flood,wet pavement,1618,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+193s.png,193,small flood,shallow standing water,1618,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+193l.png,193,big flood,deep standing water,1618,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+194w.png,194,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+194s.png,194,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+194l.png,194,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+195w.png,195,no flood,wet pavement,1620,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+195s.png,195,small flood,shallow standing water,1620,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+195l.png,195,big flood,deep standing water,1620,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+196w.png,196,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+196s.png,196,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+196l.png,196,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+197w.png,197,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+197s.png,197,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+197l.png,197,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+198w.png,198,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+198s.png,198,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+198l.png,198,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+199w.png,199,no flood,wet pavement,1348,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+199s.png,199,small flood,shallow standing water,1348,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+199l.png,199,big flood,deep standing water,1348,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+200w.png,200,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+200s.png,200,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+200l.png,200,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+201w.png,201,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+201s.png,201,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+201l.png,201,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+202w.png,202,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+202s.png,202,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+202l.png,202,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+203w.png,203,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+203s.png,203,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+203l.png,203,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+204w.png,204,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+204s.png,204,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+204l.png,204,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+205w.png,205,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+205s.png,205,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+205l.png,205,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+206w.png,206,no flood,wet pavement,1440,1078,fixed_synthetic_output-20261007T215927Z-1-001.zip
+206s.png,206,small flood,shallow standing water,1440,1078,fixed_synthetic_output-20261007T215927Z-1-001.zip
+206l.png,206,big flood,deep standing water,1440,1078,fixed_synthetic_output-20261007T215927Z-1-001.zip
+207w.png,207,no flood,wet pavement,1440,1078,fixed_synthetic_output-20261007T215927Z-1-001.zip
+207s.png,207,small flood,shallow standing water,1440,1078,fixed_synthetic_output-20261007T215927Z-1-001.zip
+207l.png,207,big flood,deep standing water,1440,1078,fixed_synthetic_output-20261007T215927Z-1-001.zip
+208w.png,208,no flood,wet pavement,1441,1077,fixed_synthetic_output-20261007T215927Z-1-001.zip
+208s.png,208,small flood,shallow standing water,1441,1077,fixed_synthetic_output-20261007T215927Z-1-001.zip
+208l.png,208,big flood,deep standing water,1441,1077,fixed_synthetic_output-20261007T215927Z-1-001.zip
+209w.png,209,no flood,wet pavement,1438,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+209s.png,209,small flood,shallow standing water,1438,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+209l.png,209,big flood,deep standing water,1438,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+210w.png,210,no flood,wet pavement,1437,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+210s.png,210,small flood,shallow standing water,1437,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+210l.png,210,big flood,deep standing water,1437,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+211w.png,211,no flood,wet pavement,1438,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+211s.png,211,small flood,shallow standing water,1438,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+211l.png,211,big flood,deep standing water,1438,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+212w.png,212,no flood,wet pavement,1440,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+212s.png,212,small flood,shallow standing water,1440,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+212l.png,212,big flood,deep standing water,1440,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+213w.png,213,no flood,wet pavement,1437,1078,fixed_synthetic_output-20261007T215927Z-1-001.zip
+213s.png,213,small flood,shallow standing water,1437,1078,fixed_synthetic_output-20261007T215927Z-1-001.zip
+213l.png,213,big flood,deep standing water,1437,1078,fixed_synthetic_output-20261007T215927Z-1-001.zip
+214w.png,214,no flood,wet pavement,1438,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+214s.png,214,small flood,shallow standing water,1438,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+214l.png,214,big flood,deep standing water,1438,1079,fixed_synthetic_output-20261007T215927Z-1-001.zip
+215w.png,215,no flood,wet pavement,1440,1077,fixed_synthetic_output-20261007T215927Z-1-001.zip
+215s.png,215,small flood,shallow standing water,1440,1077,fixed_synthetic_output-20261007T215927Z-1-001.zip
+215l.png,215,big flood,deep standing water,1440,1077,fixed_synthetic_output-20261007T215927Z-1-001.zip
+216w.png,216,no flood,wet pavement,1435,1077,fixed_synthetic_output-20261007T215927Z-1-001.zip
+216s.png,216,small flood,shallow standing water,1435,1077,fixed_synthetic_output-20261007T215927Z-1-001.zip
+216l.png,216,big flood,deep standing water,1435,1077,fixed_synthetic_output-20261007T215927Z-1-001.zip
+217w.png,217,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+217s.png,217,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+217l.png,217,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+218w.png,218,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+218s.png,218,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+218l.png,218,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+219w.png,219,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+219s.png,219,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+219l.png,219,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+220w.png,220,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+220s.png,220,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+220l.png,220,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+221w.png,221,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+221s.png,221,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+221l.png,221,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+222w.png,222,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+222s.png,222,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+222l.png,222,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+223w.png,223,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+223s.png,223,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+223l.png,223,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+224w.png,224,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+224s.png,224,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+224l.png,224,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+225w.png,225,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+225s.png,225,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+225l.png,225,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+226w.png,226,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+226s.png,226,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+226l.png,226,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+227w.png,227,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+227s.png,227,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+227l.png,227,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+228w.png,228,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+228s.png,228,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+228l.png,228,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+229w.png,229,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+229s.png,229,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+229l.png,229,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+230w.png,230,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+230s.png,230,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+230l.png,230,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+231w.png,231,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+231s.png,231,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+231l.png,231,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+232w.png,232,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+232s.png,232,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+232l.png,232,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+233w.png,233,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+233s.png,233,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+233l.png,233,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+234w.png,234,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+234s.png,234,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+234l.png,234,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+235w.png,235,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+235s.png,235,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+235l.png,235,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+236w.png,236,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+236s.png,236,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+236l.png,236,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+237w.png,237,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+237s.png,237,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+237l.png,237,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+238w.png,238,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+238s.png,238,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+238l.png,238,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+239w.png,239,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+239s.png,239,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+239l.png,239,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+240w.png,240,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+240s.png,240,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+240l.png,240,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+241w.png,241,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+241s.png,241,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+241l.png,241,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+242w.png,242,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+242s.png,242,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+242l.png,242,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+243w.png,243,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+243s.png,243,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+243l.png,243,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+244w.png,244,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+244s.png,244,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+244l.png,244,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+245w.png,245,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+245s.png,245,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+245l.png,245,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+246w.png,246,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+246s.png,246,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+246l.png,246,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+247w.png,247,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+247s.png,247,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+247l.png,247,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+248w.png,248,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+248s.png,248,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+248l.png,248,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+249w.png,249,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+249s.png,249,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+249l.png,249,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+250w.png,250,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+250s.png,250,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+250l.png,250,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+251w.png,251,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+251s.png,251,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+251l.png,251,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+252w.png,252,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+252s.png,252,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+252l.png,252,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+253w.png,253,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+253s.png,253,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+253l.png,253,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+254w.png,254,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+254s.png,254,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+254l.png,254,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+255w.png,255,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+255s.png,255,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+255l.png,255,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+256w.png,256,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+256s.png,256,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+256l.png,256,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+257w.png,257,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+257s.png,257,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+257l.png,257,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+258w.png,258,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+258s.png,258,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+258l.png,258,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+259w.png,259,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+259s.png,259,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+259l.png,259,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+260w.png,260,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+260s.png,260,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+260l.png,260,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+261w.png,261,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+261s.png,261,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+261l.png,261,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+262w.png,262,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+262s.png,262,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+262l.png,262,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+263w.png,263,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+263s.png,263,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+263l.png,263,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+264w.png,264,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+264s.png,264,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+264l.png,264,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+265w.png,265,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+265s.png,265,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+265l.png,265,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+266w.png,266,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+266s.png,266,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+266l.png,266,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+267w.png,267,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+267s.png,267,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+267l.png,267,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+268w.png,268,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+268s.png,268,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+268l.png,268,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+269w.png,269,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+269s.png,269,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+269l.png,269,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+270w.png,270,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+270s.png,270,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+270l.png,270,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+271w.png,271,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+271s.png,271,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+271l.png,271,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+272w.png,272,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+272s.png,272,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+272l.png,272,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+273w.png,273,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+273s.png,273,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+273l.png,273,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+274w.png,274,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+274s.png,274,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+274l.png,274,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+275w.png,275,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+275s.png,275,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+275l.png,275,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+276w.png,276,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+276s.png,276,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+276l.png,276,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+277w.png,277,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+277s.png,277,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+277l.png,277,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+278w.png,278,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+278s.png,278,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+278l.png,278,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+279w.png,279,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+279s.png,279,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+279l.png,279,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+280w.png,280,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+280s.png,280,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+280l.png,280,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+281w.png,281,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+281s.png,281,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+281l.png,281,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+282w.png,282,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+282s.png,282,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+282l.png,282,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+283w.png,283,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+283s.png,283,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+283l.png,283,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+284w.png,284,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+284s.png,284,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+284l.png,284,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+285w.png,285,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+285s.png,285,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+285l.png,285,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+286w.png,286,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+286s.png,286,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+286l.png,286,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+287w.png,287,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+287s.png,287,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+287l.png,287,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+288w.png,288,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+288s.png,288,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+288l.png,288,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+289w.png,289,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+289s.png,289,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+289l.png,289,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+290w.png,290,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+290s.png,290,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+290l.png,290,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+291w.png,291,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+291s.png,291,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+291l.png,291,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+292w.png,292,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+292s.png,292,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+292l.png,292,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+293w.png,293,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+293s.png,293,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+293l.png,293,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+294w.png,294,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+294s.png,294,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+294l.png,294,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+295w.png,295,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+295s.png,295,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+295l.png,295,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+296w.png,296,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+296s.png,296,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+296l.png,296,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+297w.png,297,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+297s.png,297,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+297l.png,297,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+298w.png,298,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+298s.png,298,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+298l.png,298,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+299w.png,299,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+299s.png,299,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+299l.png,299,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+300w.png,300,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+300s.png,300,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+300l.png,300,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+301w.png,301,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+301s.png,301,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+301l.png,301,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+302w.png,302,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+302s.png,302,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+302l.png,302,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+303w.png,303,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+303s.png,303,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+303l.png,303,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+304w.png,304,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+304s.png,304,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+304l.png,304,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+305w.png,305,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+305s.png,305,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+305l.png,305,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+306w.png,306,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+306s.png,306,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+306l.png,306,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+307w.png,307,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+307s.png,307,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+307l.png,307,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+308w.png,308,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+308s.png,308,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+308l.png,308,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+309w.png,309,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+309s.png,309,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+309l.png,309,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+310w.png,310,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+310s.png,310,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+310l.png,310,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+311w.png,311,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+311s.png,311,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+311l.png,311,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+312w.png,312,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+312s.png,312,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+312l.png,312,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+313w.png,313,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+313s.png,313,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+313l.png,313,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+314w.png,314,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+314s.png,314,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+314l.png,314,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+315w.png,315,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+315s.png,315,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+315l.png,315,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+316w.png,316,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+316s.png,316,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+316l.png,316,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+317w.png,317,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+317s.png,317,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+317l.png,317,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+318w.png,318,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+318s.png,318,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+318l.png,318,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+319w.png,319,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+319s.png,319,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+319l.png,319,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+320w.png,320,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+320s.png,320,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+320l.png,320,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+321w.png,321,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+321s.png,321,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+321l.png,321,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+322w.png,322,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+322s.png,322,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+322l.png,322,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+323w.png,323,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+323s.png,323,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+323l.png,323,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+324w.png,324,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+324s.png,324,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+324l.png,324,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+325w.png,325,no flood,wet pavement,1280,720,fixed_synthetic_output-20261007T215927Z-1-001.zip
+325s.png,325,small flood,shallow standing water,1280,720,fixed_synthetic_output-20261007T215927Z-1-001.zip
+325l.png,325,big flood,deep standing water,1280,720,fixed_synthetic_output-20261007T215927Z-1-001.zip
+326w.png,326,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+326s.png,326,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+326l.png,326,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+327w.png,327,no flood,wet pavement,1280,720,fixed_synthetic_output-20261007T215927Z-1-001.zip
+327s.png,327,small flood,shallow standing water,1280,720,fixed_synthetic_output-20261007T215927Z-1-001.zip
+327l.png,327,big flood,deep standing water,1280,720,fixed_synthetic_output-20261007T215927Z-1-001.zip
+328w.png,328,no flood,wet pavement,1280,720,fixed_synthetic_output-20261007T215927Z-1-001.zip
+328s.png,328,small flood,shallow standing water,1280,720,fixed_synthetic_output-20261007T215927Z-1-001.zip
+328l.png,328,big flood,deep standing water,1280,720,fixed_synthetic_output-20261007T215927Z-1-001.zip
+329w.png,329,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+329s.png,329,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+329l.png,329,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+330w.png,330,no flood,wet pavement,1280,720,fixed_synthetic_output-20261007T215927Z-1-001.zip
+330s.png,330,small flood,shallow standing water,1280,720,fixed_synthetic_output-20261007T215927Z-1-001.zip
+330l.png,330,big flood,deep standing water,1280,720,fixed_synthetic_output-20261007T215927Z-1-001.zip
+331w.png,331,no flood,wet pavement,1280,720,fixed_synthetic_output-20261007T215927Z-1-001.zip
+331s.png,331,small flood,shallow standing water,1280,720,fixed_synthetic_output-20261007T215927Z-1-001.zip
+331l.png,331,big flood,deep standing water,1280,720,fixed_synthetic_output-20261007T215927Z-1-001.zip
+332w.png,332,no flood,wet pavement,1280,720,fixed_synthetic_output-20261007T215927Z-1-001.zip
+332s.png,332,small flood,shallow standing water,1280,720,fixed_synthetic_output-20261007T215927Z-1-001.zip
+332l.png,332,big flood,deep standing water,1280,720,fixed_synthetic_output-20261007T215927Z-1-001.zip
+333w.png,333,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+333s.png,333,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+333l.png,333,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+334w.png,334,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+334s.png,334,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+334l.png,334,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+335w.png,335,no flood,wet pavement,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+335s.png,335,small flood,shallow standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip
+335l.png,335,big flood,deep standing water,1920,1080,fixed_synthetic_output-20261007T215927Z-1-001.zip

@@ -1,0 +1,1192 @@
+[
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-556-Level0_2.jpg",
+    "filename": "car-556-Level0_2.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-1803-Level0_1.jpg",
+    "filename": "car-1803-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-1410-Level0_1.jpg",
+    "filename": "car-1410-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-2224-Level0_1.jpg",
+    "filename": "car-2224-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-197-Level0_4.jpg",
+    "filename": "car-197-Level0_4.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-119-Level0_6.jpg",
+    "filename": "car-119-Level0_6.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-1194-Level0_1.jpg",
+    "filename": "car-1194-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-988-Level0_2.jpg",
+    "filename": "car-988-Level0_2.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-434-Level0_1.jpg",
+    "filename": "car-434-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-561-Level0_6.jpg",
+    "filename": "car-561-Level0_6.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-395-Level0_1.jpg",
+    "filename": "car-395-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-1905-Level0_1.jpg",
+    "filename": "car-1905-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-117-Level0_7.jpg",
+    "filename": "car-117-Level0_7.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-1909-Level0_4.jpg",
+    "filename": "car-1909-Level0_4.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-1239-Level0_1.jpg",
+    "filename": "car-1239-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-907-Level0_7.jpg",
+    "filename": "car-907-Level0_7.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-1199-Level0_1.jpg",
+    "filename": "car-1199-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-1527-Level0_1.jpg",
+    "filename": "car-1527-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-1529-Level0_1.jpg",
+    "filename": "car-1529-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-1763-Level0_2.jpg",
+    "filename": "car-1763-Level0_2.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-604-Level0_5.jpg",
+    "filename": "car-604-Level0_5.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-332-Level0_1.jpg",
+    "filename": "car-332-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-119-Level0_10.jpg",
+    "filename": "car-119-Level0_10.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-2363-Level0_1.jpg",
+    "filename": "car-2363-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-1535-Level0_1.jpg",
+    "filename": "car-1535-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-1527-Level0_3.jpg",
+    "filename": "car-1527-Level0_3.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-142-Level0_1.jpg",
+    "filename": "car-142-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-796-Level0_3.jpg",
+    "filename": "car-796-Level0_3.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-1553-Level0_3.jpg",
+    "filename": "car-1553-Level0_3.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-1525-Level0_4.jpg",
+    "filename": "car-1525-Level0_4.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-1708-Level0_2.jpg",
+    "filename": "car-1708-Level0_2.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-571-Level0_1.jpg",
+    "filename": "car-571-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-2251-Level0_1.jpg",
+    "filename": "car-2251-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-119-Level0_5.jpg",
+    "filename": "car-119-Level0_5.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-1007-Level0_1.jpg",
+    "filename": "car-1007-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car2-26-Level0_3.jpg",
+    "filename": "car2-26-Level0_3.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-1709-Level0_3.jpg",
+    "filename": "car-1709-Level0_3.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-1044-Level0_1.jpg",
+    "filename": "car-1044-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-103-Level0_10.jpg",
+    "filename": "car-103-Level0_10.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-916-Level0_6.jpg",
+    "filename": "car-916-Level0_6.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-2143-Level0_2.jpg",
+    "filename": "car-2143-Level0_2.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-469-Level0_6.jpg",
+    "filename": "car-469-Level0_6.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-1040-Level0_1.jpg",
+    "filename": "car-1040-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-916-Level0_1.jpg",
+    "filename": "car-916-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-1205-Level0_1.jpg",
+    "filename": "car-1205-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car2-63-Level0_4.jpg",
+    "filename": "car2-63-Level0_4.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-1508-Level0_1.jpg",
+    "filename": "car-1508-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-64-Level0_3.jpg",
+    "filename": "car-64-Level0_3.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-7-Level0_1.jpg",
+    "filename": "car-7-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-1141-Level0_6.jpg",
+    "filename": "car-1141-Level0_6.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-194-Level0_1.jpg",
+    "filename": "car-194-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-1633-Level0_2.jpg",
+    "filename": "car-1633-Level0_2.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-1935-Level0_2.jpg",
+    "filename": "car-1935-Level0_2.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car2-54-Level0_2.jpg",
+    "filename": "car2-54-Level0_2.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-2237-Level0_1.jpg",
+    "filename": "car-2237-Level0_1.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level0/car-800-Level0_2.jpg",
+    "filename": "car-800-Level0_2.jpg",
+    "ground_truth": "no flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-1364-Level2_1.jpg",
+    "filename": "car-1364-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-573-Level2_8.jpg",
+    "filename": "car-573-Level2_8.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-662-Level1_2.jpg",
+    "filename": "car-662-Level1_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-1191-Level1_1.jpg",
+    "filename": "car-1191-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-596-Level2_9.jpg",
+    "filename": "car-596-Level2_9.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-365-Level1_1.jpg",
+    "filename": "car-365-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-192-Level2_2.jpg",
+    "filename": "car-192-Level2_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-844-Level1_1.jpg",
+    "filename": "car-844-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-120-Level1_4.jpg",
+    "filename": "car-120-Level1_4.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car2-22-Level1_1.jpg",
+    "filename": "car2-22-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-254-Level2_3.jpg",
+    "filename": "car-254-Level2_3.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-1739-Level2_1.jpg",
+    "filename": "car-1739-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-2260-Level1_1.jpg",
+    "filename": "car-2260-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-1734-Level2_1.jpg",
+    "filename": "car-1734-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-106-Level2_2.jpg",
+    "filename": "car-106-Level2_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-1350-Level2_2.jpg",
+    "filename": "car-1350-Level2_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-1406-Level1_2.jpg",
+    "filename": "car-1406-Level1_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-517-Level2_5.jpg",
+    "filename": "car-517-Level2_5.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-2235-Level2_1.jpg",
+    "filename": "car-2235-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-1022-Level2_1.jpg",
+    "filename": "car-1022-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-2083-Level1_1.jpg",
+    "filename": "car-2083-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-702-Level1_2.jpg",
+    "filename": "car-702-Level1_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-279-Level1_9.jpg",
+    "filename": "car-279-Level1_9.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-315-Level2_8.jpg",
+    "filename": "car-315-Level2_8.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-784-Level2_1.jpg",
+    "filename": "car-784-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-2241-Level2_1.jpg",
+    "filename": "car-2241-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-421-Level2_1.jpg",
+    "filename": "car-421-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-1334-Level2_1.jpg",
+    "filename": "car-1334-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-1146-Level2_1.jpg",
+    "filename": "car-1146-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-1419-Level1_2.jpg",
+    "filename": "car-1419-Level1_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-534-Level2_4.jpg",
+    "filename": "car-534-Level2_4.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-1434-Level2_1.jpg",
+    "filename": "car-1434-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-1962-Level1_1.jpg",
+    "filename": "car-1962-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-645-Level1_2.jpg",
+    "filename": "car-645-Level1_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-1939-Level2_1.jpg",
+    "filename": "car-1939-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-422-Level1_2.jpg",
+    "filename": "car-422-Level1_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car2-25-Level2_5.jpg",
+    "filename": "car2-25-Level2_5.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-2042-Level2_5.jpg",
+    "filename": "car-2042-Level2_5.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-2344-Level2_1.jpg",
+    "filename": "car-2344-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-297-Level2_5.jpg",
+    "filename": "car-297-Level2_5.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-1749-Level2_4.jpg",
+    "filename": "car-1749-Level2_4.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-445-Level2_1.jpg",
+    "filename": "car-445-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-606-Level2_3.jpg",
+    "filename": "car-606-Level2_3.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-60-Level2_1.jpg",
+    "filename": "car-60-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-1653-Level2_3.jpg",
+    "filename": "car-1653-Level2_3.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-1751-Level2_2.jpg",
+    "filename": "car-1751-Level2_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-598-Level2_2.jpg",
+    "filename": "car-598-Level2_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-2279-Level1_1.jpg",
+    "filename": "car-2279-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-659-Level1_5.jpg",
+    "filename": "car-659-Level1_5.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-2010-Level1_2.jpg",
+    "filename": "car-2010-Level1_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-475-Level2_2.jpg",
+    "filename": "car-475-Level2_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-658-Level2_2.jpg",
+    "filename": "car-658-Level2_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-2065-Level2_1.jpg",
+    "filename": "car-2065-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-1461-Level2_1.jpg",
+    "filename": "car-1461-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-1444-Level1_9.jpg",
+    "filename": "car-1444-Level1_9.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-2287-Level2_1.jpg",
+    "filename": "car-2287-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-573-Level2_7.jpg",
+    "filename": "car-573-Level2_7.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-2002-Level1_1.jpg",
+    "filename": "car-2002-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car2-42-Level2_5.jpg",
+    "filename": "car2-42-Level2_5.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-1619-Level1_1.jpg",
+    "filename": "car-1619-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-2195-Level2_1.jpg",
+    "filename": "car-2195-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-1606-Level2_2.jpg",
+    "filename": "car-1606-Level2_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-543-Level1_2.jpg",
+    "filename": "car-543-Level1_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-860-Level2_2.jpg",
+    "filename": "car-860-Level2_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-2249-Level2_1.jpg",
+    "filename": "car-2249-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-1458-Level2_3.jpg",
+    "filename": "car-1458-Level2_3.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-1969-Level2_3.jpg",
+    "filename": "car-1969-Level2_3.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-1807-Level1_1.jpg",
+    "filename": "car-1807-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-1926-Level2_1.jpg",
+    "filename": "car-1926-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-1041-Level1_1.jpg",
+    "filename": "car-1041-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-2355-Level1_1.jpg",
+    "filename": "car-2355-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-914-Level2_1.jpg",
+    "filename": "car-914-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-117-Level2_8.jpg",
+    "filename": "car-117-Level2_8.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-476-Level2_6.jpg",
+    "filename": "car-476-Level2_6.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-2354-Level2_1.jpg",
+    "filename": "car-2354-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-868-Level1_1.jpg",
+    "filename": "car-868-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-1623-Level1_4.jpg",
+    "filename": "car-1623-Level1_4.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-1065-Level1_1.jpg",
+    "filename": "car-1065-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-1306-Level2_2.jpg",
+    "filename": "car-1306-Level2_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-1774-Level2_1.jpg",
+    "filename": "car-1774-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-1427-Level2_2.jpg",
+    "filename": "car-1427-Level2_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-1684-Level2_2.jpg",
+    "filename": "car-1684-Level2_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-936-Level2_1.jpg",
+    "filename": "car-936-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-1637-Level1_6.jpg",
+    "filename": "car-1637-Level1_6.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-2153-Level1_4.jpg",
+    "filename": "car-2153-Level1_4.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-1953-Level1_1.jpg",
+    "filename": "car-1953-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-949-Level1_1.jpg",
+    "filename": "car-949-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-2346-Level1_1.jpg",
+    "filename": "car-2346-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-573-Level2_9.jpg",
+    "filename": "car-573-Level2_9.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-2300-Level2_1.jpg",
+    "filename": "car-2300-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-2097-Level2_3.jpg",
+    "filename": "car-2097-Level2_3.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-111-Level2_1.jpg",
+    "filename": "car-111-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-2235-Level2_4.jpg",
+    "filename": "car-2235-Level2_4.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-641-Level2_2.jpg",
+    "filename": "car-641-Level2_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-564-Level2_3.jpg",
+    "filename": "car-564-Level2_3.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-567-Level2_2.jpg",
+    "filename": "car-567-Level2_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-899-Level2_1.jpg",
+    "filename": "car-899-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-1341-Level2_4.jpg",
+    "filename": "car-1341-Level2_4.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-1024-Level2_3.jpg",
+    "filename": "car-1024-Level2_3.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-785-Level2_1.jpg",
+    "filename": "car-785-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-1377-Level1_1.jpg",
+    "filename": "car-1377-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-1637-Level1_3.jpg",
+    "filename": "car-1637-Level1_3.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-975-Level1_1.jpg",
+    "filename": "car-975-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-1623-Level1_5.jpg",
+    "filename": "car-1623-Level1_5.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-1164-Level2_1.jpg",
+    "filename": "car-1164-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-360-Level2_1.jpg",
+    "filename": "car-360-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-839-Level2_1.jpg",
+    "filename": "car-839-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-390-Level2_2.jpg",
+    "filename": "car-390-Level2_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-573-Level2_10.jpg",
+    "filename": "car-573-Level2_10.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-1434-Level2_3.jpg",
+    "filename": "car-1434-Level2_3.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-493-Level1_1.jpg",
+    "filename": "car-493-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-1158-Level1_2.jpg",
+    "filename": "car-1158-Level1_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-498-Level1_7.jpg",
+    "filename": "car-498-Level1_7.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-661-Level2_1.jpg",
+    "filename": "car-661-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-828-Level2_1.jpg",
+    "filename": "car-828-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-790-Level1_3.jpg",
+    "filename": "car-790-Level1_3.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-2105-Level1_2.jpg",
+    "filename": "car-2105-Level1_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car2-31-Level1_1.jpg",
+    "filename": "car2-31-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-2260-Level2_4.jpg",
+    "filename": "car-2260-Level2_4.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-813-Level1_1.jpg",
+    "filename": "car-813-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-2233-Level2_1.jpg",
+    "filename": "car-2233-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-1647-Level2_1.jpg",
+    "filename": "car-1647-Level2_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-1346-Level2_3.jpg",
+    "filename": "car-1346-Level2_3.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-1780-Level1_2.jpg",
+    "filename": "car-1780-Level1_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-2006-Level2_3.jpg",
+    "filename": "car-2006-Level2_3.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-508-Level2_2.jpg",
+    "filename": "car-508-Level2_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-1448-Level1_1.jpg",
+    "filename": "car-1448-Level1_1.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level1/car-201-Level1_2.jpg",
+    "filename": "car-201-Level1_2.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level2/car-1876-Level2_6.jpg",
+    "filename": "car-1876-Level2_6.jpg",
+    "ground_truth": "small flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level4/car-1789-Level4_1.jpg",
+    "filename": "car-1789-Level4_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-2050-Level3_1.jpg",
+    "filename": "car-2050-Level3_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-1206-Level3_2.jpg",
+    "filename": "car-1206-Level3_2.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-248-Level3_2.jpg",
+    "filename": "car-248-Level3_2.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-1859-Level3_1.jpg",
+    "filename": "car-1859-Level3_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level4/car-52-Level4_3.jpg",
+    "filename": "car-52-Level4_3.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-1845-Level3_1.jpg",
+    "filename": "car-1845-Level3_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level4/car-248-Level4_1.jpg",
+    "filename": "car-248-Level4_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-501-Level3_5.jpg",
+    "filename": "car-501-Level3_5.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level4/car-104-Level4_2.jpg",
+    "filename": "car-104-Level4_2.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level4/car-1725-Level4_1.jpg",
+    "filename": "car-1725-Level4_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-881-Level3_2.jpg",
+    "filename": "car-881-Level3_2.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level4/car-2214-Level4_6.jpg",
+    "filename": "car-2214-Level4_6.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-633-Level3_1.jpg",
+    "filename": "car-633-Level3_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-856-Level3_1.jpg",
+    "filename": "car-856-Level3_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-118-Level3_1.jpg",
+    "filename": "car-118-Level3_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-2341-Level3_2.jpg",
+    "filename": "car-2341-Level3_2.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-1890-Level3_1.jpg",
+    "filename": "car-1890-Level3_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-1690-Level3_1.jpg",
+    "filename": "car-1690-Level3_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-1849-Level3_1.jpg",
+    "filename": "car-1849-Level3_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-76-Level3_3.jpg",
+    "filename": "car-76-Level3_3.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level4/car-1875-Level4_1.jpg",
+    "filename": "car-1875-Level4_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-1435-Level3_1.jpg",
+    "filename": "car-1435-Level3_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-651-Level3_5.jpg",
+    "filename": "car-651-Level3_5.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-1014-Level3_2.jpg",
+    "filename": "car-1014-Level3_2.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level4/car-2322-Level4_1.jpg",
+    "filename": "car-2322-Level4_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-1173-Level3_1.jpg",
+    "filename": "car-1173-Level3_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-1071-Level3_2.jpg",
+    "filename": "car-1071-Level3_2.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level4/car-210-Level4_1.jpg",
+    "filename": "car-210-Level4_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level4/car4-61-Level4_4.jpg",
+    "filename": "car4-61-Level4_4.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-2108-Level3_5.jpg",
+    "filename": "car-2108-Level3_5.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level4/car-1786-Level4_9.jpg",
+    "filename": "car-1786-Level4_9.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-2130-Level3_3.jpg",
+    "filename": "car-2130-Level3_3.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-1608-Level3_1.jpg",
+    "filename": "car-1608-Level3_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level4/car-2108-Level4_2.jpg",
+    "filename": "car-2108-Level4_2.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level4/car-2214-Level4_7.jpg",
+    "filename": "car-2214-Level4_7.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-1665-Level3_59.jpg",
+    "filename": "car-1665-Level3_59.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level4/car-135-Level4_7.jpg",
+    "filename": "car-135-Level4_7.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-504-Level3_1.jpg",
+    "filename": "car-504-Level3_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-177-Level3_1.jpg",
+    "filename": "car-177-Level3_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-458-Level3_1.jpg",
+    "filename": "car-458-Level3_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-2013-Level3_1.jpg",
+    "filename": "car-2013-Level3_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level4/car-1676-Level4_2.jpg",
+    "filename": "car-1676-Level4_2.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-1227-Level3_1.jpg",
+    "filename": "car-1227-Level3_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level4/car-2214-Level4_5.jpg",
+    "filename": "car-2214-Level4_5.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level4/car-441-Level4_4.jpg",
+    "filename": "car-441-Level4_4.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level4/car-1593-Level4_1.jpg",
+    "filename": "car-1593-Level4_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-2280-Level3_1.jpg",
+    "filename": "car-2280-Level3_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-711-Level3_5.jpg",
+    "filename": "car-711-Level3_5.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-752-Level3_3.jpg",
+    "filename": "car-752-Level3_3.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-1290-Level3_1.jpg",
+    "filename": "car-1290-Level3_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level4/car2-68-Level4_1.jpg",
+    "filename": "car2-68-Level4_1.jpg",
+    "ground_truth": "big flood"
+  },
+  {
+    "path": "/content/sturm_flooddepth/upscaled_images/Level3/car-1839-Level3_1.jpg",
+    "filename": "car-1839-Level3_1.jpg",
+    "ground_truth": "big flood"
+  }
+]

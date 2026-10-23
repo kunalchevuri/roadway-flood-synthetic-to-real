@@ -1,0 +1,1034 @@
+{
+  "smolvlm": {
+    "15": {
+      "0": {
+        "acc_mean": 67.47,
+        "acc_std": 1.85,
+        "mr_mean": 60.77,
+        "mr_std": 2.52
+      },
+      "13": {
+        "acc_mean": 68.17,
+        "acc_std": 2.13,
+        "mr_mean": 62.12,
+        "mr_std": 2.02
+      },
+      "26": {
+        "acc_mean": 66.78,
+        "acc_std": 1.76,
+        "mr_mean": 61.03,
+        "mr_std": 1.25
+      },
+      "52": {
+        "acc_mean": 66.67,
+        "acc_std": 2.28,
+        "mr_mean": 61.03,
+        "mr_std": 1.7
+      },
+      "78": {
+        "acc_mean": 66.32,
+        "acc_std": 3.37,
+        "mr_mean": 60.85,
+        "mr_std": 3.42
+      },
+      "104": {
+        "acc_mean": 66.67,
+        "acc_std": 1.56,
+        "mr_mean": 61.3,
+        "mr_std": 1.25
+      }
+    },
+    "20": {
+      "0": {
+        "acc_mean": 68.14,
+        "acc_std": 3.12,
+        "mr_mean": 62.44,
+        "mr_std": 5.03
+      },
+      "13": {
+        "acc_mean": 67.77,
+        "acc_std": 2.5,
+        "mr_mean": 62.45,
+        "mr_std": 3.48
+      },
+      "26": {
+        "acc_mean": 69.98,
+        "acc_std": 2.33,
+        "mr_mean": 65.01,
+        "mr_std": 3.25
+      },
+      "52": {
+        "acc_mean": 70.34,
+        "acc_std": 2.44,
+        "mr_mean": 65.95,
+        "mr_std": 2.12
+      },
+      "78": {
+        "acc_mean": 69.24,
+        "acc_std": 3.08,
+        "mr_mean": 64.06,
+        "mr_std": 3.35
+      },
+      "104": {
+        "acc_mean": 68.87,
+        "acc_std": 1.93,
+        "mr_mean": 64.02,
+        "mr_std": 2.13
+      }
+    },
+    "30": {
+      "0": {
+        "acc_mean": 73.39,
+        "acc_std": 1.62,
+        "mr_mean": 68.99,
+        "mr_std": 2.04
+      },
+      "13": {
+        "acc_mean": 73.53,
+        "acc_std": 1.24,
+        "mr_mean": 69.23,
+        "mr_std": 2.54
+      },
+      "26": {
+        "acc_mean": 72.69,
+        "acc_std": 1.91,
+        "mr_mean": 67.41,
+        "mr_std": 2.96
+      },
+      "52": {
+        "acc_mean": 73.25,
+        "acc_std": 0.4,
+        "mr_mean": 69.3,
+        "mr_std": 0.31
+      },
+      "78": {
+        "acc_mean": 71.85,
+        "acc_std": 0.91,
+        "mr_mean": 67.19,
+        "mr_std": 1.05
+      },
+      "104": {
+        "acc_mean": 71.99,
+        "acc_std": 1.05,
+        "mr_mean": 67.58,
+        "mr_std": 0.59
+      }
+    },
+    "40": {
+      "0": {
+        "acc_mean": 76.47,
+        "acc_std": 2.08,
+        "mr_mean": 73.69,
+        "mr_std": 2.24
+      },
+      "13": {
+        "acc_mean": 75.98,
+        "acc_std": 1.2,
+        "mr_mean": 72.62,
+        "mr_std": 2.22
+      },
+      "26": {
+        "acc_mean": 76.47,
+        "acc_std": 1.06,
+        "mr_mean": 73.46,
+        "mr_std": 0.87
+      },
+      "52": {
+        "acc_mean": 75.33,
+        "acc_std": 2.05,
+        "mr_mean": 72.4,
+        "mr_std": 1.37
+      },
+      "78": {
+        "acc_mean": 75.49,
+        "acc_std": 2.89,
+        "mr_mean": 72.4,
+        "mr_std": 3.28
+      },
+      "104": {
+        "acc_mean": 75.16,
+        "acc_std": 3.21,
+        "mr_mean": 71.19,
+        "mr_std": 3.52
+      }
+    },
+    "50": {
+      "0": {
+        "acc_mean": 78.43,
+        "acc_std": 6.01,
+        "mr_mean": 74.4,
+        "mr_std": 6.19
+      },
+      "13": {
+        "acc_mean": 79.22,
+        "acc_std": 4.46,
+        "mr_mean": 75.42,
+        "mr_std": 4.24
+      },
+      "26": {
+        "acc_mean": 78.24,
+        "acc_std": 4.19,
+        "mr_mean": 74.12,
+        "mr_std": 4.26
+      },
+      "52": {
+        "acc_mean": 77.06,
+        "acc_std": 3.63,
+        "mr_mean": 72.93,
+        "mr_std": 4.13
+      },
+      "78": {
+        "acc_mean": 77.65,
+        "acc_std": 3.81,
+        "mr_mean": 73.29,
+        "mr_std": 4.78
+      },
+      "104": {
+        "acc_mean": 76.08,
+        "acc_std": 2.73,
+        "mr_mean": 71.43,
+        "mr_std": 3.5
+      }
+    },
+    "60": {
+      "0": {
+        "acc_mean": 82.35,
+        "acc_std": 1.59,
+        "mr_mean": 80.39,
+        "mr_std": 2.08
+      },
+      "13": {
+        "acc_mean": 81.62,
+        "acc_std": 0.6,
+        "mr_mean": 79.74,
+        "mr_std": 2.62
+      },
+      "26": {
+        "acc_mean": 82.11,
+        "acc_std": 2.71,
+        "mr_mean": 80.0,
+        "mr_std": 4.0
+      },
+      "52": {
+        "acc_mean": 80.15,
+        "acc_std": 3.18,
+        "mr_mean": 77.96,
+        "mr_std": 4.65
+      },
+      "78": {
+        "acc_mean": 79.66,
+        "acc_std": 2.27,
+        "mr_mean": 77.0,
+        "mr_std": 2.71
+      },
+      "104": {
+        "acc_mean": 79.9,
+        "acc_std": 2.5,
+        "mr_mean": 77.37,
+        "mr_std": 3.14
+      }
+    },
+    "70": {
+      "0": {
+        "acc_mean": 82.68,
+        "acc_std": 0.92,
+        "mr_mean": 79.62,
+        "mr_std": 1.19
+      },
+      "13": {
+        "acc_mean": 80.72,
+        "acc_std": 1.22,
+        "mr_mean": 77.92,
+        "mr_std": 1.73
+      },
+      "26": {
+        "acc_mean": 82.68,
+        "acc_std": 0.92,
+        "mr_mean": 79.36,
+        "mr_std": 1.54
+      },
+      "52": {
+        "acc_mean": 81.7,
+        "acc_std": 0.46,
+        "mr_mean": 78.47,
+        "mr_std": 0.93
+      },
+      "78": {
+        "acc_mean": 81.7,
+        "acc_std": 0.92,
+        "mr_mean": 78.45,
+        "mr_std": 1.43
+      },
+      "104": {
+        "acc_mean": 81.37,
+        "acc_std": 0.8,
+        "mr_mean": 78.25,
+        "mr_std": 1.89
+      }
+    },
+    "80": {
+      "0": {
+        "acc_mean": 81.86,
+        "acc_std": 1.39,
+        "mr_mean": 79.45,
+        "mr_std": 0.69
+      },
+      "13": {
+        "acc_mean": 79.41,
+        "acc_std": 1.2,
+        "mr_mean": 76.33,
+        "mr_std": 3.34
+      },
+      "26": {
+        "acc_mean": 80.39,
+        "acc_std": 1.39,
+        "mr_mean": 76.88,
+        "mr_std": 2.75
+      },
+      "52": {
+        "acc_mean": 79.41,
+        "acc_std": 1.2,
+        "mr_mean": 76.24,
+        "mr_std": 1.45
+      },
+      "78": {
+        "acc_mean": 79.41,
+        "acc_std": 2.4,
+        "mr_mean": 76.24,
+        "mr_std": 2.99
+      },
+      "104": {
+        "acc_mean": 80.88,
+        "acc_std": 0.0,
+        "mr_mean": 77.93,
+        "mr_std": 1.49
+      }
+    },
+    "90": {
+      "0": {
+        "acc_mean": 80.39,
+        "acc_std": 1.39,
+        "mr_mean": 79.27,
+        "mr_std": 3.91
+      },
+      "13": {
+        "acc_mean": 77.45,
+        "acc_std": 2.77,
+        "mr_mean": 75.1,
+        "mr_std": 5.63
+      },
+      "26": {
+        "acc_mean": 81.37,
+        "acc_std": 1.39,
+        "mr_mean": 79.86,
+        "mr_std": 2.62
+      },
+      "52": {
+        "acc_mean": 79.41,
+        "acc_std": 2.4,
+        "mr_mean": 77.08,
+        "mr_std": 1.86
+      },
+      "78": {
+        "acc_mean": 79.41,
+        "acc_std": 2.4,
+        "mr_mean": 77.08,
+        "mr_std": 1.86
+      },
+      "104": {
+        "acc_mean": 80.39,
+        "acc_std": 2.77,
+        "mr_mean": 77.66,
+        "mr_std": 1.04
+      }
+    }
+  },
+  "qwen": {
+    "15": {
+      "0": {
+        "acc_mean": 69.43,
+        "acc_std": 3.02,
+        "mr_mean": 63.71,
+        "mr_std": 3.38
+      },
+      "13": {
+        "acc_mean": 71.28,
+        "acc_std": 3.53,
+        "mr_mean": 66.11,
+        "mr_std": 4.21
+      },
+      "26": {
+        "acc_mean": 71.63,
+        "acc_std": 2.24,
+        "mr_mean": 67.01,
+        "mr_std": 2.26
+      },
+      "52": {
+        "acc_mean": 68.63,
+        "acc_std": 1.82,
+        "mr_mean": 64.47,
+        "mr_std": 1.82
+      },
+      "78": {
+        "acc_mean": 68.74,
+        "acc_std": 1.07,
+        "mr_mean": 65.18,
+        "mr_std": 2.05
+      },
+      "104": {
+        "acc_mean": 68.51,
+        "acc_std": 1.49,
+        "mr_mean": 65.59,
+        "mr_std": 1.66
+      }
+    },
+    "20": {
+      "0": {
+        "acc_mean": 69.49,
+        "acc_std": 2.46,
+        "mr_mean": 63.25,
+        "mr_std": 2.47
+      },
+      "13": {
+        "acc_mean": 70.34,
+        "acc_std": 3.7,
+        "mr_mean": 64.48,
+        "mr_std": 3.54
+      },
+      "26": {
+        "acc_mean": 69.61,
+        "acc_std": 2.79,
+        "mr_mean": 63.99,
+        "mr_std": 2.76
+      },
+      "52": {
+        "acc_mean": 67.28,
+        "acc_std": 2.38,
+        "mr_mean": 62.64,
+        "mr_std": 1.02
+      },
+      "78": {
+        "acc_mean": 68.26,
+        "acc_std": 1.35,
+        "mr_mean": 64.33,
+        "mr_std": 2.12
+      },
+      "104": {
+        "acc_mean": 68.87,
+        "acc_std": 1.39,
+        "mr_mean": 64.97,
+        "mr_std": 2.25
+      }
+    },
+    "30": {
+      "0": {
+        "acc_mean": 71.29,
+        "acc_std": 3.11,
+        "mr_mean": 65.8,
+        "mr_std": 3.54
+      },
+      "13": {
+        "acc_mean": 72.13,
+        "acc_std": 2.18,
+        "mr_mean": 66.52,
+        "mr_std": 2.21
+      },
+      "26": {
+        "acc_mean": 72.83,
+        "acc_std": 2.41,
+        "mr_mean": 67.9,
+        "mr_std": 3.61
+      },
+      "52": {
+        "acc_mean": 71.71,
+        "acc_std": 0.4,
+        "mr_mean": 66.24,
+        "mr_std": 1.65
+      },
+      "78": {
+        "acc_mean": 71.29,
+        "acc_std": 0.99,
+        "mr_mean": 66.66,
+        "mr_std": 0.84
+      },
+      "104": {
+        "acc_mean": 70.87,
+        "acc_std": 0.99,
+        "mr_mean": 66.37,
+        "mr_std": 1.1
+      }
+    },
+    "40": {
+      "0": {
+        "acc_mean": 75.49,
+        "acc_std": 0.69,
+        "mr_mean": 70.68,
+        "mr_std": 0.77
+      },
+      "13": {
+        "acc_mean": 75.65,
+        "acc_std": 0.83,
+        "mr_mean": 70.37,
+        "mr_std": 1.28
+      },
+      "26": {
+        "acc_mean": 75.82,
+        "acc_std": 0.83,
+        "mr_mean": 70.97,
+        "mr_std": 1.12
+      },
+      "52": {
+        "acc_mean": 75.33,
+        "acc_std": 3.72,
+        "mr_mean": 71.21,
+        "mr_std": 3.93
+      },
+      "78": {
+        "acc_mean": 74.35,
+        "acc_std": 2.66,
+        "mr_mean": 70.18,
+        "mr_std": 3.67
+      },
+      "104": {
+        "acc_mean": 75.0,
+        "acc_std": 2.08,
+        "mr_mean": 71.49,
+        "mr_std": 2.8
+      }
+    },
+    "50": {
+      "0": {
+        "acc_mean": 78.82,
+        "acc_std": 0.48,
+        "mr_mean": 74.41,
+        "mr_std": 1.19
+      },
+      "13": {
+        "acc_mean": 78.82,
+        "acc_std": 1.73,
+        "mr_mean": 74.73,
+        "mr_std": 1.4
+      },
+      "26": {
+        "acc_mean": 79.22,
+        "acc_std": 1.0,
+        "mr_mean": 74.99,
+        "mr_std": 1.62
+      },
+      "52": {
+        "acc_mean": 78.63,
+        "acc_std": 1.94,
+        "mr_mean": 74.59,
+        "mr_std": 2.21
+      },
+      "78": {
+        "acc_mean": 78.04,
+        "acc_std": 1.21,
+        "mr_mean": 74.23,
+        "mr_std": 1.18
+      },
+      "104": {
+        "acc_mean": 78.24,
+        "acc_std": 2.09,
+        "mr_mean": 74.8,
+        "mr_std": 2.55
+      }
+    },
+    "60": {
+      "0": {
+        "acc_mean": 81.13,
+        "acc_std": 1.83,
+        "mr_mean": 77.82,
+        "mr_std": 2.44
+      },
+      "13": {
+        "acc_mean": 80.88,
+        "acc_std": 2.08,
+        "mr_mean": 78.09,
+        "mr_std": 2.82
+      },
+      "26": {
+        "acc_mean": 80.88,
+        "acc_std": 2.16,
+        "mr_mean": 78.46,
+        "mr_std": 2.61
+      },
+      "52": {
+        "acc_mean": 79.17,
+        "acc_std": 1.73,
+        "mr_mean": 77.23,
+        "mr_std": 3.42
+      },
+      "78": {
+        "acc_mean": 79.41,
+        "acc_std": 0.0,
+        "mr_mean": 77.36,
+        "mr_std": 0.77
+      },
+      "104": {
+        "acc_mean": 79.9,
+        "acc_std": 1.25,
+        "mr_mean": 78.01,
+        "mr_std": 0.74
+      }
+    },
+    "70": {
+      "0": {
+        "acc_mean": 80.07,
+        "acc_std": 2.81,
+        "mr_mean": 77.26,
+        "mr_std": 4.55
+      },
+      "13": {
+        "acc_mean": 78.43,
+        "acc_std": 3.2,
+        "mr_mean": 75.49,
+        "mr_std": 4.72
+      },
+      "26": {
+        "acc_mean": 79.41,
+        "acc_std": 2.89,
+        "mr_mean": 76.59,
+        "mr_std": 5.0
+      },
+      "52": {
+        "acc_mean": 80.72,
+        "acc_std": 3.78,
+        "mr_mean": 77.94,
+        "mr_std": 5.3
+      },
+      "78": {
+        "acc_mean": 80.07,
+        "acc_std": 3.03,
+        "mr_mean": 77.26,
+        "mr_std": 2.51
+      },
+      "104": {
+        "acc_mean": 79.41,
+        "acc_std": 2.89,
+        "mr_mean": 76.83,
+        "mr_std": 3.43
+      }
+    },
+    "80": {
+      "0": {
+        "acc_mean": 81.37,
+        "acc_std": 0.69,
+        "mr_mean": 79.69,
+        "mr_std": 2.45
+      },
+      "13": {
+        "acc_mean": 79.41,
+        "acc_std": 1.2,
+        "mr_mean": 77.7,
+        "mr_std": 2.62
+      },
+      "26": {
+        "acc_mean": 80.88,
+        "acc_std": 2.4,
+        "mr_mean": 78.99,
+        "mr_std": 1.9
+      },
+      "52": {
+        "acc_mean": 81.37,
+        "acc_std": 3.02,
+        "mr_mean": 79.25,
+        "mr_std": 4.16
+      },
+      "78": {
+        "acc_mean": 78.92,
+        "acc_std": 3.02,
+        "mr_mean": 75.73,
+        "mr_std": 3.67
+      },
+      "104": {
+        "acc_mean": 80.39,
+        "acc_std": 0.69,
+        "mr_mean": 77.81,
+        "mr_std": 1.5
+      }
+    },
+    "90": {
+      "0": {
+        "acc_mean": 81.37,
+        "acc_std": 3.67,
+        "mr_mean": 80.45,
+        "mr_std": 5.54
+      },
+      "13": {
+        "acc_mean": 81.37,
+        "acc_std": 3.67,
+        "mr_mean": 80.45,
+        "mr_std": 5.54
+      },
+      "26": {
+        "acc_mean": 79.41,
+        "acc_std": 4.16,
+        "mr_mean": 79.28,
+        "mr_std": 5.27
+      },
+      "52": {
+        "acc_mean": 80.39,
+        "acc_std": 3.67,
+        "mr_mean": 79.06,
+        "mr_std": 6.55
+      },
+      "78": {
+        "acc_mean": 81.37,
+        "acc_std": 1.39,
+        "mr_mean": 79.45,
+        "mr_std": 0.27
+      },
+      "104": {
+        "acc_mean": 81.37,
+        "acc_std": 1.39,
+        "mr_mean": 79.45,
+        "mr_std": 2.84
+      }
+    }
+  },
+  "ijepa": {
+    "15": {
+      "0": {
+        "acc_mean": 63.32,
+        "acc_std": 2.59,
+        "mr_mean": 56.68,
+        "mr_std": 4.32
+      },
+      "13": {
+        "acc_mean": 61.48,
+        "acc_std": 3.25,
+        "mr_mean": 54.8,
+        "mr_std": 4.78
+      },
+      "26": {
+        "acc_mean": 59.98,
+        "acc_std": 3.53,
+        "mr_mean": 52.73,
+        "mr_std": 4.43
+      },
+      "52": {
+        "acc_mean": 58.13,
+        "acc_std": 2.7,
+        "mr_mean": 50.99,
+        "mr_std": 2.85
+      },
+      "78": {
+        "acc_mean": 58.25,
+        "acc_std": 2.63,
+        "mr_mean": 51.44,
+        "mr_std": 3.58
+      },
+      "104": {
+        "acc_mean": 57.44,
+        "acc_std": 3.88,
+        "mr_mean": 50.72,
+        "mr_std": 4.48
+      }
+    },
+    "20": {
+      "0": {
+        "acc_mean": 63.48,
+        "acc_std": 2.11,
+        "mr_mean": 57.67,
+        "mr_std": 3.39
+      },
+      "13": {
+        "acc_mean": 62.75,
+        "acc_std": 1.51,
+        "mr_mean": 57.04,
+        "mr_std": 2.74
+      },
+      "26": {
+        "acc_mean": 61.89,
+        "acc_std": 2.21,
+        "mr_mean": 55.68,
+        "mr_std": 2.13
+      },
+      "52": {
+        "acc_mean": 59.68,
+        "acc_std": 2.11,
+        "mr_mean": 53.77,
+        "mr_std": 1.79
+      },
+      "78": {
+        "acc_mean": 59.07,
+        "acc_std": 1.42,
+        "mr_mean": 53.61,
+        "mr_std": 2.32
+      },
+      "104": {
+        "acc_mean": 59.07,
+        "acc_std": 3.07,
+        "mr_mean": 53.65,
+        "mr_std": 2.37
+      }
+    },
+    "30": {
+      "0": {
+        "acc_mean": 65.69,
+        "acc_std": 3.33,
+        "mr_mean": 59.91,
+        "mr_std": 4.12
+      },
+      "13": {
+        "acc_mean": 63.87,
+        "acc_std": 3.96,
+        "mr_mean": 57.38,
+        "mr_std": 5.05
+      },
+      "26": {
+        "acc_mean": 64.29,
+        "acc_std": 3.48,
+        "mr_mean": 57.92,
+        "mr_std": 4.39
+      },
+      "52": {
+        "acc_mean": 64.29,
+        "acc_std": 3.27,
+        "mr_mean": 57.9,
+        "mr_std": 3.61
+      },
+      "78": {
+        "acc_mean": 62.89,
+        "acc_std": 3.44,
+        "mr_mean": 56.93,
+        "mr_std": 4.14
+      },
+      "104": {
+        "acc_mean": 63.17,
+        "acc_std": 2.28,
+        "mr_mean": 57.57,
+        "mr_std": 2.35
+      }
+    },
+    "40": {
+      "0": {
+        "acc_mean": 67.81,
+        "acc_std": 0.61,
+        "mr_mean": 62.99,
+        "mr_std": 2.25
+      },
+      "13": {
+        "acc_mean": 67.48,
+        "acc_std": 0.23,
+        "mr_mean": 62.66,
+        "mr_std": 0.67
+      },
+      "26": {
+        "acc_mean": 69.28,
+        "acc_std": 0.83,
+        "mr_mean": 64.88,
+        "mr_std": 2.1
+      },
+      "52": {
+        "acc_mean": 69.77,
+        "acc_std": 0.61,
+        "mr_mean": 65.5,
+        "mr_std": 1.54
+      },
+      "78": {
+        "acc_mean": 68.63,
+        "acc_std": 1.74,
+        "mr_mean": 64.31,
+        "mr_std": 2.24
+      },
+      "104": {
+        "acc_mean": 67.81,
+        "acc_std": 1.8,
+        "mr_mean": 63.83,
+        "mr_std": 3.01
+      }
+    },
+    "50": {
+      "0": {
+        "acc_mean": 69.61,
+        "acc_std": 0.28,
+        "mr_mean": 66.76,
+        "mr_std": 2.22
+      },
+      "13": {
+        "acc_mean": 70.0,
+        "acc_std": 0.48,
+        "mr_mean": 66.89,
+        "mr_std": 2.13
+      },
+      "26": {
+        "acc_mean": 71.18,
+        "acc_std": 0.83,
+        "mr_mean": 68.44,
+        "mr_std": 1.73
+      },
+      "52": {
+        "acc_mean": 72.35,
+        "acc_std": 2.2,
+        "mr_mean": 70.22,
+        "mr_std": 0.18
+      },
+      "78": {
+        "acc_mean": 72.16,
+        "acc_std": 2.0,
+        "mr_mean": 70.55,
+        "mr_std": 2.32
+      },
+      "104": {
+        "acc_mean": 72.94,
+        "acc_std": 2.4,
+        "mr_mean": 71.23,
+        "mr_std": 0.53
+      }
+    },
+    "60": {
+      "0": {
+        "acc_mean": 72.06,
+        "acc_std": 2.75,
+        "mr_mean": 70.29,
+        "mr_std": 2.82
+      },
+      "13": {
+        "acc_mean": 75.0,
+        "acc_std": 2.75,
+        "mr_mean": 73.35,
+        "mr_std": 2.88
+      },
+      "26": {
+        "acc_mean": 75.0,
+        "acc_std": 3.94,
+        "mr_mean": 74.14,
+        "mr_std": 3.74
+      },
+      "52": {
+        "acc_mean": 74.02,
+        "acc_std": 4.09,
+        "mr_mean": 73.16,
+        "mr_std": 3.18
+      },
+      "78": {
+        "acc_mean": 74.02,
+        "acc_std": 4.26,
+        "mr_mean": 73.54,
+        "mr_std": 3.69
+      },
+      "104": {
+        "acc_mean": 75.49,
+        "acc_std": 5.11,
+        "mr_mean": 74.26,
+        "mr_std": 4.29
+      }
+    },
+    "70": {
+      "0": {
+        "acc_mean": 73.53,
+        "acc_std": 2.12,
+        "mr_mean": 72.7,
+        "mr_std": 2.04
+      },
+      "13": {
+        "acc_mean": 76.14,
+        "acc_std": 3.24,
+        "mr_mean": 75.12,
+        "mr_std": 3.23
+      },
+      "26": {
+        "acc_mean": 76.14,
+        "acc_std": 2.81,
+        "mr_mean": 75.38,
+        "mr_std": 2.08
+      },
+      "52": {
+        "acc_mean": 77.12,
+        "acc_std": 4.03,
+        "mr_mean": 77.09,
+        "mr_std": 3.81
+      },
+      "78": {
+        "acc_mean": 75.49,
+        "acc_std": 2.4,
+        "mr_mean": 75.03,
+        "mr_std": 2.65
+      },
+      "104": {
+        "acc_mean": 77.12,
+        "acc_std": 5.62,
+        "mr_mean": 76.56,
+        "mr_std": 6.2
+      }
+    },
+    "80": {
+      "0": {
+        "acc_mean": 70.59,
+        "acc_std": 6.69,
+        "mr_mean": 69.25,
+        "mr_std": 6.52
+      },
+      "13": {
+        "acc_mean": 72.06,
+        "acc_std": 3.18,
+        "mr_mean": 70.5,
+        "mr_std": 2.15
+      },
+      "26": {
+        "acc_mean": 76.47,
+        "acc_std": 2.08,
+        "mr_mean": 76.06,
+        "mr_std": 0.86
+      },
+      "52": {
+        "acc_mean": 77.94,
+        "acc_std": 2.08,
+        "mr_mean": 78.33,
+        "mr_std": 1.75
+      },
+      "78": {
+        "acc_mean": 77.45,
+        "acc_std": 2.5,
+        "mr_mean": 77.98,
+        "mr_std": 2.15
+      },
+      "104": {
+        "acc_mean": 79.41,
+        "acc_std": 1.2,
+        "mr_mean": 80.85,
+        "mr_std": 1.23
+      }
+    },
+    "90": {
+      "0": {
+        "acc_mean": 68.63,
+        "acc_std": 1.39,
+        "mr_mean": 66.23,
+        "mr_std": 1.47
+      },
+      "13": {
+        "acc_mean": 74.51,
+        "acc_std": 5.0,
+        "mr_mean": 75.16,
+        "mr_std": 3.36
+      },
+      "26": {
+        "acc_mean": 73.53,
+        "acc_std": 4.16,
+        "mr_mean": 73.57,
+        "mr_std": 4.5
+      },
+      "52": {
+        "acc_mean": 72.55,
+        "acc_std": 5.55,
+        "mr_mean": 73.99,
+        "mr_std": 3.93
+      },
+      "78": {
+        "acc_mean": 72.55,
+        "acc_std": 3.67,
+        "mr_mean": 73.99,
+        "mr_std": 0.92
+      },
+      "104": {
+        "acc_mean": 71.57,
+        "acc_std": 5.0,
+        "mr_mean": 73.4,
+        "mr_std": 3.36
+      }
+    }
+  }
+}

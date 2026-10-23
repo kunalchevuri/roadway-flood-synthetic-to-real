@@ -1,0 +1,1042 @@
+[
+  {
+    "filename": "133w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.6383037567138672,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "137w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.8557183742523193,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "139w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 1.0468509197235107,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "140w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.852555513381958,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "141w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 1.569521427154541,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "142w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.6610257625579834,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "143w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.4882500171661377,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "146w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.4840705394744873,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "147w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.4794931411743164,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "148w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.4778327941894531,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "149w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.47482872009277344,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "150w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5411138534545898,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "151w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5290136337280273,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "152w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5673184394836426,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "153w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.47907090187072754,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "158w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.47798967361450195,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "161w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.48122191429138184,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "164w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.47548437118530273,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "165w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.4846522808074951,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "166w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.48441624641418457,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "167w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.47588300704956055,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "168w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5041458606719971,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "169w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5525949001312256,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "170w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5394148826599121,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "171w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.4930102825164795,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "172w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.48328566551208496,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "173w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.48856043815612793,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "174w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.6294643878936768,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "175w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5045990943908691,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "176w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.4964284896850586,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "177w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.48328351974487305,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "178w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.4917104244232178,
+    "qwen_prediction": "no flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "179w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5374526977539062,
+    "qwen_prediction": "small flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "180w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5543031692504883,
+    "qwen_prediction": "small flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "181w.png",
+    "ground_truth": "no flood",
+    "smolvlm_prediction": "minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.4861907958984375,
+    "qwen_prediction": "small flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "126s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.4861588478088379,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "131s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.4831414222717285,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "141s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.4875972270965576,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "142s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.4813194274902344,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "143s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.49092531204223633,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "144s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.47965431213378906,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "145s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5096206665039062,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "147s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5302598476409912,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "148s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5212512016296387,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "149s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.4902045726776123,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "150s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.488086462020874,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "151s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.483809232711792,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "152s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.48250675201416016,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "153s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.4888582229614258,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "158s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.4817075729370117,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "159s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.48647046089172363,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "161s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.4852578639984131,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "162s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5247924327850342,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "163s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5242621898651123,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "164s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5169885158538818,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "165s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.48838210105895996,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "166s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.48891711235046387,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "167s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.47985410690307617,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "168s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.4957096576690674,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "169s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.48203587532043457,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "170s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.47982287406921387,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "171s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.48994994163513184,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "172s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5497188568115234,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "173s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5302517414093018,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "174s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.6380341053009033,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "175s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.48907470703125,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "176s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.48525404930114746,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "177s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.48635053634643555,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "178s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.4982118606567383,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "179s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.48942136764526367,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "180s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.4910130500793457,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "181s.png",
+    "ground_truth": "small flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.49373316764831543,
+    "qwen_prediction": "no flood",
+    "qwen_correct": false,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "128l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5367472171783447,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "145l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5402379035949707,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "146l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5410652160644531,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "147l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5109391212463379,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "148l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.48553013801574707,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "149l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.4912269115447998,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "150l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5050556659698486,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "151l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.4924769401550293,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "152l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.48984384536743164,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "153l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.4907670021057129,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "158l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5454545021057129,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "159l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5436379909515381,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "163l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5467414855957031,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "164l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.4944767951965332,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "165l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5038511753082275,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "166l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.4968688488006592,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "167l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.4976823329925537,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "168l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5000722408294678,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "169l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5000762939453125,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "170l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5146446228027344,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "171l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5509693622589111,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "172l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5592429637908936,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "173l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5048325061798096,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "174l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.649928092956543,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "175l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5159943103790283,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "176l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5006263256072998,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "177l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5018987655639648,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "178l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.504070520401001,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "179l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5041537284851074,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "180l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5137641429901123,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "181l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.540083646774292,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  },
+  {
+    "filename": "182l.png",
+    "ground_truth": "big flood",
+    "smolvlm_prediction": "Minor flood.",
+    "smolvlm_correct": false,
+    "smolvlm_latency_s": 0.5357425212860107,
+    "qwen_prediction": "big flood",
+    "qwen_correct": true,
+    "qwen_latency_s": 0.19
+  }
+]

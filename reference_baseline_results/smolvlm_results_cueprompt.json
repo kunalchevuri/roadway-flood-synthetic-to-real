@@ -1,0 +1,730 @@
+[
+  {
+    "filename": "133w.png",
+    "ground_truth": "no flood",
+    "prediction": "small flood.",
+    "correct": false,
+    "latency_s": 0.6445784568786621
+  },
+  {
+    "filename": "137w.png",
+    "ground_truth": "no flood",
+    "prediction": "small flood.",
+    "correct": false,
+    "latency_s": 0.7653481960296631
+  },
+  {
+    "filename": "139w.png",
+    "ground_truth": "no flood",
+    "prediction": "small flood",
+    "correct": false,
+    "latency_s": 0.6418349742889404
+  },
+  {
+    "filename": "140w.png",
+    "ground_truth": "no flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 1.5277559757232666
+  },
+  {
+    "filename": "141w.png",
+    "ground_truth": "no flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.6907641887664795
+  },
+  {
+    "filename": "142w.png",
+    "ground_truth": "no flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5161299705505371
+  },
+  {
+    "filename": "143w.png",
+    "ground_truth": "no flood",
+    "prediction": "Small flood",
+    "correct": false,
+    "latency_s": 0.4738962650299072
+  },
+  {
+    "filename": "146w.png",
+    "ground_truth": "no flood",
+    "prediction": "big flood",
+    "correct": false,
+    "latency_s": 0.47315335273742676
+  },
+  {
+    "filename": "147w.png",
+    "ground_truth": "no flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5235331058502197
+  },
+  {
+    "filename": "148w.png",
+    "ground_truth": "no flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5068116188049316
+  },
+  {
+    "filename": "149w.png",
+    "ground_truth": "no flood",
+    "prediction": "Small flood",
+    "correct": false,
+    "latency_s": 0.47763562202453613
+  },
+  {
+    "filename": "150w.png",
+    "ground_truth": "no flood",
+    "prediction": "small flood.",
+    "correct": false,
+    "latency_s": 0.5343375205993652
+  },
+  {
+    "filename": "151w.png",
+    "ground_truth": "no flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5201897621154785
+  },
+  {
+    "filename": "152w.png",
+    "ground_truth": "no flood",
+    "prediction": "small flood.",
+    "correct": false,
+    "latency_s": 0.5533175468444824
+  },
+  {
+    "filename": "153w.png",
+    "ground_truth": "no flood",
+    "prediction": "small flood",
+    "correct": false,
+    "latency_s": 0.49830174446105957
+  },
+  {
+    "filename": "158w.png",
+    "ground_truth": "no flood",
+    "prediction": "small flood.",
+    "correct": false,
+    "latency_s": 0.5790629386901855
+  },
+  {
+    "filename": "161w.png",
+    "ground_truth": "no flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.603217601776123
+  },
+  {
+    "filename": "164w.png",
+    "ground_truth": "no flood",
+    "prediction": "No flood.",
+    "correct": true,
+    "latency_s": 0.5175931453704834
+  },
+  {
+    "filename": "165w.png",
+    "ground_truth": "no flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5190842151641846
+  },
+  {
+    "filename": "166w.png",
+    "ground_truth": "no flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.508831262588501
+  },
+  {
+    "filename": "167w.png",
+    "ground_truth": "no flood",
+    "prediction": "small flood.",
+    "correct": false,
+    "latency_s": 0.5173599720001221
+  },
+  {
+    "filename": "168w.png",
+    "ground_truth": "no flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5187041759490967
+  },
+  {
+    "filename": "169w.png",
+    "ground_truth": "no flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5069568157196045
+  },
+  {
+    "filename": "170w.png",
+    "ground_truth": "no flood",
+    "prediction": "small flood.",
+    "correct": false,
+    "latency_s": 0.5220694541931152
+  },
+  {
+    "filename": "171w.png",
+    "ground_truth": "no flood",
+    "prediction": "small flood",
+    "correct": false,
+    "latency_s": 0.47652721405029297
+  },
+  {
+    "filename": "172w.png",
+    "ground_truth": "no flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5169677734375
+  },
+  {
+    "filename": "173w.png",
+    "ground_truth": "no flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5205914974212646
+  },
+  {
+    "filename": "174w.png",
+    "ground_truth": "no flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.7195901870727539
+  },
+  {
+    "filename": "175w.png",
+    "ground_truth": "no flood",
+    "prediction": "small flood.",
+    "correct": false,
+    "latency_s": 0.5465903282165527
+  },
+  {
+    "filename": "176w.png",
+    "ground_truth": "no flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5529282093048096
+  },
+  {
+    "filename": "177w.png",
+    "ground_truth": "no flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.6051280498504639
+  },
+  {
+    "filename": "178w.png",
+    "ground_truth": "no flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5145599842071533
+  },
+  {
+    "filename": "179w.png",
+    "ground_truth": "no flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5163090229034424
+  },
+  {
+    "filename": "180w.png",
+    "ground_truth": "no flood",
+    "prediction": "small flood.",
+    "correct": false,
+    "latency_s": 0.5140063762664795
+  },
+  {
+    "filename": "181w.png",
+    "ground_truth": "no flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5269701480865479
+  },
+  {
+    "filename": "126s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5315895080566406
+  },
+  {
+    "filename": "131s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5066354274749756
+  },
+  {
+    "filename": "141s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5111160278320312
+  },
+  {
+    "filename": "142s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5185110569000244
+  },
+  {
+    "filename": "143s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5156259536743164
+  },
+  {
+    "filename": "144s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5084540843963623
+  },
+  {
+    "filename": "145s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5763163566589355
+  },
+  {
+    "filename": "147s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5437912940979004
+  },
+  {
+    "filename": "148s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.550727367401123
+  },
+  {
+    "filename": "149s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.598505973815918
+  },
+  {
+    "filename": "150s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5221011638641357
+  },
+  {
+    "filename": "151s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5082383155822754
+  },
+  {
+    "filename": "152s.png",
+    "ground_truth": "small flood",
+    "prediction": "No flood.",
+    "correct": false,
+    "latency_s": 0.5122730731964111
+  },
+  {
+    "filename": "153s.png",
+    "ground_truth": "small flood",
+    "prediction": "small flood",
+    "correct": true,
+    "latency_s": 0.4794466495513916
+  },
+  {
+    "filename": "158s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5170276165008545
+  },
+  {
+    "filename": "159s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.516998291015625
+  },
+  {
+    "filename": "161s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5157456398010254
+  },
+  {
+    "filename": "162s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5350842475891113
+  },
+  {
+    "filename": "163s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5359299182891846
+  },
+  {
+    "filename": "164s.png",
+    "ground_truth": "small flood",
+    "prediction": "No flood.",
+    "correct": false,
+    "latency_s": 0.5269858837127686
+  },
+  {
+    "filename": "165s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5935273170471191
+  },
+  {
+    "filename": "166s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.564337968826294
+  },
+  {
+    "filename": "167s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5645897388458252
+  },
+  {
+    "filename": "168s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5946321487426758
+  },
+  {
+    "filename": "169s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5291647911071777
+  },
+  {
+    "filename": "170s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5250928401947021
+  },
+  {
+    "filename": "171s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.512470006942749
+  },
+  {
+    "filename": "172s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5111925601959229
+  },
+  {
+    "filename": "173s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5079905986785889
+  },
+  {
+    "filename": "174s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.6774981021881104
+  },
+  {
+    "filename": "175s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5153112411499023
+  },
+  {
+    "filename": "176s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5209956169128418
+  },
+  {
+    "filename": "177s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5143027305603027
+  },
+  {
+    "filename": "178s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5079143047332764
+  },
+  {
+    "filename": "179s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.563697099685669
+  },
+  {
+    "filename": "180s.png",
+    "ground_truth": "small flood",
+    "prediction": "small flood.",
+    "correct": true,
+    "latency_s": 0.5438838005065918
+  },
+  {
+    "filename": "181s.png",
+    "ground_truth": "small flood",
+    "prediction": "big flood.",
+    "correct": false,
+    "latency_s": 0.5488412380218506
+  },
+  {
+    "filename": "128l.png",
+    "ground_truth": "big flood",
+    "prediction": "No flood.",
+    "correct": false,
+    "latency_s": 0.6106445789337158
+  },
+  {
+    "filename": "145l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood.",
+    "correct": true,
+    "latency_s": 0.5047459602355957
+  },
+  {
+    "filename": "146l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood.",
+    "correct": true,
+    "latency_s": 0.5236928462982178
+  },
+  {
+    "filename": "147l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood.",
+    "correct": true,
+    "latency_s": 0.5108392238616943
+  },
+  {
+    "filename": "148l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood.",
+    "correct": true,
+    "latency_s": 0.5048677921295166
+  },
+  {
+    "filename": "149l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood",
+    "correct": true,
+    "latency_s": 0.4750854969024658
+  },
+  {
+    "filename": "150l.png",
+    "ground_truth": "big flood",
+    "prediction": "Big flood",
+    "correct": true,
+    "latency_s": 0.4681575298309326
+  },
+  {
+    "filename": "151l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood.",
+    "correct": true,
+    "latency_s": 0.5026333332061768
+  },
+  {
+    "filename": "152l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood.",
+    "correct": true,
+    "latency_s": 0.506901741027832
+  },
+  {
+    "filename": "153l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood",
+    "correct": true,
+    "latency_s": 0.4644763469696045
+  },
+  {
+    "filename": "158l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood.",
+    "correct": true,
+    "latency_s": 0.5109312534332275
+  },
+  {
+    "filename": "159l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood.",
+    "correct": true,
+    "latency_s": 0.5155246257781982
+  },
+  {
+    "filename": "163l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood.",
+    "correct": true,
+    "latency_s": 0.554506778717041
+  },
+  {
+    "filename": "164l.png",
+    "ground_truth": "big flood",
+    "prediction": "Big flood.",
+    "correct": true,
+    "latency_s": 0.5602874755859375
+  },
+  {
+    "filename": "165l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood.",
+    "correct": true,
+    "latency_s": 0.5609426498413086
+  },
+  {
+    "filename": "166l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood.",
+    "correct": true,
+    "latency_s": 0.5024659633636475
+  },
+  {
+    "filename": "167l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood.",
+    "correct": true,
+    "latency_s": 0.5092360973358154
+  },
+  {
+    "filename": "168l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood.",
+    "correct": true,
+    "latency_s": 0.5071697235107422
+  },
+  {
+    "filename": "169l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood.",
+    "correct": true,
+    "latency_s": 0.5038497447967529
+  },
+  {
+    "filename": "170l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood.",
+    "correct": true,
+    "latency_s": 0.5094625949859619
+  },
+  {
+    "filename": "171l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood",
+    "correct": true,
+    "latency_s": 0.4714057445526123
+  },
+  {
+    "filename": "172l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood.",
+    "correct": true,
+    "latency_s": 0.5059611797332764
+  },
+  {
+    "filename": "173l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood.",
+    "correct": true,
+    "latency_s": 0.5022416114807129
+  },
+  {
+    "filename": "174l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood.",
+    "correct": true,
+    "latency_s": 0.6638164520263672
+  },
+  {
+    "filename": "175l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood.",
+    "correct": true,
+    "latency_s": 0.504847526550293
+  },
+  {
+    "filename": "176l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood.",
+    "correct": true,
+    "latency_s": 0.5125260353088379
+  },
+  {
+    "filename": "177l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood.",
+    "correct": true,
+    "latency_s": 0.551243782043457
+  },
+  {
+    "filename": "178l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood.",
+    "correct": true,
+    "latency_s": 0.5538978576660156
+  },
+  {
+    "filename": "179l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood.",
+    "correct": true,
+    "latency_s": 0.5635325908660889
+  },
+  {
+    "filename": "180l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood",
+    "correct": true,
+    "latency_s": 0.46547722816467285
+  },
+  {
+    "filename": "181l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood.",
+    "correct": true,
+    "latency_s": 0.5062334537506104
+  },
+  {
+    "filename": "182l.png",
+    "ground_truth": "big flood",
+    "prediction": "big flood.",
+    "correct": true,
+    "latency_s": 0.5053412914276123
+  }
+]
